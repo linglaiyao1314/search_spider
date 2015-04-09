@@ -54,7 +54,6 @@ def main(spiders, count):
 
 
 def crawl(search="Kindle", **kwargs):
-    start = time.time()
     headers = kwargs.get("headers")
     testurl = init_start_urls("http://m.jd.com/", URL_RULE)
     shspider = JdSpider("jd", testurl, SEARCH_RULE, params={"keyword": search}, shopid=1, headers=headers)
@@ -77,7 +76,21 @@ def crawl(search="Kindle", **kwargs):
     testtm = init_start_urls("http://s.m.tmall.com/m/search_data.htm?p=1&q=" + urllib.quote(search.encode('gbk')),
                              URL_RULE)
     tmspider = TmSpider("tm", testtm, SEARCH_RULE, shopid=4, header=headers)
-    print time.time() - start
+
     count = kwargs.get("count", 1)
-    # return main([amaspider], count)
-    return main([shspider, ddspider, amaspider, yhdspider, sunspider, tmspider], count)
+    shop = kwargs.get("shop", "all")
+
+    spiders_dict = {
+        u"1": shspider, u"5": ddspider, u"3": yhdspider, u"7": amaspider, u"8": sunspider, u"4": tmspider
+    }
+    print shop, "shop value "
+    if shop == "all":
+        return main([shspider, ddspider, amaspider, yhdspider, sunspider, tmspider], count)
+    else:
+        spiders = []
+        for i in shop.split(","):
+            spiders.append(spiders_dict.get(i, None))
+        spiders = [s for s in spiders if s is not None]
+        assert len(spiders) != 0, "Can't find these shopid"
+        return main(spiders, count)
+
