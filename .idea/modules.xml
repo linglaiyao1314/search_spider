@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CrawlScript/.idea/CrawlScript.iml" filepath="$PROJECT_DIR$/../CrawlScript/.idea/CrawlScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SeachSpider.iml" filepath="$PROJECT_DIR$/.idea/SeachSpider.iml" />
+      <module fileurl="file://C:/gitGitgit/Note/Weekly/.idea/Weekly.iml" filepath="C:/gitGitgit/Note/Weekly/.idea/Weekly.iml" />
+      <module fileurl="file://C:/scrapy-program/tenancy/.idea/tenancy.iml" filepath="C:/scrapy-program/tenancy/.idea/tenancy.iml" />
+    </modules>
+  </component>
+</project>
