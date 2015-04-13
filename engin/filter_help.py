@@ -1,10 +1,8 @@
 # coding=utf-8
 import re
 import time
-from PIL import Image
-import pytesseract
-from StringIO import StringIO
-import requests
+from contextlib import contextmanager
+
 
 CH = re.compile(u"[\u4e00-\u9fa5]")  # 匹配一个中文字符,注意正则表达式必须前面+u
 
@@ -22,6 +20,11 @@ def get_others(s):
 
 def get_number(s):
     pattern = re.compile(u"[\d]")
+    return filter(lambda x: re.match(pattern, x), s)
+
+
+def get_dot_number(s):
+    pattern = re.compile(u"[\d\.]")
     return filter(lambda x: re.match(pattern, x), s)
 
 
@@ -44,30 +47,51 @@ def show_state(key, value):
     print
 
 
-def filter_num_from_img_by_requests(imgurl):
+@contextmanager
+def request_open(thing, errmsg="error"):
     try:
-        r = requests.get(imgurl, timeout=5)
-        img = Image.open(StringIO(r.content))
-        result = pytesseract.image_to_string(img)
+        yield thing
     except:
-        return None
-    else:
-        return result
+        print "%s" % errmsg
+    finally:
+        thing.close()
 
 
-def filter_num_from_img(imgpath):
+@contextmanager
+def timer(func, errmsg="err"):
+    start = time.time()
     try:
-        img = Image.open(imgpath)
-        result = pytesseract.image_to_string(img)
+        yield func
     except:
-        return None
-    else:
-        return result
+        print errmsg
+    finally:
+        end = (time.time() - start) * 1000
+        print "cost time: %.3f seconds" % end
+
+
+def parse_query_productid(url):
+    import urlparse
+    dct = urlparse.parse_qs(url)
+    return dct['product_url'][0]
+
+
+def exception(func):
+    def _wrap(*args, **kwargs):
+        try:
+            result = func(*args, **kwargs)
+        except:
+            pass
+        else:
+            return result
+    return _wrap
 
 
 if __name__ == '__main__':
     print get_chinese(u"2013:13:12这csac是45615中vxz文")
     print get_others(u"2013:13:12这cxz是45615中vcx文")
     print get_number(u"$12.00")
-    print filter_num_from_img_by_requests("http://price2.suning.cn/webapp/wcs/stores/prdprice/24190224_9173_10000_9-1.png")
-    print filter_num_from_img(r"C:\Users\admin\Downloads\bootstrap-3.3.4-dist\1.png")
+    url = parse_query_productid(
+        "http://weigou.baidu.com/site/transition?pid=232011642&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F12985679%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D6a52f5191f75bf0bc34577f29c994c9a"
+    )
+    print get_dot_number(u'\xa5\r\n                    \r\n                    .40')
+

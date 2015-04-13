@@ -75,6 +75,17 @@ SEARCH_RULE = {
         }
     },
 
+    "bd": {
+        "domain": "http://weigou.baidu.com/",
+        "kwargs": {},
+        "RuleOfItem": {
+            GOOD_NAME: "//div[@class='result-info']//@title",
+            PRICE: "//div[@class='result-price']//span",
+            IMAGE_URL: "//div[@class='result-pic']//img//@data-original",
+            GOOD_URL: "//div[@class='result-pic']//a//@href",
+        }
+    },
+
 }
 
 URL_RULE = {
@@ -84,4 +95,5 @@ URL_RULE = {
     "http://www.amazon.cn/": {"path": r"/gp/aw/s/"},
     "http://search.suning.com/emall/mobile/mobileSearch.jsonp": {},
     "http://s.m.tmall.com/m/search_data.htm": {},
+    "http://weigou.baidu.com/": {"path": r"search"},
 }

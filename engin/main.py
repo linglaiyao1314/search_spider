@@ -1,9 +1,8 @@
 # coding=utf-8
 import threading
-from spider.jdspider import JdSpider, AmaSpider, DangDangSpider, YhdSpider, SunSpider, TmSpider
+from spider.jdspider import JdSpider, AmaSpider, DangDangSpider, YhdSpider, SunSpider, TmSpider, BdSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
-import time
 import urllib
 
 
@@ -47,7 +46,7 @@ def main(spiders, count):
     for thread in threads:
         thread.start()
     for thread in threads:
-        thread.join(timeout=3)
+        thread.join(timeout=5)
     for thread in threads:
         itemlist.extend(thread.getresult())
     return itemlist
@@ -83,7 +82,6 @@ def crawl(search="Kindle", **kwargs):
     spiders_dict = {
         u"1": shspider, u"5": ddspider, u"3": yhdspider, u"7": amaspider, u"8": sunspider, u"4": tmspider
     }
-    print shop, "shop value "
     if shop == "all":
         return main([shspider, ddspider, amaspider, yhdspider, sunspider, tmspider], count)
     else:
@@ -94,3 +92,15 @@ def crawl(search="Kindle", **kwargs):
         assert len(spiders) != 0, "Can't find these shopid"
         return main(spiders, count)
 
+
+def bdcrawl(search="Kindle", **kwargs):
+    headers = kwargs.get("headers")
+    bdurl = init_start_urls("http://weigou.baidu.com/", URL_RULE)
+    bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search},
+                        headers=headers, domain="http://weigou.baidu.com/")
+    bdspider.parse_item(limit=5)
+    return bdspider.format_item()
+
+
+if __name__ == '__main__':
+    bdcrawl()
