@@ -1,13 +1,12 @@
 # coding=utf-8
-from engin.main import crawl
+from engin.main import crawl, bdcrawl
 import json
 from flask import Flask, request
-app = Flask(__name__)
-app.debug = True
+import sys
 
+app = Flask(__name__)
+app.debug = False
 HEADERS = {}
-HEADERS_ = {"user-agent":
-               "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"}
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -26,3 +25,4 @@ def json_result():
 
 if __name__ == '__main__':
     app.run()
+

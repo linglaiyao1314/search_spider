@@ -1,5 +1,5 @@
 # coding=utf-8
-from engin.Spider import SearchSpider, Url, Item
+from engin.Spider import SearchSpider, Url, Item, CommandSearchSpider
 from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
 from engin.filter_help import *
 import urlparse
@@ -18,23 +18,6 @@ def init_start_urls(purl, rule, **kwargs):
     if kwargs.get("addpath", None):
         new_url.add_path(kwargs['addpath'])
     return new_url.get_usual_url()
-
-
-class CommandSearchSpider(SearchSpider):
-
-    def __init__(self, name, start_urls, rule, **kwargs):
-        super(CommandSearchSpider, self).__init__(name, start_urls, rule, **kwargs)
-
-    def format_item(self):
-        itemlist = []
-        for items in self.get_itemlist():
-            str_items = {key: value.strip() for key, value in items.items() if hasattr(value, "strip")}
-            str_items[PRICE] = handler_price(str_items[PRICE])
-            str_items[GOOD_URL] = urlparse.urljoin(self._rule['domain'], str_items[GOOD_URL])
-            str_items[IMAGE_URL] = urlparse.urljoin(self._rule['domain'], str_items[IMAGE_URL])
-            itemlist.append([items['shopid'], str_items[GOOD_NAME], str_items[PRICE],
-                             str_items[IMAGE_URL], str_items[GOOD_URL]])
-        return itemlist
 
 
 class SunSpider(SearchSpider):

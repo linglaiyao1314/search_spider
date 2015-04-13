@@ -1,9 +1,10 @@
 # coding=utf-8
 import threading
-from spider.jdspider import JdSpider, AmaSpider, DangDangSpider, YhdSpider, SunSpider, TmSpider, BdSpider
+from spider.jdspider import JdSpider, AmaSpider, DangDangSpider, YhdSpider, SunSpider, TmSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
 import urllib
+from spider.bdwgpider import BdSpider
 
 
 def init_start_urls(url, rule, **kwargs):
