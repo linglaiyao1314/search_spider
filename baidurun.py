@@ -10,6 +10,13 @@ app.debug = False
 HEADERS = {}
 
 
+def activity_api(itemlist):
+    for item in itemlist:
+        if u"图书" in item[-1]:
+            item[-1] = u"图书"
+    return itemlist
+
+
 @app.route('/', methods=['POST', 'GET'])
 @app.route('/index/', methods=["POST", 'GET'])
 def json_result():
@@ -20,14 +27,10 @@ def json_result():
         types = request.args.get("type", None)
         shop = request.args.get("shop", "all")
         result = bdcrawl(keywords, count=count, types=types, headers=HEADERS, shop=shop)
-        if result:
-            search_logger.debug("Request is : %s" % result)
-        else:
-            search_logger.debug("Result is []")
         search_logger.info("...............Finish  This Search Session and wait for next .........\n\n")
-        return json.dumps(result)
+        return json.dumps(activity_api(result))
 
 
 if __name__ == '__main__':
-    # app.run("0.0.0.0", 8888)
-    app.run()
+    app.run("0.0.0.0", 8888)
+    # app.run()

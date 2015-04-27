@@ -56,7 +56,6 @@ class BdSpider(CommandSearchSpider):
         return itemlist
 
     def parse_price(self, price_xpath):
-        search_logger.info("parse price....")
         b_tag = price_xpath.xpath('b/text()')
         if b_tag:
             pint = b_tag[0]
@@ -66,7 +65,6 @@ class BdSpider(CommandSearchSpider):
             return price_xpath.xpath('text()')[0]
 
     def parse_shopid(self, purl):
-        search_logger.info("parse shopid...")
         if purl.find("jd.com") > 0:
             return 1
         elif purl.find("suning.com") > 0:
@@ -137,3 +135,4 @@ class BdSpider(CommandSearchSpider):
             return
         else:
             return name
+
