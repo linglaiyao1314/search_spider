@@ -2,7 +2,8 @@
 import re
 import time
 from contextlib import contextmanager
-
+from w3lib.html import remove_tags
+from logs import search_logger
 
 CH = re.compile(u"[\u4e00-\u9fa5]")  # 匹配一个中文字符,注意正则表达式必须前面+u
 
@@ -37,13 +38,13 @@ def handler_price(price):
         return get_number(price)
     else:
         head, tail = price.split(".")
-        return "".join([get_number(head), ".", tail])
+        return "".join([get_number(head), ".", get_number(tail)])
 
 
 def show_state(key, value):
     now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
     print
-    print "[", now, "]:", key, value
+    print "[", now, "]:"
     print
 
 
@@ -52,7 +53,7 @@ def request_open(thing, errmsg="error"):
     try:
         yield thing
     except:
-        print "%s" % errmsg
+        search_logger.error("%s" % errmsg)
     finally:
         thing.close()
 

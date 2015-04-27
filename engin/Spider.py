@@ -5,6 +5,8 @@ from lxml import etree
 from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
 from filter_help import *
 import urlparse
+from logs import search_logger
+
 
 class Item(dict):
     """"""
@@ -45,18 +47,22 @@ class Spider(object):
             self._urls = [start_urls]
         self.kwargs = kwargs
 
+    def get_urls(self):
+        return self._urls
+
     def make_request(self):
         method = self.kwargs.get("method", "get")
         for url in self._urls:
-            kwargs = {key: value for key, value in self.kwargs.items() if key in ["method", "params", "json", "headers",
-                                                                                  "cookies", "files", "auth", "timeout",
-                                                                                  "allow_redirects", "stream", "verify",
-                                                                                  "cert"]}
+            kwargs = dict(
+                (key, value) for (key, value) in self.kwargs.items() if key in ["method", "params", "json", "headers",
+                                                                                "cookies", "files", "auth", "timeout",
+                                                                                "allow_redirects", "stream", "verify",
+                                                                                "cert"])
 
             resp = getattr(requests, method)(url, timeout=20, **kwargs)
-            print "%s -> Request for  \n '%s'  \nresp code is %d" % (self._name, resp.url, resp.status_code)
+            search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
+                               (self._name, resp.url, resp.status_code))
             yield resp
-
 
     def get_html_body_by_lxml(self, response):
         """
@@ -64,11 +70,11 @@ class Spider(object):
         """
         text = unicode(response.content, response.encoding)
         xpath_content = etree.HTML(text)
+        search_logger.info("Xpath parse is---> %s" % xpath_content)
         return xpath_content
 
 
 class SearchSpider(Spider):
-
     def __init__(self, name, start_urls, rule, **kwargs):
         super(SearchSpider, self).__init__(name, start_urls, **kwargs)
         self._rule = rule.get(name, None)
@@ -78,7 +84,7 @@ class SearchSpider(Spider):
     def parse_item(self, limit):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
-            show_state("Spider is ->", self._name)
+            search_logger.info("Spider is %s" % self._name)
             xbody = self.get_html_body_by_lxml(resp)
             for good_name, price, image_url, good_url in zip(
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
@@ -92,9 +98,10 @@ class SearchSpider(Spider):
                     items[PRICE] = price
                     items[IMAGE_URL] = image_url
                     items[GOOD_URL] = good_url
-                    show_state("%s crawler item" % self._name, items)
+                    search_logger.info("%s crawler item" % self._name)
+                    search_logger.info(items)
                 except:
-                    show_state("ERROR", "items crawl wrong....")
+                    search_logger.error("items crawl wrong....from %s" % self._name, exc_info=True)
                 else:
                     self._itemlist.append(items)
                     self._extract_count += 1
@@ -110,7 +117,6 @@ class SearchSpider(Spider):
 
 
 class CommandSearchSpider(SearchSpider):
-
     def __init__(self, name, start_urls, rule, **kwargs):
         super(CommandSearchSpider, self).__init__(name, start_urls, rule, **kwargs)
 

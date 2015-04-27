@@ -1,9 +1,12 @@
+# coding=utf-8
 from engin.Spider import CommandSearchSpider, Item
 from engin.setting import *
 import urlparse
 from engin.filter_help import *
 import requests
 import base64
+import json
+from engin.logs import search_logger
 
 
 class BdSpider(CommandSearchSpider):
@@ -13,8 +16,10 @@ class BdSpider(CommandSearchSpider):
     def parse_item(self, limit):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
-            show_state("Spider is ->", self._name)
             xbody = self.get_html_body_by_lxml(resp)
+            cate = self.get_cate(xbody)
+            search_logger.info("request for cate....and cate is %s " % cate)
+            search_logger.info("request for items in 百度微购")
             for good_name, price, image_url, good_url in zip(
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
@@ -30,9 +35,10 @@ class BdSpider(CommandSearchSpider):
                     with request_open(requests.get(good_url)) as r:
                         good_url = r.url
                     items[GOOD_URL] = good_url
-                    show_state("%s crawler item" % self._name, items)
+                    items['cate'] = cate
+                    search_logger.debug("item is %s" % items)
                 except:
-                    show_state("Keywords ERROR", "items crawl wrong....")
+                    search_logger.error("Keywords ERROR")
                 else:
                     self._itemlist.append(items)
                     self._extract_count += 1
@@ -46,10 +52,11 @@ class BdSpider(CommandSearchSpider):
             str_items[GOOD_URL] = self.converse_url(items['shopid'], str_items[GOOD_URL])
             str_items[IMAGE_URL] = self.converse_img_url(str_items[IMAGE_URL])
             itemlist.append([items['shopid'], str_items[GOOD_NAME], str_items[PRICE],
-                             str_items[IMAGE_URL], str_items[GOOD_URL]])
+                             str_items[IMAGE_URL], str_items[GOOD_URL], items['cate']])
         return itemlist
 
     def parse_price(self, price_xpath):
+        search_logger.info("parse price....")
         b_tag = price_xpath.xpath('b/text()')
         if b_tag:
             pint = b_tag[0]
@@ -59,6 +66,7 @@ class BdSpider(CommandSearchSpider):
             return price_xpath.xpath('text()')[0]
 
     def parse_shopid(self, purl):
+        search_logger.info("parse shopid...")
         if purl.find("jd.com") > 0:
             return 1
         elif purl.find("suning.com") > 0:
@@ -80,7 +88,11 @@ class BdSpider(CommandSearchSpider):
         except:
             return purl
         else:
-            return dct['product_url'][0]
+            try:
+                result = dct['product_url'][0]
+            except:
+                result = dct['to'][0]
+            return result
 
     @exception
     def converse_url(self, shopid, purl):
@@ -112,5 +124,16 @@ class BdSpider(CommandSearchSpider):
         else:
             return purl
 
-    def converse_img_url(self, purl):
-        return base64.encodestring(purl)
+    def converse_img_url(self, purl, baseurl="http://query.viscovery.net.cn/hrs_img.php?img_url="):
+        img_url = base64.encodestring(purl)
+        return baseurl + img_url
+
+    def get_cate(self, xbody):
+        try:
+            content = xbody.xpath("//div[@id='raw-category']//text()")[0]
+            result = json.loads(content.replace("&quot;", '"'))
+            name = result["sub_cat"][0]['sub_cat'][0]["name"]
+        except:
+            return
+        else:
+            return name

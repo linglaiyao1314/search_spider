@@ -1,11 +1,11 @@
 # coding=utf-8
 import threading
-from spider.jdspider import JdSpider, AmaSpider, DangDangSpider, YhdSpider, SunSpider, TmSpider
+from spider.jdspider import JdSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
 import urllib
 from spider.bdwgpider import BdSpider
-
+from logs import search_logger
 
 def init_start_urls(url, rule, **kwargs):
     url_setting = rule.get(url, None)
@@ -38,7 +38,6 @@ class RunSpiderThread(threading.Thread):
 
 
 def main(spiders, count):
-    print "Start to carwl ...."
     itemlist = []
     threads = []
     for spider in spiders:
@@ -100,7 +99,14 @@ def bdcrawl(search="Kindle", **kwargs):
     bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search},
                         headers=headers, domain="http://weigou.baidu.com/")
     bdspider.parse_item(limit=5)
-    return bdspider.format_item()
+    result = bdspider.format_item()
+    if result:
+        return result
+    else:
+        search_logger.info("baidu weigou is empty, so go to JingDong shop......")
+        testurl = init_start_urls("http://m.jd.com/", URL_RULE)
+        shspider = JdSpider("jd", testurl, SEARCH_RULE, params={"keyword": search}, shopid=1, headers=headers)
+        return main([shspider], 5)
 
 
 if __name__ == '__main__':
