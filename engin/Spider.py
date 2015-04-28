@@ -39,7 +39,12 @@ class Url(object):
 
 
 class Spider(object):
+    """爬虫基类"""
     def __init__(self, name, start_urls, **kwargs):
+        """
+        :param name: 爬虫的name
+        :param start_urls: 初始url
+        """
         self._name = name
         if isinstance(start_urls, list):
             self._urls = start_urls
@@ -75,6 +80,9 @@ class Spider(object):
 
 
 class SearchSpider(Spider):
+    """
+    通用搜索爬虫，专用于通过简单规则就能直接获取到数据的站点
+    """
     def __init__(self, name, start_urls, rule, **kwargs):
         super(SearchSpider, self).__init__(name, start_urls, **kwargs)
         self._rule = rule.get(name, None)

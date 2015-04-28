@@ -20,6 +20,17 @@ SEARCH_RULE = {
         }
     },
 
+    "jdpc": {
+        "domain": "http://www.jd.com/",
+        "kwargs": {},
+        "RuleOfItem": {
+            GOOD_NAME: "//ul[@class='list-h clearfix']//div[@class='p-name']/a",
+            PRICE: "//ul[@class='list-h clearfix']//strong//@data-price",
+            IMAGE_URL: "//ul[@class='list-h clearfix']//img//@data-lazyload",
+            GOOD_URL: "//ul[@class='list-h clearfix']//div[@class='p-name']//a//@href",
+        }
+    },
+
     "dangdang": {
         "domain": "http://m.dangdang.com/",
         "kwargs": {},
