@@ -2,7 +2,7 @@
 import re
 import time
 from contextlib import contextmanager
-from w3lib.html import remove_tags
+#from w3lib.html import remove_tags
 from logs import search_logger
 
 CH = re.compile(u"[\u4e00-\u9fa5]")  # 匹配一个中文字符,注意正则表达式必须前面+u

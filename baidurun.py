@@ -26,7 +26,9 @@ def json_result():
         count = request.args.get("count", 1)
         types = request.args.get("type", None)
         shop = request.args.get("shop", "all")
+        search_logger.info("Keywords is : [ %s ]" % keywords)
         result = bdcrawl(keywords, count=count, types=types, headers=HEADERS, shop=shop)
+        search_logger.debug("There %d items will be return" % len(result))
         search_logger.info("...............Finish  This Search Session and wait for next .........\n\n")
         return json.dumps(activity_api(result))
 

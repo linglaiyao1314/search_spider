@@ -35,13 +35,14 @@ class JdSpider(CommandSearchSpider):
     def format_item(self):
         itemlist = []
         cate = self.get_cate(self.kwargs["params"]["keyword"])
-        search_logger.info("request for cate....and cate is %s " % cate)
+        search_logger.info("already catach %d items, and request for cate.... cate is [ %s ] "
+                           % (len(self.get_itemlist()), cate))
         for items in self.get_itemlist():
             str_items = {key: value.strip() for key, value in items.items() if hasattr(value, "strip")}
             str_items[PRICE] = handler_price(str_items[PRICE])
             str_items[IMAGE_URL] = str_items[IMAGE_URL].replace('n4', 'n7', 1)
             itemlist.append([items['shopid'], str_items[GOOD_NAME], str_items[PRICE],
-                             str_items[IMAGE_URL], str_items[GOOD_URL], cate.encode('utf8')])
+                             str_items[IMAGE_URL], str_items[GOOD_URL], cate])
         return itemlist
 
     def get_cate(self, searchwords):
