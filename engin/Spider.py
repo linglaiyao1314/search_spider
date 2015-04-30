@@ -65,8 +65,8 @@ class Spider(object):
                                                                                 "cert"])
 
             resp = getattr(requests, method)(url, timeout=20, **kwargs)
-            search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
-                               (self._name, resp.url, resp.status_code))
+            #search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
+            #                   (self._name, resp.url, resp.status_code))
             yield resp
 
     def get_html_body_by_lxml(self, response):
@@ -75,7 +75,7 @@ class Spider(object):
         """
         text = unicode(response.content, response.encoding)
         xpath_content = etree.HTML(text)
-        search_logger.info("Xpath parse is---> %s" % xpath_content)
+        #search_logger.info("Xpath parse is---> %s" % xpath_content)
         return xpath_content
 
 

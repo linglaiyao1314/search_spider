@@ -1,5 +1,6 @@
 # coding=utf-8
 from engin.main import bdcrawl
+from momo import momocrawl
 import json
 from flask import Flask, request
 from engin.logs import search_logger
@@ -26,13 +27,21 @@ def json_result():
         count = request.args.get("count", 1)
         types = request.args.get("type", None)
         shop = request.args.get("shop", "all")
+        country_id = request.args.get("country_id",1)
         search_logger.info("Keywords is : [ %s ]" % keywords)
-        result = bdcrawl(keywords, count=count, types=types, headers=HEADERS, shop=shop)
-        search_logger.debug("There %d items will be return" % len(result))
-        search_logger.info("...............Finish  This Search Session and wait for next .........\n\n")
-        return json.dumps(activity_api(result))
+        if int(country_id) == 1:
+            result = bdcrawl(keywords, count=count, types=types, headers=HEADERS, shop=shop)
+        elif int(country_id) == 2:
+            try:
+                result = momocrawl(keywords)
+            except Exception,e:
+                search_logger.error(e,exc_info=1)
+                result = []
+        result = json.dumps(activity_api(result))
+        search_logger.debug("RETURN:%s"%result)
+        #search_logger.info("...............Finish  This Search Session and wait for next .........\n\n")
+        return result
 
 
 if __name__ == '__main__':
     app.run("0.0.0.0", 8888)
-    # app.run()

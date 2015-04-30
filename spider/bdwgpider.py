@@ -7,7 +7,9 @@ import requests
 import base64
 import json
 from engin.logs import search_logger
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 class BdSpider(CommandSearchSpider):
     def __init__(self, name, start_urls, rule, **kwargs):
@@ -18,8 +20,8 @@ class BdSpider(CommandSearchSpider):
         for resp in self.make_request():
             xbody = self.get_html_body_by_lxml(resp)
             cate = self.get_cate(xbody)
-            search_logger.info("request for cate....and cate is [ %s ]" % cate)
-            search_logger.info("request for items in [ 百度微购 ]")
+            #search_logger.info("request for cate....and cate is [ %s ]" % cate)
+            search_logger.info("百度微购,cate:[ %s ]" % cate.decode('utf-8'))
             for good_name, price, image_url, good_url in zip(
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
@@ -36,7 +38,7 @@ class BdSpider(CommandSearchSpider):
                         good_url = r.url
                     items[GOOD_URL] = good_url
                     items['cate'] = cate
-                    search_logger.debug("item is %s" % items)
+                    #search_logger.debug("item is %s" % items)
                 except:
                     search_logger.error("Keywords ERROR")
                 else:
