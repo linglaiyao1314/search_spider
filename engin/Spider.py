@@ -65,8 +65,8 @@ class Spider(object):
                                                                                 "cert"])
 
             resp = getattr(requests, method)(url, timeout=20, **kwargs)
-            #search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
-            #                   (self._name, resp.url, resp.status_code))
+            search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
+                               (self._name, resp.url, resp.status_code))
             yield resp
 
     def get_html_body_by_lxml(self, response):
@@ -75,7 +75,7 @@ class Spider(object):
         """
         text = unicode(response.content, response.encoding)
         xpath_content = etree.HTML(text)
-        #search_logger.info("Xpath parse is---> %s" % xpath_content)
+        search_logger.info("Xpath parse is---> %s" % xpath_content)
         return xpath_content
 
 
@@ -92,7 +92,7 @@ class SearchSpider(Spider):
     def parse_item(self, limit):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
-            search_logger.info("Spider is %s" % self._name)
+            search_logger.info("Spider is [ %s ]" % self._name)
             xbody = self.get_html_body_by_lxml(resp)
             for good_name, price, image_url, good_url in zip(
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
@@ -101,7 +101,7 @@ class SearchSpider(Spider):
                 if self._extract_count >= int(limit):
                     break
                 try:
-                    items = Item(shopid=self.kwargs.get("shopid", 1))
+                    items = Item(shopid=self.kwargs.get("shopid", 25))
                     items[GOOD_NAME] = good_name
                     items[PRICE] = price
                     items[IMAGE_URL] = image_url

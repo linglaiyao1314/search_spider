@@ -1,11 +1,12 @@
 # coding=utf-8
 import threading
 from spider.jdspider import JdSpider, JdSpiderPc
+from spider.momospider import MomoSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
-import urllib
 from spider.bdwgpider import BdSpider
 from logs import search_logger
+import urllib2
 
 
 def init_start_urls(url, rule, **kwargs):
@@ -104,12 +105,18 @@ def bdcrawl(search="Kindle", **kwargs):
     if result:
         return result
     else:
-        search_logger.info("baidu weigou is empty, so go to JD ")
+        search_logger.info("baidu weigou is empty, so go to JingDong shop......")
         # testurl = init_start_urls("http://m.jd.com/", URL_RULE)
         testurl = "http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8"
         shspider = JdSpiderPc("jdpc", testurl, SEARCH_RULE, params={"keyword": search}, shopid=1, headers=headers)
         return main([shspider], 5)
 
+
+def momocrawl(search='Kindle', **kwargs):
+    headers = kwargs.get("headers")
+    url = "http://www.momoshop.com.tw/mosearch/%s.html" % urllib2.quote(search.encode('utf-8'))
+    momospider = MomoSpider("momo", url, SEARCH_RULE, params={"keyword": search}, shopid=27, headers=headers)
+    return main([momospider], 5)
 
 if __name__ == '__main__':
     bdcrawl()

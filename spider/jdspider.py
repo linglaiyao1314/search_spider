@@ -7,6 +7,7 @@ import requests
 from lxml import etree
 import urlparse
 
+
 # 手机端京东爬虫
 class JdSpider(CommandSearchSpider):
     def __init__(self, name, start_urls, rule, **kwargs):
