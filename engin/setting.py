@@ -4,7 +4,8 @@
         域名: ""
         配置参数：""
         xpath抓取规则:""
-%s"""
+        }
+"""
 
 GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL = ("good_name", "price", "image_url", "good_url")
 SEARCH_RULE = {
