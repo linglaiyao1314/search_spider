@@ -101,7 +101,7 @@ class SearchSpider(Spider):
                 if self._extract_count >= int(limit):
                     break
                 try:
-                    items = Item(shopid=self.kwargs.get("shopid", 25))
+                    items = Item(shopid=self.kwargs.get("shopid", 24))
                     items[GOOD_NAME] = good_name
                     items[PRICE] = price
                     items[IMAGE_URL] = image_url
