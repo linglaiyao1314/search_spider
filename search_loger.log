@@ -253,3 +253,169 @@
 2015-05-05 10:58:22,818 - baidurun.py[line:37] - DEBUG - There 5 items will be return
 
 
+2015-05-06 14:12:27,609 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:12:27,632 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:12:28,247 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:12:28,269 - Spider.py[line:80] - INFO - Xpath parse is---> <Element html at 0x31c13c8>
+2015-05-06 14:12:28,270 - bdwgpider.py[line:21] - INFO - request for cate....and cate is [ 数码配件 ]
+2015-05-06 14:12:28,272 - bdwgpider.py[line:22] - INFO - request for items in [ 百度微购 ]
+2015-05-06 14:12:28,276 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-06 14:12:28,398 - Spider.py[line:71] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:12:28,414 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x31c13c8>
+2015-05-06 14:12:28,414 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 智能设备 ]
+2015-05-06 14:12:28,414 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-06 14:12:28,415 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '89.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t481/189/840892334/115730/d6e4aa34/5490006aN11f146d1.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1424211542.html'},)
+2015-05-06 14:12:28,415 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t835/309/335968231/53331/202a6ab/55192724Nac1c9877.jpg', 'good_name': u'\uff08MI\uff09\u8155\u5e26 \u84dd\u8272', 'good_url': 'http://item.jd.com/1340486.html'},)
+2015-05-06 14:12:28,415 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t658/172/1197744366/146053/a11e1177/54bca43fNf5a09e07.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u8155\u5e26\u84dd\u7259\u667a\u80fd\u624b\u8868\u9632\u6c34\u5065\u5eb7\u7761\u7720\u76d1\u6d4b \u9ed1\u8272\u539f\u88c5+\u7c89\u8272\u975e\u539f\u88c5\u8155\u5e26', 'good_url': 'http://item.jd.com/1455666892.html'},)
+2015-05-06 14:12:28,415 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t502/180/850944128/126322/cba920c9/54900251Nd7d67527.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u7c89\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211544.html'},)
+2015-05-06 14:12:28,415 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t496/209/838918345/135780/a6226c0a/549002f4N4f81b75d.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u84dd\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211546.html'},)
+2015-05-06 14:12:28,440 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:13:43,211 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:13:43,213 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:13:43,721 - Spider.py[line:70] - INFO - timeout is 5
+2015-05-06 14:13:43,723 - Spider.py[line:72] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:13:43,759 - Spider.py[line:81] - INFO - Xpath parse is---> <Element html at 0x31243f0>
+2015-05-06 14:13:43,760 - bdwgpider.py[line:21] - INFO - request for cate....and cate is [ 数码配件 ]
+2015-05-06 14:13:43,760 - bdwgpider.py[line:22] - INFO - request for items in [ 百度微购 ]
+2015-05-06 14:13:43,765 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-06 14:13:43,900 - Spider.py[line:70] - INFO - timeout is 5
+2015-05-06 14:13:43,900 - Spider.py[line:72] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:13:43,905 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x3124440>
+2015-05-06 14:13:43,905 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 智能设备 ]
+2015-05-06 14:13:43,907 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-06 14:13:43,907 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '89.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t481/189/840892334/115730/d6e4aa34/5490006aN11f146d1.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1424211542.html'},)
+2015-05-06 14:13:43,907 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t835/309/335968231/53331/202a6ab/55192724Nac1c9877.jpg', 'good_name': u'\uff08MI\uff09\u8155\u5e26 \u84dd\u8272', 'good_url': 'http://item.jd.com/1340486.html'},)
+2015-05-06 14:13:43,907 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t658/172/1197744366/146053/a11e1177/54bca43fNf5a09e07.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u8155\u5e26\u84dd\u7259\u667a\u80fd\u624b\u8868\u9632\u6c34\u5065\u5eb7\u7761\u7720\u76d1\u6d4b \u9ed1\u8272\u539f\u88c5+\u7c89\u8272\u975e\u539f\u88c5\u8155\u5e26', 'good_url': 'http://item.jd.com/1455666892.html'},)
+2015-05-06 14:13:43,908 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t502/180/850944128/126322/cba920c9/54900251Nd7d67527.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u7c89\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211544.html'},)
+2015-05-06 14:13:43,908 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t496/209/838918345/135780/a6226c0a/549002f4N4f81b75d.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u84dd\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211546.html'},)
+2015-05-06 14:13:43,931 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:15:45,200 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:15:45,201 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:15:45,698 - Spider.py[line:70] - INFO - timeout is 10
+2015-05-06 14:15:45,698 - Spider.py[line:72] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:15:45,739 - Spider.py[line:81] - INFO - Xpath parse is---> <Element html at 0x30c93f0>
+2015-05-06 14:15:45,740 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 数码配件 ]
+2015-05-06 14:15:45,740 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-06 14:15:45,743 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-06 14:15:45,895 - Spider.py[line:70] - INFO - timeout is 10
+2015-05-06 14:15:45,895 - Spider.py[line:72] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:15:45,901 - jdspider.py[line:67] - INFO - Xpath parse is---> <Element html at 0x30c9440>
+2015-05-06 14:15:45,901 - jdspider.py[line:75] - INFO - request for cate....and cate is [ 智能设备 ]
+2015-05-06 14:15:45,901 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-05-06 14:15:45,904 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '89.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t481/189/840892334/115730/d6e4aa34/5490006aN11f146d1.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1424211542.html'},)
+2015-05-06 14:15:45,904 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t835/309/335968231/53331/202a6ab/55192724Nac1c9877.jpg', 'good_name': u'\uff08MI\uff09\u8155\u5e26 \u84dd\u8272', 'good_url': 'http://item.jd.com/1340486.html'},)
+2015-05-06 14:15:45,904 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t658/172/1197744366/146053/a11e1177/54bca43fNf5a09e07.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u8155\u5e26\u84dd\u7259\u667a\u80fd\u624b\u8868\u9632\u6c34\u5065\u5eb7\u7761\u7720\u76d1\u6d4b \u9ed1\u8272\u539f\u88c5+\u7c89\u8272\u975e\u539f\u88c5\u8155\u5e26', 'good_url': 'http://item.jd.com/1455666892.html'},)
+2015-05-06 14:15:45,904 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t502/180/850944128/126322/cba920c9/54900251Nd7d67527.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u7c89\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211544.html'},)
+2015-05-06 14:15:45,904 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t496/209/838918345/135780/a6226c0a/549002f4N4f81b75d.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u84dd\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211546.html'},)
+2015-05-06 14:15:45,907 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:15:55,539 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:15:55,539 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:15:59,207 - Spider.py[line:70] - INFO - timeout is 5
+2015-05-06 14:15:59,207 - Spider.py[line:72] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:15:59,207 - Spider.py[line:98] - INFO - Spider is [ momo ]
+2015-05-06 14:15:59,272 - Spider.py[line:81] - INFO - Xpath parse is---> <Element html at 0x3160580>
+2015-05-06 14:15:59,275 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:15:59,275 - Spider.py[line:113] - INFO - {'price': '390', 'image_url': '/goodsimg/0001/761/629/1761629_Z.jpg?t=1348162389', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011MIUI \u5c0f\u7c73\u624b\u6a5f MiOne \u5c08\u7528\u8d85\u8584\u9583\u7c89\u679c\u51cd\u5957(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1761629&Area=search&mdiv=403'}
+2015-05-06 14:15:59,275 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:15:59,275 - Spider.py[line:113] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/916/171/1916171_Z.jpg?t=1358275245', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u725b\u4ed4\u8d85\u8584\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1916171&Area=search&mdiv=403'}
+2015-05-06 14:15:59,275 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:15:59,275 - Spider.py[line:113] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/918/331/1918331_Z.jpg?t=1358360902', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u8d85\u8584\u78e8\u7802\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9001\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1918331&Area=search&mdiv=403'}
+2015-05-06 14:15:59,275 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:15:59,275 - Spider.py[line:113] - INFO - {'price': '500', 'image_url': '/goodsimg/0001/922/222/1922222_Z.jpg?t=1358532698', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u5341\u5b57\u7d0b\u649e\u8272\u76ae\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1922222&Area=search&mdiv=403'}
+2015-05-06 14:15:59,275 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:15:59,275 - Spider.py[line:113] - INFO - {'price': '499', 'image_url': '/goodsimg/0002/049/679/2049679_Z.jpg?t=1367347291', 'shopid': 27, 'good_name': u'\u3010windatac\u3011xiaomi-\u5c0f\u7c73\u624b\u6a5f2S-\u758f\u6c34\u758f\u6cb9\u4fdd\u8b77\u8cbc', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2049679&Area=search&mdiv=403'}
+2015-05-06 14:15:59,328 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:18:40,181 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:18:40,183 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:18:40,746 - Spider.py[line:70] - INFO - timeout is 10
+2015-05-06 14:18:40,746 - Spider.py[line:72] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:18:40,789 - Spider.py[line:81] - INFO - Xpath parse is---> <Element html at 0x309b3f0>
+2015-05-06 14:18:40,789 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 数码配件 ]
+2015-05-06 14:18:40,790 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-06 14:18:40,795 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-06 14:18:40,956 - Spider.py[line:70] - INFO - timeout is 5
+2015-05-06 14:18:40,957 - Spider.py[line:72] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:18:40,967 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x309b440>
+2015-05-06 14:18:40,969 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 智能设备 ]
+2015-05-06 14:18:40,969 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-06 14:18:40,973 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '89.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t481/189/840892334/115730/d6e4aa34/5490006aN11f146d1.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1424211542.html'},)
+2015-05-06 14:18:40,973 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t835/309/335968231/53331/202a6ab/55192724Nac1c9877.jpg', 'good_name': u'\uff08MI\uff09\u8155\u5e26 \u84dd\u8272', 'good_url': 'http://item.jd.com/1340486.html'},)
+2015-05-06 14:18:40,973 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t502/180/850944128/126322/cba920c9/54900251Nd7d67527.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u7c89\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211544.html'},)
+2015-05-06 14:18:40,973 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t658/172/1197744366/146053/a11e1177/54bca43fNf5a09e07.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u8155\u5e26\u84dd\u7259\u667a\u80fd\u624b\u8868\u9632\u6c34\u5065\u5eb7\u7761\u7720\u76d1\u6d4b \u9ed1\u8272\u539f\u88c5+\u7c89\u8272\u975e\u539f\u88c5\u8155\u5e26', 'good_url': 'http://item.jd.com/1455666892.html'},)
+2015-05-06 14:18:40,974 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t496/209/838918345/135780/a6226c0a/549002f4N4f81b75d.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u84dd\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211546.html'},)
+2015-05-06 14:18:41,009 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:19:44,732 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:19:44,732 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:19:45,234 - Spider.py[line:70] - INFO - timeout is 10
+2015-05-06 14:19:45,234 - Spider.py[line:72] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:19:45,282 - Spider.py[line:81] - INFO - Xpath parse is---> <Element html at 0x30ac418>
+2015-05-06 14:19:45,283 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 数码配件 ]
+2015-05-06 14:19:45,283 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-06 14:19:45,289 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-06 14:19:45,427 - Spider.py[line:70] - INFO - timeout is 10
+2015-05-06 14:19:45,427 - Spider.py[line:72] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:19:45,440 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x30ac468>
+2015-05-06 14:19:45,440 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 智能设备 ]
+2015-05-06 14:19:45,440 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-06 14:19:45,444 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '89.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t481/189/840892334/115730/d6e4aa34/5490006aN11f146d1.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1424211542.html'},)
+2015-05-06 14:19:45,444 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t835/309/335968231/53331/202a6ab/55192724Nac1c9877.jpg', 'good_name': u'\uff08MI\uff09\u8155\u5e26 \u84dd\u8272', 'good_url': 'http://item.jd.com/1340486.html'},)
+2015-05-06 14:19:45,446 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t658/172/1197744366/146053/a11e1177/54bca43fNf5a09e07.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u8155\u5e26\u84dd\u7259\u667a\u80fd\u624b\u8868\u9632\u6c34\u5065\u5eb7\u7761\u7720\u76d1\u6d4b \u9ed1\u8272\u539f\u88c5+\u7c89\u8272\u975e\u539f\u88c5\u8155\u5e26', 'good_url': 'http://item.jd.com/1455666892.html'},)
+2015-05-06 14:19:45,446 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t502/180/850944128/126322/cba920c9/54900251Nd7d67527.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u7c89\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211544.html'},)
+2015-05-06 14:19:45,447 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t496/209/838918345/135780/a6226c0a/549002f4N4f81b75d.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u84dd\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211546.html'},)
+2015-05-06 14:19:45,460 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:19:56,236 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:19:56,236 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:19:56,993 - Spider.py[line:70] - INFO - timeout is 5
+2015-05-06 14:19:56,994 - Spider.py[line:72] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:19:56,994 - Spider.py[line:98] - INFO - Spider is [ momo ]
+2015-05-06 14:19:57,030 - Spider.py[line:81] - INFO - Xpath parse is---> <Element html at 0x31455a8>
+2015-05-06 14:19:57,032 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:19:57,032 - Spider.py[line:113] - INFO - {'price': '390', 'image_url': '/goodsimg/0001/761/629/1761629_Z.jpg?t=1348162389', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011MIUI \u5c0f\u7c73\u624b\u6a5f MiOne \u5c08\u7528\u8d85\u8584\u9583\u7c89\u679c\u51cd\u5957(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1761629&Area=search&mdiv=403'}
+2015-05-06 14:19:57,032 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:19:57,032 - Spider.py[line:113] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/916/171/1916171_Z.jpg?t=1358275245', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u725b\u4ed4\u8d85\u8584\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1916171&Area=search&mdiv=403'}
+2015-05-06 14:19:57,032 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:19:57,032 - Spider.py[line:113] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/918/331/1918331_Z.jpg?t=1358360902', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u8d85\u8584\u78e8\u7802\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9001\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1918331&Area=search&mdiv=403'}
+2015-05-06 14:19:57,032 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:19:57,033 - Spider.py[line:113] - INFO - {'price': '500', 'image_url': '/goodsimg/0001/922/222/1922222_Z.jpg?t=1358532698', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u5341\u5b57\u7d0b\u649e\u8272\u76ae\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1922222&Area=search&mdiv=403'}
+2015-05-06 14:19:57,033 - Spider.py[line:112] - INFO - momo crawler item
+2015-05-06 14:19:57,033 - Spider.py[line:113] - INFO - {'price': '499', 'image_url': '/goodsimg/0002/049/679/2049679_Z.jpg?t=1367347291', 'shopid': 27, 'good_name': u'\u3010windatac\u3011xiaomi-\u5c0f\u7c73\u624b\u6a5f2S-\u758f\u6c34\u758f\u6cb9\u4fdd\u8b77\u8cbc', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2049679&Area=search&mdiv=403'}
+2015-05-06 14:19:57,058 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-06 14:20:46,915 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-06 14:20:46,917 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-06 14:20:48,371 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-06 14:20:48,371 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-06 14:20:48,421 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-06 14:20:48,423 - Spider.py[line:111] - INFO - {'price': '390', 'image_url': '/goodsimg/0001/761/629/1761629_Z.jpg?t=1348162389', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011MIUI \u5c0f\u7c73\u624b\u6a5f MiOne \u5c08\u7528\u8d85\u8584\u9583\u7c89\u679c\u51cd\u5957(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1761629&Area=search&mdiv=403'}
+2015-05-06 14:20:48,423 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-06 14:20:48,423 - Spider.py[line:111] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/916/171/1916171_Z.jpg?t=1358275245', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u725b\u4ed4\u8d85\u8584\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1916171&Area=search&mdiv=403'}
+2015-05-06 14:20:48,423 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-06 14:20:48,423 - Spider.py[line:111] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/918/331/1918331_Z.jpg?t=1358360902', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u8d85\u8584\u78e8\u7802\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9001\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1918331&Area=search&mdiv=403'}
+2015-05-06 14:20:48,423 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-06 14:20:48,423 - Spider.py[line:111] - INFO - {'price': '500', 'image_url': '/goodsimg/0001/922/222/1922222_Z.jpg?t=1358532698', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u5341\u5b57\u7d0b\u649e\u8272\u76ae\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1922222&Area=search&mdiv=403'}
+2015-05-06 14:20:48,424 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-06 14:20:48,424 - Spider.py[line:111] - INFO - {'price': '499', 'image_url': '/goodsimg/0002/049/679/2049679_Z.jpg?t=1367347291', 'shopid': 27, 'good_name': u'\u3010windatac\u3011xiaomi-\u5c0f\u7c73\u624b\u6a5f2S-\u758f\u6c34\u758f\u6cb9\u4fdd\u8b77\u8cbc', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2049679&Area=search&mdiv=403'}
+2015-05-06 14:20:48,473 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+

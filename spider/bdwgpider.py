@@ -12,6 +12,7 @@ from engin.logs import search_logger
 class BdSpider(CommandSearchSpider):
     def __init__(self, name, start_urls, rule, **kwargs):
         super(BdSpider, self).__init__(name, start_urls, rule, **kwargs)
+        self.kwargs["timeout"] = 10
 
     def parse_item(self, limit):
         rule = self._rule["RuleOfItem"]

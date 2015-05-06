@@ -57,14 +57,16 @@ class Spider(object):
 
     def make_request(self):
         method = self.kwargs.get("method", "get")
+        if not self.kwargs.get("timeout", None):
+            self.kwargs["timeout"] = 5
+
         for url in self._urls:
             kwargs = dict(
                 (key, value) for (key, value) in self.kwargs.items() if key in ["method", "params", "json", "headers",
                                                                                 "cookies", "files", "auth", "timeout",
                                                                                 "allow_redirects", "stream", "verify",
                                                                                 "cert"])
-
-            resp = getattr(requests, method)(url, timeout=20, **kwargs)
+            resp = getattr(requests, method)(url, **kwargs)
             search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
                                (self._name, resp.url, resp.status_code))
             yield resp
@@ -75,7 +77,6 @@ class Spider(object):
         """
         text = unicode(response.content, response.encoding)
         xpath_content = etree.HTML(text)
-        search_logger.info("Xpath parse is---> %s" % xpath_content)
         return xpath_content
 
 
