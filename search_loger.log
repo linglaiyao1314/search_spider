@@ -419,3 +419,533 @@
 2015-05-06 14:20:48,473 - baidurun.py[line:37] - DEBUG - There 5 items will be return
 
 
+2015-05-07 12:13:40,710 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:13:40,760 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-07 12:13:42,095 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/?q=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-07 12:13:42,095 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:13:43,907 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-07 12:13:43,907 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:13:44,012 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:13:44,012 - Spider.py[line:111] - INFO - {'price': '390', 'image_url': '/goodsimg/0001/761/629/1761629_Z.jpg?t=1348162389', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011MIUI \u5c0f\u7c73\u624b\u6a5f MiOne \u5c08\u7528\u8d85\u8584\u9583\u7c89\u679c\u51cd\u5957(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1761629&Area=search&mdiv=403'}
+2015-05-07 12:13:44,012 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:13:44,012 - Spider.py[line:111] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/916/171/1916171_Z.jpg?t=1358275245', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u725b\u4ed4\u8d85\u8584\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9644\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1916171&Area=search&mdiv=403'}
+2015-05-07 12:13:44,012 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:13:44,012 - Spider.py[line:111] - INFO - {'price': '350', 'image_url': '/goodsimg/0001/918/331/1918331_Z.jpg?t=1358360902', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u8d85\u8584\u78e8\u7802\u4eae\u5f69\u4fdd\u8b77\u6bbc(\u9001\u4fdd\u8b77\u8cbc)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1918331&Area=search&mdiv=403'}
+2015-05-07 12:13:44,012 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:13:44,012 - Spider.py[line:111] - INFO - {'price': '500', 'image_url': '/goodsimg/0001/922/222/1922222_Z.jpg?t=1358532698', 'shopid': 27, 'good_name': u'\u3010IMAK\u3011\u5c0f\u7c73\u624b\u6a5f M2 MI2 \u5341\u5b57\u7d0b\u649e\u8272\u76ae\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1922222&Area=search&mdiv=403'}
+2015-05-07 12:13:44,013 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:13:44,013 - Spider.py[line:111] - INFO - {'price': '499', 'image_url': '/goodsimg/0002/049/679/2049679_Z.jpg?t=1367347291', 'shopid': 27, 'good_name': u'\u3010windatac\u3011xiaomi-\u5c0f\u7c73\u624b\u6a5f2S-\u758f\u6c34\u758f\u6cb9\u4fdd\u8b77\u8cbc', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2049679&Area=search&mdiv=403'}
+2015-05-07 12:13:44,068 - baidurun.py[line:37] - DEBUG - There 5 items will be return
+
+
+2015-05-07 12:15:26,707 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:15:26,707 - baidurun.py[line:30] - INFO - Keywords is : [ ipad ]
+2015-05-07 12:15:27,605 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/?q=ipad' , resp code is 200
+2015-05-07 12:15:27,605 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:15:28,849 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/ipad.html?keyword=ipad' , resp code is 200
+2015-05-07 12:15:28,851 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:15:28,898 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:15:28,900 - Spider.py[line:111] - INFO - {'price': '18900', 'image_url': '/goodsimg/0003/139/201/3139201_Z.jpg?t=1422551530', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139201&Area=search&mdiv=403'}
+2015-05-07 12:15:28,900 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:15:28,900 - Spider.py[line:111] - INFO - {'price': '15900', 'image_url': '/goodsimg/0003/139/199/3139199_Z.jpg?t=1422551483', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 16GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139199&Area=search&mdiv=403'}
+2015-05-07 12:15:28,900 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:15:28,900 - Spider.py[line:111] - INFO - {'price': '20390', 'image_url': '/goodsimg/0003/040/476/3040476_Z.jpg?t=1418144619', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u9001\u4fdd\u8cbc+\u76ae\u5957+\u884c\u52d5\u96fb\u6e90)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3040476&Area=search&mdiv=403'}
+2015-05-07 12:15:28,950 - baidurun.py[line:37] - DEBUG - There 3 items will be return
+
+
+2015-05-07 12:17:08,331 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:17:08,332 - baidurun.py[line:30] - INFO - Keywords is : [ ipad ]
+2015-05-07 12:17:10,546 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/ipad.html?keyword=ipad' , resp code is 200
+2015-05-07 12:17:10,548 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:17:10,598 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:17:10,598 - Spider.py[line:111] - INFO - {'price': '18900', 'image_url': '/goodsimg/0003/139/201/3139201_Z.jpg?t=1422551530', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139201&Area=search&mdiv=403'}
+2015-05-07 12:17:10,599 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:17:10,599 - Spider.py[line:111] - INFO - {'price': '15900', 'image_url': '/goodsimg/0003/139/199/3139199_Z.jpg?t=1422551483', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 16GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139199&Area=search&mdiv=403'}
+2015-05-07 12:17:10,599 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:17:10,599 - Spider.py[line:111] - INFO - {'price': '20390', 'image_url': '/goodsimg/0003/040/476/3040476_Z.jpg?t=1418144619', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u9001\u4fdd\u8cbc+\u76ae\u5957+\u884c\u52d5\u96fb\u6e90)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3040476&Area=search&mdiv=403'}
+2015-05-07 12:17:12,654 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=ipad' , resp code is 200
+2015-05-07 12:17:12,654 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:17:12,657 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:17:12,657 - pcomespider.py[line:29] - INFO - {'price': 420, 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201407/D/C/A/C/C/W/sDCACCW-A90059PL1000_53b2684f8a906.jpg', 'shopid': 30, 'good_name': u'Apple Lightning 8pin \u539f\u5ee0\u50b3\u8f38\u7dda iPhone / iPad / iPod (\u7c21\u5305\u88dd)', 'good_url': u'http://24h.pchome.com.tw/prod/DCACCW-A90059PL1'}
+2015-05-07 12:17:12,657 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:17:12,657 - pcomespider.py[line:29] - INFO - {'price': 6980, 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201504/D/G/C/D/1/E/sDGCD1E-A90060O4H000_552b7d2d4a510.jpg', 'shopid': 30, 'good_name': u'SanDisk iXpand \u5132\u5b58\u88dd\u7f6e 128GB (\u516c\u53f8\u8ca8) iPhone / iPad \u9069\u7528', 'good_url': u'http://24h.pchome.com.tw/prod/DGCD1E-A90060O4H'}
+2015-05-07 12:17:12,658 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:17:12,658 - pcomespider.py[line:29] - INFO - {'price': 18900, 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201412/D/G/B/W/A/V/sDGBWAV-A9005RJBR000_54915252218fe.jpg', 'shopid': 30, 'good_name': u'Apple iPad Air2 WiFi 64G', 'good_url': u'http://24h.pchome.com.tw/prod/DGBWAV-A9005RJBR'}
+2015-05-07 12:17:12,749 - baidurun.py[line:37] - DEBUG - There 3 items will be return
+
+
+2015-05-07 12:18:45,987 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:18:45,987 - baidurun.py[line:30] - INFO - Keywords is : [ ipad ]
+2015-05-07 12:18:46,844 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=ipad' , resp code is 200
+2015-05-07 12:18:46,844 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:18:46,845 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:18:46,845 - pcomespider.py[line:29] - INFO - {'price': 420, 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201407/D/C/A/C/C/W/sDCACCW-A90059PL1000_53b2684f8a906.jpg', 'shopid': 30, 'good_name': u'Apple Lightning 8pin \u539f\u5ee0\u50b3\u8f38\u7dda iPhone / iPad / iPod (\u7c21\u5305\u88dd)', 'good_url': u'http://24h.pchome.com.tw/prod/DCACCW-A90059PL1'}
+2015-05-07 12:18:46,846 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:18:46,846 - pcomespider.py[line:29] - INFO - {'price': 6980, 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201504/D/G/C/D/1/E/sDGCD1E-A90060O4H000_552b7d2d4a510.jpg', 'shopid': 30, 'good_name': u'SanDisk iXpand \u5132\u5b58\u88dd\u7f6e 128GB (\u516c\u53f8\u8ca8) iPhone / iPad \u9069\u7528', 'good_url': u'http://24h.pchome.com.tw/prod/DGCD1E-A90060O4H'}
+2015-05-07 12:18:46,848 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:18:46,848 - pcomespider.py[line:29] - INFO - {'price': 18900, 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201412/D/G/B/W/A/V/sDGBWAV-A9005RJBR000_54915252218fe.jpg', 'shopid': 30, 'good_name': u'Apple iPad Air2 WiFi 64G', 'good_url': u'http://24h.pchome.com.tw/prod/DGBWAV-A9005RJBR'}
+2015-05-07 12:18:48,016 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/ipad.html?keyword=ipad' , resp code is 200
+2015-05-07 12:18:48,016 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:18:48,049 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:18:48,049 - Spider.py[line:111] - INFO - {'price': '18900', 'image_url': '/goodsimg/0003/139/201/3139201_Z.jpg?t=1422551530', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139201&Area=search&mdiv=403'}
+2015-05-07 12:18:48,049 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:18:48,049 - Spider.py[line:111] - INFO - {'price': '15900', 'image_url': '/goodsimg/0003/139/199/3139199_Z.jpg?t=1422551483', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 16GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139199&Area=search&mdiv=403'}
+2015-05-07 12:18:48,049 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:18:48,049 - Spider.py[line:111] - INFO - {'price': '20390', 'image_url': '/goodsimg/0003/040/476/3040476_Z.jpg?t=1418144619', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u9001\u4fdd\u8cbc+\u76ae\u5957+\u884c\u52d5\u96fb\u6e90)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3040476&Area=search&mdiv=403'}
+2015-05-07 12:18:48,082 - baidurun.py[line:37] - DEBUG - There 3 items will be return
+
+
+2015-05-07 12:21:10,686 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:21:10,687 - baidurun.py[line:30] - INFO - Keywords is : [ ipad ]
+2015-05-07 12:21:13,019 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=ipad' , resp code is 200
+2015-05-07 12:21:13,019 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:21:13,020 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:21:13,022 - pcomespider.py[line:29] - INFO - {'price': '420', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201407/D/C/A/C/C/W/sDCACCW-A90059PL1000_53b2684f8a906.jpg', 'shopid': 30, 'good_name': u'Apple Lightning 8pin \u539f\u5ee0\u50b3\u8f38\u7dda iPhone / iPad / iPod (\u7c21\u5305\u88dd)', 'good_url': u'http://24h.pchome.com.tw/prod/DCACCW-A90059PL1'}
+2015-05-07 12:21:13,023 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:21:13,023 - pcomespider.py[line:29] - INFO - {'price': '6980', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201504/D/G/C/D/1/E/sDGCD1E-A90060O4H000_552b7d2d4a510.jpg', 'shopid': 30, 'good_name': u'SanDisk iXpand \u5132\u5b58\u88dd\u7f6e 128GB (\u516c\u53f8\u8ca8) iPhone / iPad \u9069\u7528', 'good_url': u'http://24h.pchome.com.tw/prod/DGCD1E-A90060O4H'}
+2015-05-07 12:21:13,025 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:21:13,025 - pcomespider.py[line:29] - INFO - {'price': '18900', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201412/D/G/B/W/A/V/sDGBWAV-A9005RJBR000_54915252218fe.jpg', 'shopid': 30, 'good_name': u'Apple iPad Air2 WiFi 64G', 'good_url': u'http://24h.pchome.com.tw/prod/DGBWAV-A9005RJBR'}
+2015-05-07 12:21:15,063 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/ipad.html?keyword=ipad' , resp code is 200
+2015-05-07 12:21:15,065 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:21:15,125 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:21:15,125 - Spider.py[line:111] - INFO - {'price': '18900', 'image_url': '/goodsimg/0003/139/201/3139201_Z.jpg?t=1422551530', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139201&Area=search&mdiv=403'}
+2015-05-07 12:21:15,127 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:21:15,127 - Spider.py[line:111] - INFO - {'price': '15900', 'image_url': '/goodsimg/0003/139/199/3139199_Z.jpg?t=1422551483', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 16GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139199&Area=search&mdiv=403'}
+2015-05-07 12:21:15,127 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:21:15,127 - Spider.py[line:111] - INFO - {'price': '20390', 'image_url': '/goodsimg/0003/040/476/3040476_Z.jpg?t=1418144619', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u9001\u4fdd\u8cbc+\u76ae\u5957+\u884c\u52d5\u96fb\u6e90)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3040476&Area=search&mdiv=403'}
+2015-05-07 12:21:15,180 - baidurun.py[line:37] - DEBUG - There 6 items will be return
+
+
+2015-05-07 12:21:27,013 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:21:27,015 - baidurun.py[line:30] - INFO - Keywords is : [ ipad ]
+2015-05-07 12:21:27,970 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=ipad' , resp code is 200
+2015-05-07 12:21:27,970 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:21:27,971 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:21:27,971 - pcomespider.py[line:29] - INFO - {'price': '420', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201407/D/C/A/C/C/W/sDCACCW-A90059PL1000_53b2684f8a906.jpg', 'shopid': 30, 'good_name': u'Apple Lightning 8pin \u539f\u5ee0\u50b3\u8f38\u7dda iPhone / iPad / iPod (\u7c21\u5305\u88dd)', 'good_url': u'http://24h.pchome.com.tw/prod/DCACCW-A90059PL1'}
+2015-05-07 12:21:27,973 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:21:27,973 - pcomespider.py[line:29] - INFO - {'price': '6980', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201504/D/G/C/D/1/E/sDGCD1E-A90060O4H000_552b7d2d4a510.jpg', 'shopid': 30, 'good_name': u'SanDisk iXpand \u5132\u5b58\u88dd\u7f6e 128GB (\u516c\u53f8\u8ca8) iPhone / iPad \u9069\u7528', 'good_url': u'http://24h.pchome.com.tw/prod/DGCD1E-A90060O4H'}
+2015-05-07 12:21:27,973 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:21:27,973 - pcomespider.py[line:29] - INFO - {'price': '18900', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201412/D/G/B/W/A/V/sDGBWAV-A9005RJBR000_54915252218fe.jpg', 'shopid': 30, 'good_name': u'Apple iPad Air2 WiFi 64G', 'good_url': u'http://24h.pchome.com.tw/prod/DGBWAV-A9005RJBR'}
+2015-05-07 12:21:29,091 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/ipad.html?keyword=ipad' , resp code is 200
+2015-05-07 12:21:29,092 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:21:29,138 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:21:29,138 - Spider.py[line:111] - INFO - {'price': '18900', 'image_url': '/goodsimg/0003/139/201/3139201_Z.jpg?t=1422551530', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139201&Area=search&mdiv=403'}
+2015-05-07 12:21:29,138 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:21:29,138 - Spider.py[line:111] - INFO - {'price': '15900', 'image_url': '/goodsimg/0003/139/199/3139199_Z.jpg?t=1422551483', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 16GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u73fe\u8ca8\u4f9b\u61c9)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3139199&Area=search&mdiv=403'}
+2015-05-07 12:21:29,138 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:21:29,138 - Spider.py[line:111] - INFO - {'price': '20390', 'image_url': '/goodsimg/0003/040/476/3040476_Z.jpg?t=1418144619', 'shopid': 27, 'good_name': u'\u3010Apple\u3011iPad Air 2 Wi-Fi 64GB 9.7 \u540b \u5e73\u677f\u96fb\u8166(\u9001\u4fdd\u8cbc+\u76ae\u5957+\u884c\u52d5\u96fb\u6e90)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3040476&Area=search&mdiv=403'}
+2015-05-07 12:21:29,150 - baidurun.py[line:37] - DEBUG - There 6 items will be return
+
+
+2015-05-07 12:29:25,084 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:29:25,085 - baidurun.py[line:30] - INFO - Keywords is : [ 袜子 ]
+2015-05-07 12:29:26,180 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=%E8%A2%9C%E5%AD%90' , resp code is 200
+2015-05-07 12:29:26,180 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:29:27,456 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E8%A2%9C%E5%AD%90.html?keyword=%E8%A2%9C%E5%AD%90' , resp code is 200
+2015-05-07 12:29:27,456 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:29:27,536 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:29:27,536 - Spider.py[line:111] - INFO - {'price': '190', 'image_url': '/goodsimg/0002/801/816/2801816_Z.jpg?t=1406826033', 'shopid': 27, 'good_name': u'\u3010J \u7cbe\u9078\u3011\u97d3\u7248\u591a\u529f\u80fd\u65c5\u884c\u7528\u896a\u5b50\u5167\u8457\u96d9\u908a\u5206\u985e\u6536\u7d0d\u888b', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2801816&Area=search&mdiv=403'}
+2015-05-07 12:29:27,538 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:29:27,538 - Spider.py[line:111] - INFO - {'price': '1980', 'image_url': '/goodsimg/0000/954/124/954124_Z.jpg?t=1375355224', 'shopid': 27, 'good_name': u'\u3010LIFECODE\u8d85\u5927\u56db\u687f\u3011\u795e\u5947X\u578b\u66ec\u8863\u67b6-\u9644\u9632\u98a8\u6ce2\u6d6a\u67b6+\u6bdb\u5dfe\u67b6+\u896a\u5b50\u67b6(\u9001\u66ec\u978b\u67b6)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=954124&Area=search&mdiv=403'}
+2015-05-07 12:29:27,538 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:29:27,538 - Spider.py[line:111] - INFO - {'price': '1280', 'image_url': '/goodsimg/0002/637/776/2637776_Z.jpg?t=1399024017', 'shopid': 27, 'good_name': u'\u3010\u6e90\u4e4b\u6c23\u3011\u7af9\u70ad\u7121\u75d5\u896a 12\u96d9\u7d44/\u7537 RM-10036/\u896a\u5b50\u3001\u7af9\u70ad\u896a\u3001\u68c9\u896a\u3001\u9664\u81ed\u896a', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2637776&Area=search&mdiv=403'}
+2015-05-07 12:29:27,545 - baidurun.py[line:37] - DEBUG - There 3 items will be return
+
+
+2015-05-07 12:29:47,713 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 12:29:47,714 - baidurun.py[line:30] - INFO - Keywords is : [ iphone ]
+2015-05-07 12:29:48,596 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 12:29:48,596 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 12:29:48,598 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:29:48,598 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 12:29:48,598 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:29:48,598 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 12:29:48,598 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 12:29:48,598 - pcomespider.py[line:29] - INFO - {'price': '399', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201310/D/G/B/O/8/Z/sDGBO8Z-A80400664000_5264b58556b4c', 'shopid': 30, 'good_name': u'iPhone5/5S \u822a\u7a7a\u92c1\u8d85\u8584\u91d1\u5c6c\u908a\u6846 ', 'good_url': u'http://24h.pchome.com.tw/prod/DGBO8Z-A80400664'}
+2015-05-07 12:29:50,161 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 12:29:50,161 - Spider.py[line:96] - INFO - Spider is [ momo ]
+2015-05-07 12:29:50,200 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:29:50,200 - Spider.py[line:111] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 12:29:50,200 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:29:50,200 - Spider.py[line:111] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 12:29:50,200 - Spider.py[line:110] - INFO - momo crawler item
+2015-05-07 12:29:50,200 - Spider.py[line:111] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 12:29:50,255 - baidurun.py[line:37] - DEBUG - There 6 items will be return
+
+
+2015-05-07 13:34:57,512 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:34:57,513 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 13:34:58,470 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 13:34:58,470 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 13:34:58,473 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:34:58,473 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 13:34:58,473 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:34:58,473 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 13:34:59,967 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 13:34:59,967 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 13:35:00,009 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:35:00,009 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 13:35:00,009 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:35:00,009 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 13:35:00,009 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:35:00,010 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 13:35:00,016 - baidurun.py[line:35] - DEBUG - There 5 items will be return
+
+
+2015-05-07 13:35:09,250 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:35:09,252 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 13:35:10,059 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 13:35:10,061 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 13:35:10,062 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:35:10,062 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 13:35:10,062 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:35:10,062 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 13:35:14,167 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 13:35:14,167 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 13:35:14,226 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:35:14,226 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 13:35:14,226 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:35:14,226 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 13:35:14,226 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:35:14,226 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 13:35:14,260 - baidurun.py[line:35] - DEBUG - There 5 items will be return
+
+
+2015-05-07 13:40:14,910 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:40:14,911 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 13:40:15,816 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 13:40:15,818 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 13:40:15,818 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:40:15,818 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 13:40:15,818 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:40:15,818 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 13:40:16,815 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 13:40:16,815 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 13:40:16,868 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:40:16,868 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 13:40:16,868 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:40:16,868 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 13:40:16,868 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:40:16,868 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 13:40:16,920 - baidurun.py[line:35] - DEBUG - There 5 items will be return
+
+
+2015-05-07 13:40:40,816 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:40:40,818 - baidurun.py[line:28] - INFO - Keywords is : [ vadvasvdas ]
+2015-05-07 13:40:41,660 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=vadvasvdas' , resp code is 200
+2015-05-07 13:40:41,660 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 13:40:42,723 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/vadvasvdas.html?keyword=vadvasvdas' , resp code is 200
+2015-05-07 13:40:42,723 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 13:40:42,785 - baidurun.py[line:35] - DEBUG - There 0 items will be return
+
+
+2015-05-07 13:42:31,552 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:42:31,553 - baidurun.py[line:28] - INFO - Keywords is : [ vadvasvdas ]
+2015-05-07 13:42:41,076 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=vadvasvdas' , resp code is 200
+2015-05-07 13:42:41,127 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:42:41,127 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 13:42:41,130 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-07 13:42:42,098 - Spider.py[line:71] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=vadvasvdas' , resp code is 200
+2015-05-07 13:42:42,098 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x304a5d0>
+2015-05-07 13:42:42,098 - jdspider.py[line:73] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:42:42,098 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-07 13:42:42,148 - baidurun.py[line:35] - DEBUG - There 0 items will be return
+
+
+2015-05-07 13:42:53,232 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:42:53,232 - baidurun.py[line:28] - INFO - Keywords is : [ vajklvjdaskljklds ]
+2015-05-07 13:43:03,042 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=vajklvjdaskljklds' , resp code is 200
+2015-05-07 13:43:03,086 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:43:03,086 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 13:43:03,091 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-07 13:43:04,082 - Spider.py[line:71] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=vajklvjdaskljklds' , resp code is 200
+2015-05-07 13:43:04,088 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x304a170>
+2015-05-07 13:43:04,088 - jdspider.py[line:73] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:43:04,088 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-07 13:43:04,105 - baidurun.py[line:35] - DEBUG - There 0 items will be return
+
+
+2015-05-07 13:44:09,552 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:44:09,553 - baidurun.py[line:28] - INFO - Keywords is : [ vajklvjdaskljklds ]
+2015-05-07 13:44:13,484 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=vajklvjdaskljklds' , resp code is 200
+2015-05-07 13:44:13,528 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:44:13,528 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 13:44:13,532 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-07 13:44:14,427 - Spider.py[line:71] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=vajklvjdaskljklds' , resp code is 200
+2015-05-07 13:44:14,431 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x304a580>
+2015-05-07 13:44:14,434 - jdspider.py[line:73] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:44:14,434 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-07 13:44:14,446 - baidurun.py[line:35] - DEBUG - There 0 items will be return
+
+
+2015-05-07 13:44:35,358 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:44:35,358 - baidurun.py[line:28] - INFO - Keywords is : [ vajklvjdaskljklds ]
+2015-05-07 13:44:38,355 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=vajklvjdaskljklds' , resp code is 200
+2015-05-07 13:44:38,397 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:44:38,397 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 13:44:38,401 - main.py[line:108] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-07 13:44:39,101 - Spider.py[line:71] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=vajklvjdaskljklds' , resp code is 200
+2015-05-07 13:44:39,107 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x304a030>
+2015-05-07 13:44:39,108 - jdspider.py[line:73] - INFO - request for cate....and cate is [ None ]
+2015-05-07 13:44:39,108 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-07 13:44:39,114 - baidurun.py[line:35] - DEBUG - There 0 items will be return
+
+
+2015-05-07 13:48:00,657 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:48:00,657 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 13:48:05,927 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=hao' , resp code is 200
+2015-05-07 13:48:05,973 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 珠宝首饰 ]
+2015-05-07 13:48:05,973 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 13:48:06,901 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52.40', 'image_url': 'http://t12.baidu.com/it/u=3943254899,3032983066&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=233574536&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19178653%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D03d9c434b3034df60dae99656da05d9f', 'good_name': u'\u8c6a\u6866\u5229Haohuali B5 \u4e2d\u7f51\u888b \u9632\u6c34\u6587\u4ef6\u888b \u8d44\u6599\u888b \u7968\u636e\u888b \u5185\u53cc\u5c42 \u78e8\u7802\u62c9\u94fe\u888b\u6a59\u8272\u5b98\u65b9\u6807\u914d', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:48:10,841 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52.40', 'image_url': 'http://t11.baidu.com/it/u=1262199541,931870877&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=233574543&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19178662%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3Dcb6906cb8cb38954aa1468d8dbdd49ed', 'good_name': u'\u8c6a\u6866\u5229Haohuali B5 \u4e2d\u7f51\u888b \u9632\u6c34\u6587\u4ef6\u888b \u8d44\u6599\u888b \u7968\u636e\u888b \u5185\u53cc\u5c42 \u78e8\u7802\u62c9\u94fe\u888b\u9ec4\u8272\u5b98\u65b9\u6807\u914d', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:48:11,747 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa529.90', 'image_url': 'http://t11.baidu.com/it/u=3234301654,1206908545&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=384006923&merchant_name=%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E&product_url=http%3A%2F%2Fitem.jd.com%2F1207315535.html%3Fweigou_transition_key%3D3296a23a655bc05836eb5ab6f7da3966', 'good_name': u'\u91d1\u8c6a\uff08Jinhao\uff09 \u94a2\u7b14/\u58a8\u6c34\u7b14 \u6697\u5c16\u4eae\u9ec4\u8272EF\u5c16', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:48:15,657 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa589.00', 'image_url': 'http://t10.baidu.com/it/u=4286148219,4203165613&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=424796772&merchant_name=%E8%BE%A3%E5%A6%88%E6%B1%87&product_url=http%3A%2F%2Fwww.lamahui.com%2Fgoods%2F10000265.html%3Ffrm%3Dbaidu_weigou%26weigou_transition_key%3D857d20fb972acd36a577c342cfc099a9', 'good_name': u'BZ-HAO \u97e9\u7248\u7537\u88c5\u68c9\u8863\u79cb\u51ac\u88c5\u65b0\u6b3e\u7acb\u9886\u6f6e\u7537\u58eb\u51ac\u5b63\u5916\u5957\u68c9\u670d \u7537', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:48:16,434 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5218.00', 'image_url': 'http://t12.baidu.com/it/u=3357301463,4259470264&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=187226570&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fwww.yhd.com%2Fitem%2F24321566%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3De47bb966a4d89d84109e95734d281144', 'good_name': u'\u91d1\u8c6aJinHao \u51b2\u5b54\u94c1\u8d28 \u62a5\u520a\u67b6 \u6742\u5fd7\u67b6 \u5c55\u793a\u67b6 JH-1328', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:48:16,453 - baidurun.py[line:35] - DEBUG - There 5 items will be return
+
+
+2015-05-07 13:49:02,354 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:49:02,354 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 13:49:08,313 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=hao' , resp code is 200
+2015-05-07 13:49:08,348 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 珠宝首饰 ]
+2015-05-07 13:49:08,348 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 13:49:12,211 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52.40', 'image_url': 'http://t12.baidu.com/it/u=3943254899,3032983066&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=233574536&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19178653%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D03d9c434b3034df60dae99656da05d9f', 'good_name': u'\u8c6a\u6866\u5229Haohuali B5 \u4e2d\u7f51\u888b \u9632\u6c34\u6587\u4ef6\u888b \u8d44\u6599\u888b \u7968\u636e\u888b \u5185\u53cc\u5c42 \u78e8\u7802\u62c9\u94fe\u888b\u6a59\u8272\u5b98\u65b9\u6807\u914d', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:49:13,059 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52.40', 'image_url': 'http://t11.baidu.com/it/u=1262199541,931870877&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=233574543&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19178662%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3Dcb6906cb8cb38954aa1468d8dbdd49ed', 'good_name': u'\u8c6a\u6866\u5229Haohuali B5 \u4e2d\u7f51\u888b \u9632\u6c34\u6587\u4ef6\u888b \u8d44\u6599\u888b \u7968\u636e\u888b \u5185\u53cc\u5c42 \u78e8\u7802\u62c9\u94fe\u888b\u9ec4\u8272\u5b98\u65b9\u6807\u914d', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:49:16,963 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa529.90', 'image_url': 'http://t11.baidu.com/it/u=3234301654,1206908545&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=384006923&merchant_name=%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E&product_url=http%3A%2F%2Fitem.jd.com%2F1207315535.html%3Fweigou_transition_key%3D3296a23a655bc05836eb5ab6f7da3966', 'good_name': u'\u91d1\u8c6a\uff08Jinhao\uff09 \u94a2\u7b14/\u58a8\u6c34\u7b14 \u6697\u5c16\u4eae\u9ec4\u8272EF\u5c16', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:49:17,828 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa589.00', 'image_url': 'http://t10.baidu.com/it/u=4286148219,4203165613&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=424796772&merchant_name=%E8%BE%A3%E5%A6%88%E6%B1%87&product_url=http%3A%2F%2Fwww.lamahui.com%2Fgoods%2F10000265.html%3Ffrm%3Dbaidu_weigou%26weigou_transition_key%3D857d20fb972acd36a577c342cfc099a9', 'good_name': u'BZ-HAO \u97e9\u7248\u7537\u88c5\u68c9\u8863\u79cb\u51ac\u88c5\u65b0\u6b3e\u7acb\u9886\u6f6e\u7537\u58eb\u51ac\u5b63\u5916\u5957\u68c9\u670d \u7537', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:49:18,720 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5218.00', 'image_url': 'http://t12.baidu.com/it/u=3357301463,4259470264&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=187226570&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fwww.yhd.com%2Fitem%2F24321566%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3De47bb966a4d89d84109e95734d281144', 'good_name': u'\u91d1\u8c6aJinHao \u51b2\u5b54\u94c1\u8d28 \u62a5\u520a\u67b6 \u6742\u5fd7\u67b6 \u5c55\u793a\u67b6 JH-1328', 'cate': u'\u73e0\u5b9d\u9996\u9970'}
+2015-05-07 13:49:18,732 - baidurun.py[line:35] - DEBUG - There 5 items will be return
+
+
+2015-05-07 13:49:31,223 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 13:49:31,223 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 13:49:32,072 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 13:49:32,073 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 13:49:32,075 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:49:32,075 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 13:49:32,075 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 13:49:32,076 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 13:49:33,085 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/hao.html?keyword=hao' , resp code is 200
+2015-05-07 13:49:33,085 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 13:49:33,124 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:49:33,124 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0001/643/254/1643254_Z.jpg?t=1340131784', 'shopid': 27, 'good_name': u'\u3010\u6708\u967d\u3011\u591a\u7528\u9014\u8d85\u4eae11LED\u5ea7\u7acb\u540a\u639b2\u7528\u9732\u71df\u5de5\u4f5c\u71c8HAO-11(\u96a8\u6a5f\u51fa\u8ca8)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1643254&Area=search&mdiv=403'}
+2015-05-07 13:49:33,125 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 13:49:33,125 - Spider.py[line:112] - INFO - {'price': '299', 'image_url': '/goodsimg/0003/091/438/3091438_Z.jpg?t=1420536925', 'shopid': 27, 'good_name': u'\u3010\u8d8a\u5357\u3011Hao Hao\u51b7\u51cd\u4e7e\u71e5\u69b4\u69e4\u4e7e(100g)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3091438&Area=search&mdiv=403'}
+2015-05-07 13:49:33,155 - baidurun.py[line:35] - DEBUG - There 4 items will be return
+
+
+2015-05-07 14:26:21,076 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:26:21,078 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:26:23,657 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:26:23,657 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:26:23,657 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:26:23,657 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:26:23,658 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:26:23,658 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:26:24,707 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/hao.html?keyword=hao' , resp code is 200
+2015-05-07 14:26:24,707 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:26:24,756 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:26:24,756 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0001/643/254/1643254_Z.jpg?t=1340131784', 'shopid': 27, 'good_name': u'\u3010\u6708\u967d\u3011\u591a\u7528\u9014\u8d85\u4eae11LED\u5ea7\u7acb\u540a\u639b2\u7528\u9732\u71df\u5de5\u4f5c\u71c8HAO-11(\u96a8\u6a5f\u51fa\u8ca8)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1643254&Area=search&mdiv=403'}
+2015-05-07 14:26:24,756 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:26:24,756 - Spider.py[line:112] - INFO - {'price': '299', 'image_url': '/goodsimg/0003/091/438/3091438_Z.jpg?t=1420536925', 'shopid': 27, 'good_name': u'\u3010\u8d8a\u5357\u3011Hao Hao\u51b7\u51cd\u4e7e\u71e5\u69b4\u69e4\u4e7e(100g)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3091438&Area=search&mdiv=403'}
+2015-05-07 14:26:24,778 - baidurun.py[line:35] - DEBUG - There 4 items will be return
+
+
+2015-05-07 14:27:18,548 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:27:18,549 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:27:19,121 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:27:19,121 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:27:19,122 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:27:19,124 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:27:19,124 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:27:19,124 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:28:02,645 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:28:02,650 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:28:05,706 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:28:05,706 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:28:05,707 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:28:05,707 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:28:05,707 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:28:05,707 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:28:14,007 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/hao.html?keyword=hao' , resp code is 200
+2015-05-07 14:28:14,009 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:28:14,052 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:28:14,052 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0001/643/254/1643254_Z.jpg?t=1340131784', 'shopid': 27, 'good_name': u'\u3010\u6708\u967d\u3011\u591a\u7528\u9014\u8d85\u4eae11LED\u5ea7\u7acb\u540a\u639b2\u7528\u9732\u71df\u5de5\u4f5c\u71c8HAO-11(\u96a8\u6a5f\u51fa\u8ca8)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1643254&Area=search&mdiv=403'}
+2015-05-07 14:28:14,052 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:28:14,052 - Spider.py[line:112] - INFO - {'price': '299', 'image_url': '/goodsimg/0003/091/438/3091438_Z.jpg?t=1420536925', 'shopid': 27, 'good_name': u'\u3010\u8d8a\u5357\u3011Hao Hao\u51b7\u51cd\u4e7e\u71e5\u69b4\u69e4\u4e7e(100g)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3091438&Area=search&mdiv=403'}
+2015-05-07 14:28:24,313 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:28:24,313 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:28:28,315 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:28:28,315 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:28:28,315 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:28:28,315 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:28:28,315 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:28:28,315 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:28:29,999 - baidurun.py[line:36] - DEBUG - There 2 items will be return
+
+
+2015-05-07 14:29:17,628 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:29:17,630 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:29:18,221 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:29:18,223 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:29:18,223 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:29:18,223 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:29:18,223 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:29:18,224 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:29:20,812 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/hao.html?keyword=hao' , resp code is 200
+2015-05-07 14:29:20,812 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:29:20,855 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:29:20,855 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0001/643/254/1643254_Z.jpg?t=1340131784', 'shopid': 27, 'good_name': u'\u3010\u6708\u967d\u3011\u591a\u7528\u9014\u8d85\u4eae11LED\u5ea7\u7acb\u540a\u639b2\u7528\u9732\u71df\u5de5\u4f5c\u71c8HAO-11(\u96a8\u6a5f\u51fa\u8ca8)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1643254&Area=search&mdiv=403'}
+2015-05-07 14:29:20,855 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:29:20,857 - Spider.py[line:112] - INFO - {'price': '299', 'image_url': '/goodsimg/0003/091/438/3091438_Z.jpg?t=1420536925', 'shopid': 27, 'good_name': u'\u3010\u8d8a\u5357\u3011Hao Hao\u51b7\u51cd\u4e7e\u71e5\u69b4\u69e4\u4e7e(100g)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3091438&Area=search&mdiv=403'}
+2015-05-07 14:29:59,588 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:29:59,588 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:30:00,171 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:30:00,171 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:30:00,171 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:30:00,171 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:30:00,171 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:30:00,171 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:30:01,588 - baidurun.py[line:36] - DEBUG - There 2 items will be return
+
+
+2015-05-07 14:30:08,865 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:30:08,865 - baidurun.py[line:28] - INFO - Keywords is : [ hao ]
+2015-05-07 14:30:09,118 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/hao.html?keyword=hao' , resp code is 200
+2015-05-07 14:30:09,118 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:30:09,147 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:09,147 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0001/643/254/1643254_Z.jpg?t=1340131784', 'shopid': 27, 'good_name': u'\u3010\u6708\u967d\u3011\u591a\u7528\u9014\u8d85\u4eae11LED\u5ea7\u7acb\u540a\u639b2\u7528\u9732\u71df\u5de5\u4f5c\u71c8HAO-11(\u96a8\u6a5f\u51fa\u8ca8)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1643254&Area=search&mdiv=403'}
+2015-05-07 14:30:09,147 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:09,147 - Spider.py[line:112] - INFO - {'price': '299', 'image_url': '/goodsimg/0003/091/438/3091438_Z.jpg?t=1420536925', 'shopid': 27, 'good_name': u'\u3010\u8d8a\u5357\u3011Hao Hao\u51b7\u51cd\u4e7e\u71e5\u69b4\u69e4\u4e7e(100g)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3091438&Area=search&mdiv=403'}
+2015-05-07 14:30:10,885 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=hao' , resp code is 200
+2015-05-07 14:30:10,888 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:30:10,890 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:30:10,891 - pcomespider.py[line:29] - INFO - {'price': '690', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201409/D/G/B/O/B/Z/sDGBOBZ-A9005G7RZ000_5423db9481c21.jpg', 'shopid': 30, 'good_name': u'Ni Hao Im FiFi \u57ce\u5e02\u7cfb\u5217 Apple iPhone 6 \u624b\u6a5f\u6bbc (4.7\u540b) - Hiya London!', 'good_url': u'http://24h.pchome.com.tw/prod/DGBOBZ-A9005G7RZ'}
+2015-05-07 14:30:10,891 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:30:10,891 - pcomespider.py[line:29] - INFO - {'price': '267', 'image_url': u'http://ec1img.pchome.com.tw/pic/D/B/A/A/0/6/sDBAA06-A41659085000_4a3f3fff4b3ac', 'shopid': 30, 'good_name': u'\u8d8a\u5357\u300aHAO HAO\u300b\u9178\u8fa3\u8766\u9eb5(30\u5305/\u7bb1)', 'good_url': u'http://24h.pchome.com.tw/prod/DBAA06-A41659085'}
+2015-05-07 14:30:12,865 - baidurun.py[line:36] - DEBUG - There 2 items will be return
+
+
+2015-05-07 14:30:23,193 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/hao.html?keyword=hao' , resp code is 200
+2015-05-07 14:30:23,194 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:30:23,226 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:23,226 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0001/643/254/1643254_Z.jpg?t=1340131784', 'shopid': 27, 'good_name': u'\u3010\u6708\u967d\u3011\u591a\u7528\u9014\u8d85\u4eae11LED\u5ea7\u7acb\u540a\u639b2\u7528\u9732\u71df\u5de5\u4f5c\u71c8HAO-11(\u96a8\u6a5f\u51fa\u8ca8)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1643254&Area=search&mdiv=403'}
+2015-05-07 14:30:23,226 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:23,226 - Spider.py[line:112] - INFO - {'price': '299', 'image_url': '/goodsimg/0003/091/438/3091438_Z.jpg?t=1420536925', 'shopid': 27, 'good_name': u'\u3010\u8d8a\u5357\u3011Hao Hao\u51b7\u51cd\u4e7e\u71e5\u69b4\u69e4\u4e7e(100g)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3091438&Area=search&mdiv=403'}
+2015-05-07 14:30:27,884 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:30:27,884 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:30:31,884 - baidurun.py[line:36] - DEBUG - There 0 items will be return
+
+
+2015-05-07 14:30:31,976 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 14:30:31,976 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:30:31,976 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:30:31,976 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 14:30:31,976 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:30:31,977 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 14:30:32,895 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 14:30:32,895 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:30:32,930 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:32,930 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 14:30:32,930 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:32,930 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 14:30:32,931 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:32,931 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 14:30:46,457 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:30:46,459 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:30:49,144 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 14:30:49,144 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:30:49,177 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:49,177 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 14:30:49,177 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:49,177 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 14:30:49,177 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:30:49,177 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 14:30:50,471 - baidurun.py[line:36] - DEBUG - There 3 items will be return
+
+
+2015-05-07 14:31:19,492 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:31:19,493 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:31:23,494 - baidurun.py[line:36] - DEBUG - There 0 items will be return
+
+
+2015-05-07 14:31:33,328 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 14:31:33,329 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:31:33,364 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:31:33,364 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 14:31:33,365 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:31:33,365 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 14:31:33,365 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:31:33,365 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 14:35:16,290 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:35:16,292 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:35:28,413 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:35:28,414 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:35:49,746 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:35:49,747 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:36:07,240 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:36:07,243 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:36:08,194 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 14:36:08,194 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:36:08,196 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:36:08,196 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 14:36:08,196 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:36:08,197 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 14:36:09,237 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 14:36:09,237 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:36:09,280 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:36:09,280 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 14:36:09,282 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:36:09,282 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 14:36:09,282 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:36:09,282 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 14:36:09,285 - baidurun.py[line:36] - DEBUG - There 5 items will be return
+
+
+2015-05-07 14:39:15,102 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:39:15,104 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:39:21,890 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=iphone' , resp code is 200
+2015-05-07 14:39:21,921 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-05-07 14:39:21,921 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 14:39:24,732 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa53,333.00', 'image_url': 'http://t11.baidu.com/it/u=572522956,529870768&fm=58', 'good_url': u'http://product.suning.com/123129118.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a6073312872.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 5s\uff0816GB\uff09\uff08\u91d1\uff09\u79fb\u52a8\u8054\u901a4G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:39:36,417 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa53,568.00', 'image_url': 'http://t10.baidu.com/it/u=867051540,426763652&fm=58', 'good_url': u'http://product.suning.com/105649352.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a6073312869.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 5s\uff0816GB\uff09\uff08\u91d1\uff09\u79fb\u52a84G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:39:38,496 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa57,488.00', 'image_url': 'http://t12.baidu.com/it/u=1717178492,3984585509&fm=58', 'good_url': u'http://product.suning.com/123153780.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a5282171457.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 6 Plus\uff08128G\uff09\uff08\u94f6\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:39:41,500 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa54,999.00', 'image_url': 'http://t11.baidu.com/it/u=1346681461,1415412039&fm=58', 'good_url': u'http://product.suning.com/123153627.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a4590622838.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 6 \uff0816G\uff09\uff08\u7070\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:40:15,502 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa55,788.00', 'image_url': 'http://t10.baidu.com/it/u=988076157,3268887818&fm=58', 'good_url': u'http://product.suning.com/123153767.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a4517286387.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 6 Plus\uff0816G\uff09\uff08\u7070\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:40:15,503 - baidurun.py[line:36] - DEBUG - There 5 items will be return
+
+

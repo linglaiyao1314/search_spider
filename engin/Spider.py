@@ -88,9 +88,10 @@ class SearchSpider(Spider):
         super(SearchSpider, self).__init__(name, start_urls, **kwargs)
         self._rule = rule.get(name, None)
         self._itemlist = []
+        self.limit = self.kwargs.get("limit", 5)
         self._extract_count = 0
 
-    def parse_item(self, limit):
+    def parse_item(self):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
             search_logger.info("Spider is [ %s ]" % self._name)
@@ -99,7 +100,7 @@ class SearchSpider(Spider):
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
             ):
-                if self._extract_count >= int(limit):
+                if self._extract_count >= int(self.limit):
                     break
                 try:
                     items = Item(shopid=self.kwargs.get("shopid", 24))
@@ -132,7 +133,7 @@ class CommandSearchSpider(SearchSpider):
     def format_item(self):
         itemlist = []
         for items in self.get_itemlist():
-            str_items = {key: value.strip() for key, value in items.items() if hasattr(value, "strip")}
+            str_items = dict((key, value.strip()) for key, value in items.items() if hasattr(value, "strip"))
             str_items[PRICE] = handler_price(str_items[PRICE])
             str_items[GOOD_URL] = urlparse.urljoin(self._rule['domain'], str_items[GOOD_URL])
             str_items[IMAGE_URL] = urlparse.urljoin(self._rule['domain'], str_items[IMAGE_URL])

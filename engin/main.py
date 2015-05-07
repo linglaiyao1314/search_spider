@@ -2,11 +2,16 @@
 import threading
 from spider.jdspider import JdSpider, JdSpiderPc
 from spider.momospider import MomoSpider
+from spider.pcomespider import PcomeSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
 from spider.bdwgpider import BdSpider
 from logs import search_logger
 import urllib2
+import gevent
+import gevent.monkey
+from gevent import Greenlet
+gevent.monkey.patch_all()
 
 
 def init_start_urls(url, rule, **kwargs):
@@ -25,25 +30,38 @@ def init_start_urls(url, rule, **kwargs):
 
 
 class RunSpiderThread(threading.Thread):
-    def __init__(self, spider, count):
+    def __init__(self, spider):
         threading.Thread.__init__(self)
         self.spider = spider
         self.res = []
-        self.count = count
 
     def run(self):
-        self.spider.parse_item(limit=self.count)
+        self.spider.parse_item()
         self.res = self.spider.format_item()
 
     def getresult(self):
         return self.res
 
 
-def main(spiders, count):
+class MyGreenlet(Greenlet):
+    def __init__(self, spider):
+        super(MyGreenlet, self).__init__()
+        self.spider = spider
+        self.res = []
+
+    def run(self):
+        self.spider.parse_item()
+        self.res = self.spider.format_item()
+
+    def getres(self):
+        return self.res
+
+
+def main(spiders):
     itemlist = []
     threads = []
     for spider in spiders:
-        t = RunSpiderThread(spider, count)
+        t = RunSpiderThread(spider)
         threads.append(t)
     for thread in threads:
         thread.start()
@@ -100,7 +118,7 @@ def bdcrawl(search="Kindle", **kwargs):
     bdurl = init_start_urls("http://weigou.baidu.com/", URL_RULE)
     bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search},
                         headers=headers, domain="http://weigou.baidu.com/", timeout=10)
-    bdspider.parse_item(limit=5)
+    bdspider.parse_item()
     result = bdspider.format_item()
     if result:
         return result
@@ -110,15 +128,28 @@ def bdcrawl(search="Kindle", **kwargs):
         testurl = "http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8"
         shspider = JdSpiderPc("jdpc", testurl, SEARCH_RULE, params={"keyword": search},
                               shopid=1, headers=headers, timeout=10)
-        return main([shspider], 5)
+        return main([shspider])
 
 
 def momocrawl(search='Kindle', **kwargs):
     headers = kwargs.get("headers")
     url = "http://www.momoshop.com.tw/mosearch/%s.html" % urllib2.quote(search.encode('utf-8'))
     momospider = MomoSpider("momo", url, SEARCH_RULE, params={"keyword": search},
-                            shopid=27, headers=headers, timeout=5)
-    return main([momospider], 5)
+                            shopid=27, headers=headers, timeout=5, limit=3)
+    pcurl = "http://ecshweb.pchome.com.tw/search/v3.3/all/results"
+    pcomespider = PcomeSpider("pcome", pcurl, SEARCH_RULE, params={"q": search},
+                              shopid=30, headers=headers, timeout=5, limit=2)
+    return main([momospider, pcomespider])
 
-if __name__ == '__main__':
-    bdcrawl()
+
+def momo_pc_event(search="Kindle", **kwargs):
+    headers = kwargs.get("headers")
+    url = "http://www.momoshop.com.tw/mosearch/%s.html" % urllib2.quote(search.encode('utf-8'))
+    momospider = MomoSpider("momo", url, SEARCH_RULE, params={"keyword": search},
+                            shopid=27, headers=headers, timeout=5, limit=3)
+    pcurl = "http://ecshweb.pchome.com.tw/search/v3.3/all/results"
+    pcomespider = PcomeSpider("pcome", pcurl, SEARCH_RULE, params={"q": search},
+                              shopid=30, headers=headers, timeout=5, limit=2)
+    greenlet = [MyGreenlet(spider) for spider in [momospider, pcomespider]]
+    itemlists = []
+    gevent.joinall(greenlet)
