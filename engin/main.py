@@ -10,7 +10,6 @@ from logs import search_logger
 import urllib2
 import gevent
 import gevent.monkey
-from gevent import Greenlet
 import random
 gevent.monkey.patch_all()
 
@@ -41,20 +40,6 @@ class RunSpiderThread(threading.Thread):
         self.res = self.spider.format_item()
 
     def getresult(self):
-        return self.res
-
-
-class MyGreenlet(Greenlet):
-    def __init__(self, spider):
-        super(MyGreenlet, self).__init__()
-        self.spider = spider
-        self.res = []
-
-    def run(self):
-        self.spider.parse_item()
-        self.res = self.spider.format_item()
-
-    def getres(self):
         return self.res
 
 
@@ -144,15 +129,3 @@ def momocrawl(search='Kindle', **kwargs):
                               shopid=30, headers=headers, timeout=5, limit=5)
     return main([momospider, pcomespider])
 
-
-def momo_pc_event(search="Kindle", **kwargs):
-    headers = kwargs.get("headers")
-    url = "http://www.momoshop.com.tw/mosearch/%s.html" % urllib2.quote(search.encode('utf-8'))
-    momospider = MomoSpider("momo", url, SEARCH_RULE, params={"keyword": search},
-                            shopid=27, headers=headers, timeout=5, limit=3)
-    pcurl = "http://ecshweb.pchome.com.tw/search/v3.3/all/results"
-    pcomespider = PcomeSpider("pcome", pcurl, SEARCH_RULE, params={"q": search},
-                              shopid=30, headers=headers, timeout=5, limit=2)
-    greenlet = [MyGreenlet(spider) for spider in [momospider, pcomespider]]
-    itemlists = []
-    gevent.joinall(greenlet)
