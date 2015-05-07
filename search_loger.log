@@ -949,3 +949,37 @@
 2015-05-07 14:40:15,503 - baidurun.py[line:36] - DEBUG - There 5 items will be return
 
 
+2015-05-07 14:47:45,786 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:47:45,786 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:47:52,911 - Spider.py[line:71] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=iphone' , resp code is 200
+2015-05-07 14:47:52,959 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-05-07 14:47:52,960 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 14:47:55,667 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa53,333.00', 'image_url': 'http://t11.baidu.com/it/u=572522956,529870768&fm=58', 'good_url': u'http://product.suning.com/123129118.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a6073312872.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 5s\uff0816GB\uff09\uff08\u91d1\uff09\u79fb\u52a8\u8054\u901a4G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:47:58,201 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa53,568.00', 'image_url': 'http://t10.baidu.com/it/u=867051540,426763652&fm=58', 'good_url': u'http://product.suning.com/105649352.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a6073312869.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 5s\uff0816GB\uff09\uff08\u91d1\uff09\u79fb\u52a84G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:48:00,562 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa57,488.00', 'image_url': 'http://t12.baidu.com/it/u=1717178492,3984585509&fm=58', 'good_url': u'http://product.suning.com/123153780.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a5282171457.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 6 Plus\uff08128G\uff09\uff08\u94f6\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:48:02,828 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa54,999.00', 'image_url': 'http://t11.baidu.com/it/u=1346681461,1415412039&fm=58', 'good_url': u'http://product.suning.com/123153627.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a4590622838.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 6 \uff0816G\uff09\uff08\u7070\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:48:05,323 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa55,788.00', 'image_url': 'http://t10.baidu.com/it/u=988076157,3268887818&fm=58', 'good_url': u'http://product.suning.com/123153767.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11232413630.a4517286387.pb', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone 6 Plus\uff0816G\uff09\uff08\u7070\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 14:48:05,335 - baidurun.py[line:36] - DEBUG - There 5 items will be return
+
+
+2015-05-07 14:48:11,138 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 14:48:11,138 - baidurun.py[line:28] - INFO - Keywords is : [ iphone ]
+2015-05-07 14:48:12,028 - Spider.py[line:71] - INFO - [spider: pcome] Request for  'http://ecshweb.pchome.com.tw/search/v3.3/all/results?q=iphone' , resp code is 200
+2015-05-07 14:48:12,029 - pcomespider.py[line:15] - INFO - Spider is [ pcome ]
+2015-05-07 14:48:12,029 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:48:12,029 - pcomespider.py[line:29] - INFO - {'price': '29500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201411/D/G/A/L/U/M/sDGALUM-A9005P5AN000_546da5a74a953.jpg', 'shopid': 30, 'good_name': u'Apple iPhone 6 Plus (64G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALUM-A9005P5AN'}
+2015-05-07 14:48:12,029 - pcomespider.py[line:28] - INFO - pcome crawler item
+2015-05-07 14:48:12,029 - pcomespider.py[line:29] - INFO - {'price': '22500', 'image_url': u'http://ec1img.pchome.com.tw/pic/v1/data/item/201410/D/G/A/L/O/L/sDGALOL-A9005HXQJ000_543b6ff326631.png', 'shopid': 30, 'good_name': u'Apple iPhone 6 (16G)', 'good_url': u'http://24h.pchome.com.tw/prod/DGALOL-A9005HXQJ'}
+2015-05-07 14:48:13,048 - Spider.py[line:71] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/iphone.html?keyword=iphone' , resp code is 200
+2015-05-07 14:48:13,048 - Spider.py[line:97] - INFO - Spider is [ momo ]
+2015-05-07 14:48:13,091 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:48:13,092 - Spider.py[line:112] - INFO - {'price': '1680', 'image_url': '/goodsimg/0003/110/882/3110882_Z.jpg?t=1421340713', 'shopid': 27, 'good_name': u'\u3010GARMMA\u3011Hello Kitty iPhone6 Plus 5.5\u540b\u5074\u6380\u5f0f\u647a\u758a\u76ae\u5957(\u7d62\u9e97\u7cfb\u5217)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3110882&Area=search&mdiv=403'}
+2015-05-07 14:48:13,092 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:48:13,092 - Spider.py[line:112] - INFO - {'price': '188', 'image_url': '/goodsimg/0003/170/572/3170572_Z.jpg?t=1424171287', 'shopid': 27, 'good_name': u'iPhone6 Plus 5.5\u540b\u8d85\u8584\u900f\u660e\u624b\u6a5f\u6e05\u6c34\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3170572&Area=search&mdiv=403'}
+2015-05-07 14:48:13,092 - Spider.py[line:111] - INFO - momo crawler item
+2015-05-07 14:48:13,092 - Spider.py[line:112] - INFO - {'price': '680', 'image_url': '/goodsimg/0003/248/354/3248354_Z.jpg?t=1428510344', 'shopid': 27, 'good_name': u'\u3010RHINO SHIELD\u7280\u725b\u76fe\u3011iPhone6 Plus 5.5\u540b\u5c08\u7528 \u79d1\u6280\u7de9\u885d\u6750\u8cea\u8010\u885d\u64ca\u908a\u6846\u6bbc(\u7da0\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3248354&Area=search&mdiv=403'}
+2015-05-07 14:48:13,095 - baidurun.py[line:36] - DEBUG - There 5 items will be return
+
+

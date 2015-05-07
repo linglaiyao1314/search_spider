@@ -1,5 +1,5 @@
 # coding=utf-8
-from engin.main import bdcrawl, momocrawl, momo_pc_event
+from engin.main import bdcrawl, momocrawl
 import json
 from flask import Flask, request
 from engin.logs import search_logger
