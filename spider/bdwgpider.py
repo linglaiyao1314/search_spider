@@ -14,7 +14,7 @@ class BdSpider(CommandSearchSpider):
         super(BdSpider, self).__init__(name, start_urls, rule, **kwargs)
         self.kwargs["timeout"] = 10
 
-    def parse_item(self, limit):
+    def parse_item(self):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
             xbody = self.get_html_body_by_lxml(resp)
@@ -25,7 +25,7 @@ class BdSpider(CommandSearchSpider):
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
             ):
-                if self._extract_count >= int(limit):
+                if self._extract_count >= int(self.limit):
                     break
                 try:
                     items = Item()

@@ -8,12 +8,11 @@ class SunSpider(SearchSpider):
     def __init__(self, name, start_urls, rule, **kwargs):
         super(SunSpider, self).__init__(name, start_urls, rule, **kwargs)
 
-    def parse_item(self, limit):
+    def parse_item(self):
         for resp in self.make_request():
-            show_state("Spider is ->", self._name)
             goods = json.loads(resp.content)['goods']
             for element in goods:
-                if self._extract_count >= int(limit):
+                if self._extract_count >= int(self.limit):
                     break
                 items = Item(shopid=self.kwargs.get("shopid", 8))
                 items[GOOD_NAME] = element['catentdesc']
@@ -21,7 +20,6 @@ class SunSpider(SearchSpider):
                 items[IMAGE_URL] = r"http://image"+element['articlePoint']+r".suning.cn/b2c/catentries/"+r"000000000"+\
                                    element['partnumber']+r"_1_160x160.jpg"
                 items[GOOD_URL] = r"http://m.suning.com/product/" + element['partnumber'] + ".html"
-                show_state("%s crawler item" % self._name, items)
                 self._extract_count += 1
                 self._itemlist.append(items)
 

@@ -17,12 +17,12 @@ class JdSpider(CommandSearchSpider):
     def get_all(self, body):
         return re.findall(self.pattern, body)
 
-    def parse_item(self, limit):
+    def parse_item(self):
         for resp in self.make_request():
             goods = self.get_all(resp.content)
             search_logger.info("request for items in 京东...")
             for element in goods:
-                if self._extract_count >= int(limit):
+                if self._extract_count >= int(self.limit):
                     break
                 element = json.loads(element)
                 items = Item(shopid=self.kwargs.get("shopid", 1))
@@ -40,7 +40,7 @@ class JdSpider(CommandSearchSpider):
         search_logger.info("already catach %d items, and request for cate.... cate is [ %s ] "
                            % (len(self.get_itemlist()), cate))
         for items in self.get_itemlist():
-            str_items = {key: value.strip() for key, value in items.items() if hasattr(value, "strip")}
+            str_items = dict((key, value.strip()) for key, value in items.items() if hasattr(value, "strip"))
             str_items[PRICE] = handler_price(str_items[PRICE])
             str_items[IMAGE_URL] = str_items[IMAGE_URL].replace('n4', 'n7', 1)
             itemlist.append([items['shopid'], str_items[GOOD_NAME], str_items[PRICE],
@@ -65,7 +65,7 @@ class JdSpiderPc(CommandSearchSpider):
         search_logger.info("Xpath parse is---> %s" % xpath_content)
         return xpath_content
 
-    def parse_item(self, limit):
+    def parse_item(self):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
             xbody = self.get_html_body_by_lxml(resp)
@@ -76,7 +76,7 @@ class JdSpiderPc(CommandSearchSpider):
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
             ):
-                if self._extract_count >= int(limit):
+                if self._extract_count >= int(self.limit):
                     break
                 try:
                     items = Item()
@@ -95,7 +95,7 @@ class JdSpiderPc(CommandSearchSpider):
     def format_item(self):
         itemlist = []
         for items in self.get_itemlist():
-            str_items = {key: value.strip() for key, value in items.items() if hasattr(value, "strip")}
+            str_items = dict((key, value.strip()) for key, value in items.items() if hasattr(value, "strip"))
             str_items[PRICE] = handler_price(str_items[PRICE])
             str_items[IMAGE_URL] = str_items[IMAGE_URL].replace('n9', 'n7', 1)
             str_items[GOOD_URL] = self.parse_phone_url(str_items[GOOD_URL])

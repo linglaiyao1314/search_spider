@@ -1,5 +1,5 @@
 # coding=utf-8
-from engin.main import bdcrawl, momocrawl
+from engin.main import bdcrawl, momocrawl, momo_pc_event
 import json
 from flask import Flask, request
 from engin.logs import search_logger
@@ -23,15 +23,14 @@ def json_result():
     search_logger.info(".........START to ..........Search...................\n")
     if request.method == 'GET' or request.method == "POST":
         keywords = request.args.get("keywords", None)
-        count = request.args.get("count", 1)
-        types = request.args.get("type", None)
         shop = request.args.get("shop", "all")
         country_id = int(request.args.get("country_id", 1))
         search_logger.info("Keywords is : [ %s ]" % keywords)
         if country_id == 1:
-            result = bdcrawl(keywords, count=count, types=types, headers=HEADERS, shop=shop)
+            result = bdcrawl(keywords, headers=HEADERS, shop=shop)
         elif country_id == 2:
-            result = momocrawl(keywords, count=count, types=types, headers=HEADERS, shop=shop)
+            result = momocrawl(keywords, headers=HEADERS, shop=shop)
+            # result = momo_pc_event(keywords, headers=HEADERS, shop=shop)
         else:
             result = []
         search_logger.debug("There %d items will be return\n\n" % len(result))
@@ -39,5 +38,5 @@ def json_result():
 
 
 if __name__ == '__main__':
-    app.run("0.0.0.0", 8888)
-    # app.run()
+    # app.run("0.0.0.0", 8888)
+    app.run()

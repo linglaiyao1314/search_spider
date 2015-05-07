@@ -110,6 +110,18 @@ SEARCH_RULE = {
     },
 
 
+    "pcome": {
+        "domain": "http://ecshweb.pchome.com.tw/",
+        "kwargs": {},
+        "RuleOfItem": {
+            GOOD_NAME: "//p[@id='goods_name']//a//text()",
+            PRICE: "//span[@class='money']//b//text()",
+            IMAGE_URL: "//ul[@id='column']//li//a//img//@src",
+            GOOD_URL: "//p[@id='goods_name']//a//@href",
+        }
+    },
+
+
 
 }
 
