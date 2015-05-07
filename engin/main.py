@@ -11,6 +11,7 @@ import urllib2
 import gevent
 import gevent.monkey
 from gevent import Greenlet
+import random
 gevent.monkey.patch_all()
 
 
@@ -69,7 +70,9 @@ def main(spiders):
         thread.join(timeout=5)
     for thread in threads:
         itemlist.extend(thread.getresult())
-    return itemlist
+    samples = 5 if len(itemlist) >= 5 else len(itemlist)
+    random.shuffle(itemlist)
+    return random.sample(itemlist, samples)
 
 
 def crawl(search="Kindle", **kwargs):
@@ -135,10 +138,10 @@ def momocrawl(search='Kindle', **kwargs):
     headers = kwargs.get("headers")
     url = "http://www.momoshop.com.tw/mosearch/%s.html" % urllib2.quote(search.encode('utf-8'))
     momospider = MomoSpider("momo", url, SEARCH_RULE, params={"keyword": search},
-                            shopid=27, headers=headers, timeout=5, limit=3)
+                            shopid=27, headers=headers, timeout=5, limit=5)
     pcurl = "http://ecshweb.pchome.com.tw/search/v3.3/all/results"
     pcomespider = PcomeSpider("pcome", pcurl, SEARCH_RULE, params={"q": search},
-                              shopid=30, headers=headers, timeout=5, limit=2)
+                              shopid=30, headers=headers, timeout=5, limit=5)
     return main([momospider, pcomespider])
 
 

@@ -6,6 +6,9 @@ from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
 from filter_help import *
 import urlparse
 from logs import search_logger
+from gevent import monkey
+
+monkey.patch_all()
 
 
 class Item(dict):
