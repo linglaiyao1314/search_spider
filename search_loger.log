@@ -4702,3 +4702,31 @@
 2015-05-07 16:23:30,122 - baidurun.py[line:36] - DEBUG - There 5 items will be return
 
 
+2015-05-07 17:51:28,203 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 17:51:28,230 - baidurun.py[line:28] - INFO - Keywords is : [ 手机 ]
+2015-05-07 17:51:29,132 - Spider.py[line:74] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E6%89%8B%E6%9C%BA' , resp code is 200
+2015-05-07 17:51:29,167 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-05-07 17:51:29,167 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 17:51:29,283 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52,388.00', 'image_url': 'http://t12.baidu.com/it/u=416354168,1490279728&fm=58', 'good_url': u'http://product.suning.com/108666708.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11245141644.a6044565416.pb', 'good_name': u'\u534e\u4e3a\u624b\u673aP7-L05 \u79fb\u52a8\u7248 (\u9ed1\u8272)', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:51:29,394 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa53,720.00', 'image_url': 'http://t12.baidu.com/it/u=3904015307,2759824271&fm=58', 'good_url': u'http://product.suning.com/124390039.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11245141644.a5279380055.pb', 'good_name': u'\u534e\u4e3a\u624b\u673a Mate7 MT7-TL10 \u79fb\u52a8/\u8054\u901a4G ( \u7425\u73c0\u91d1) \u9ad8\u914d\u7248', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:51:29,601 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5299.00', 'image_url': 'http://t11.baidu.com/it/u=4045873429,2992109044&fm=58', 'good_url': u'http://union.click.jd.com/sem.php?source=baidu-weigou&unionId=262767352&siteId=baiduweigou_e62c32829e0f4a3faa17cbd285c24645&to=http%3A%2F%2Fitem.jd.com%2F1373319565.html', 'good_name': u'\u6d77\u5c14HG-M680 GSM\u4e09\u9632\u8001\u4eba\u624b\u673a \u53cc\u5361 \u9ed1', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:51:30,358 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,239.00', 'image_url': 'http://t12.baidu.com/it/u=1383868934,1672401561&fm=58', 'good_url': u'http://union.click.jd.com/sem.php?source=baidu-weigou&unionId=262767352&siteId=baiduweigou_e62c32829e0f4a3faa17cbd285c24645&to=http%3A%2F%2Fitem.jd.com%2F1106502.html', 'good_name': u'\u98de\u5229\u6d66 W6618 3G\u624b\u673a\uff08\u6df1\u84dd\uff09WCDMA/GSM \u53cc\u5361\u53cc\u5f85', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:51:30,463 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52,710.00', 'image_url': 'http://t12.baidu.com/it/u=451393271,3895407251&fm=58', 'good_url': u'http://product.suning.com/123596248.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11245141644.a3331102038.pb', 'good_name': u'\u534e\u4e3a Mate7 MT7-CL00\uff08\u6708\u5149\u94f6\uff09\u6807\u914d \u7535\u4fe14G\u624b\u673a \u53cc\u5361\u53cc\u5f85', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:51:30,479 - baidurun.py[line:36] - DEBUG - There 5 items will be return
+
+
+2015-05-07 17:52:28,638 - baidurun.py[line:23] - INFO - .........START to ..........Search...................
+
+2015-05-07 17:52:28,640 - baidurun.py[line:28] - INFO - Keywords is : [ 手机 ]
+2015-05-07 17:52:29,538 - Spider.py[line:74] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E6%89%8B%E6%9C%BA' , resp code is 200
+2015-05-07 17:52:29,592 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-05-07 17:52:29,592 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-07 17:52:29,733 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52,388.00', 'image_url': 'http://t12.baidu.com/it/u=416354168,1490279728&fm=58', 'good_url': u'http://product.suning.com/108666708.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11245141644.a6044565416.pb', 'good_name': u'\u534e\u4e3a\u624b\u673aP7-L05 \u79fb\u52a8\u7248 (\u9ed1\u8272)', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:52:29,813 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa53,720.00', 'image_url': 'http://t12.baidu.com/it/u=3904015307,2759824271&fm=58', 'good_url': u'http://product.suning.com/124390039.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11245141644.a5279380055.pb', 'good_name': u'\u534e\u4e3a\u624b\u673a Mate7 MT7-TL10 \u79fb\u52a8/\u8054\u901a4G ( \u7425\u73c0\u91d1) \u9ad8\u914d\u7248', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:52:30,010 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5299.00', 'image_url': 'http://t11.baidu.com/it/u=4045873429,2992109044&fm=58', 'good_url': u'http://union.click.jd.com/sem.php?source=baidu-weigou&unionId=262767352&siteId=baiduweigou_e62c32829e0f4a3faa17cbd285c24645&to=http%3A%2F%2Fitem.jd.com%2F1373319565.html', 'good_name': u'\u6d77\u5c14HG-M680 GSM\u4e09\u9632\u8001\u4eba\u624b\u673a \u53cc\u5361 \u9ed1', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:52:30,207 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,239.00', 'image_url': 'http://t12.baidu.com/it/u=1383868934,1672401561&fm=58', 'good_url': u'http://union.click.jd.com/sem.php?source=baidu-weigou&unionId=262767352&siteId=baiduweigou_e62c32829e0f4a3faa17cbd285c24645&to=http%3A%2F%2Fitem.jd.com%2F1106502.html', 'good_name': u'\u98de\u5229\u6d66 W6618 3G\u624b\u673a\uff08\u6df1\u84dd\uff09WCDMA/GSM \u53cc\u5361\u53cc\u5f85', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:52:30,286 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa52,710.00', 'image_url': 'http://t12.baidu.com/it/u=451393271,3895407251&fm=58', 'good_url': u'http://product.suning.com/123596248.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E9%80%9A%E8%AE%AF+%E6%89%8B%E6%9C%BAj&utm_term=u3764966.c0.g0.k11245141644.a3331102038.pb', 'good_name': u'\u534e\u4e3a Mate7 MT7-CL00\uff08\u6708\u5149\u94f6\uff09\u6807\u914d \u7535\u4fe14G\u624b\u673a \u53cc\u5361\u53cc\u5f85', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-07 17:52:30,289 - baidurun.py[line:36] - DEBUG - There 5 items will be return
+
+
