@@ -3,15 +3,16 @@ import threading
 from spider.jdspider import JdSpider, JdSpiderPc
 from spider.momospider import MomoSpider
 from spider.pcomespider import PcomeSpider
+from spider.pinglespider import PingleSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
 from spider.bdwgpider import BdSpider
 from logs import search_logger
 import urllib2
-import gevent
-import gevent.monkey
 import random
-gevent.monkey.patch_all()
+import urllib
+import urlparse
+# gevent.monkey.patch_all()
 
 
 def init_start_urls(url, rule, **kwargs):
@@ -129,3 +130,11 @@ def momocrawl(search='Kindle', **kwargs):
                               shopid=30, headers=headers, timeout=5, limit=5)
     return main([momospider, pcomespider])
 
+
+def pinglecrawl(search="Kindle", **kwargs):
+    headers = kwargs.get("headers")
+    keywords = urllib.quote(search.encode("utf8"))
+    pgurl = "http://www.pingle.com.tw/q/%s" % keywords
+    pinglespider = PingleSpider("pingle", pgurl, SEARCH_RULE, shopid=999, headers=headers, timeout=5, limit=5)
+    pinglespider.parse_item()
+    return pinglespider.format_item()

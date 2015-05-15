@@ -78,8 +78,11 @@ class Spider(object):
         """
         根据给定的请求进行转编码处理
         """
-        text = unicode(response.content, response.encoding)
-        xpath_content = etree.HTML(text)
+        try:
+            text = unicode(response.content, response.encoding)
+            xpath_content = etree.HTML(text)
+        except:
+            xpath_content = etree.HTML(response.content)
         return xpath_content
 
 

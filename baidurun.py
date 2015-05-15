@@ -1,5 +1,5 @@
 # coding=utf-8
-from engin.main import bdcrawl, momocrawl
+from engin.main import bdcrawl, momocrawl, pinglecrawl
 import json
 from flask import Flask, request
 from engin.logs import search_logger
@@ -7,7 +7,8 @@ from engin.logs import search_logger
 app = Flask(__name__)
 app.debug = False
 
-HEADERS = {}
+HEADERS = {"User-Agent":
+               "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"}
 
 
 def activity_api(itemlist):
@@ -29,7 +30,9 @@ def json_result():
         if country_id == 1:
             result = bdcrawl(keywords, headers=HEADERS, shop=shop)
         elif country_id == 2:
-            result = momocrawl(keywords, headers=HEADERS, shop=shop)
+            result = pinglecrawl(keywords, headers=HEADERS, shop=shop)
+            if not result:
+                result = momocrawl(keywords, headers=HEADERS, shop=shop)
             # result = momo_pc_event(keywords, headers=HEADERS, shop=shop)
         else:
             result = []

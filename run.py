@@ -1,9 +1,7 @@
 # coding=utf-8
-from engin.main import crawl, bdcrawl
-import json
+from engin.main import crawl
 from flask import Flask, request
-import sys
-
+import json
 app = Flask(__name__)
 app.debug = False
 HEADERS = {}

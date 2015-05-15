@@ -122,6 +122,18 @@ SEARCH_RULE = {
     },
 
 
+    "pingle": {
+        "domain": "https://www.pingle.com.tw/",
+        "kwargs": {},
+        "RuleOfItem": {
+            GOOD_NAME: "//div[@class='PWord']//h3//text()",
+            PRICE: "//div[@class='PPrice']//text()",
+            IMAGE_URL: "//div[@class='PImg']//img//@src",
+            GOOD_URL: "//div[@class='PWord']//a//@href",
+        }
+    },
+
+
 
 }
 

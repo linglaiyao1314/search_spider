@@ -1,6 +1,6 @@
 # coding=utf-8
 from engin.Spider import Item, CommandSearchSpider
-from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL, SEARCH_RULE
+from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
 from engin.filter_help import *
 import json
 import requests
