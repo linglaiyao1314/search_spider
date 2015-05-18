@@ -5502,3 +5502,111 @@ fucn
 2015-05-15 11:28:23,776 - baidurun.py[line:41] - DEBUG - There 5 items will be return
 
 
+2015-05-15 11:37:46,690 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-15 11:37:46,691 - baidurun.py[line:30] - INFO - Keywords is : [ 电脑 ]
+2015-05-15 11:37:52,984 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200
+2015-05-15 11:37:52,986 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-15 11:37:52,999 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:37:52,999 - Spider.py[line:118] - INFO - {'price': '$389', 'image_url': 'https://s.yimg.com/hg/pimg1/e7/61/p006124059792-item-0680xf1x0500x0500-m.jpg', 'shopid': 999, 'good_name': u'\u9ad8\u8cea\u611f\u83f1\u683c\u7d0b\u76ae\u5957\u652f\u67b6 iPad mini\u5c08\u7528 \u5e73\u677f\u7535\u8111\u4fdd\u8b77\u5957 \u85cd\u8272 4228-6\u2605\u8fea\u98db\u4e9e\u2605\u6b3e\u5f0f\u6700\u9f4a\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006124059792&pi=4075576&e=3&m=0&si=340k32whp2grpimjyh2d5rv5&aps=pingle_web'}
+2015-05-15 11:37:52,999 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:37:52,999 - Spider.py[line:118] - INFO - {'price': '$1,390', 'image_url': 'https://s.yimg.com/hg/pimg2/f7/2f/p018765826098-item-8834xf2x0600x0600-m.jpg', 'shopid': 999, 'good_name': u'\u3010MIX \u578b\u7537\u6703\u793e\u3011WLP210  03/12\u65f6\u5c1a\u6b63\u54c1\u7537\u58eb\u5355\u80a9\u5305\u4f11\u95f2\u7ffb\u76d6\u7537\u5305\u659c\u630e\u5305\u5305\u53ef\u653e\u7535\u8111\u55ae\u80a9\u5305', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp018765826098&pi=10082849&e=3&m=0&si=340k32whp2grpimjyh2d5rv5&aps=pingle_web'}
+2015-05-15 11:37:52,999 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:37:52,999 - Spider.py[line:118] - INFO - {'price': '$539', 'image_url': 'https://s.yimg.com/hg/pimg1/83/2f/p095421205199-item-8873xf1x0468x0470-m.jpg', 'shopid': 999, 'good_name': u'\u4f73\u7de3\u7cbe\u54c1 Hello Kitty/KT\u732b/\u51ef\u8482\u732b\u624b\u63d0\u5185\u80c6\u5305/\u5185\u80c6\u5957/\u7535\u8111\u5305/\u786c\u58f3\u96fb\u8166\u530510\u5bf8', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp095421205199&pi=3300459&e=3&m=0&si=340k32whp2grpimjyh2d5rv5&aps=pingle_web'}
+2015-05-15 11:37:52,999 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:37:52,999 - Spider.py[line:118] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 999, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=340k32whp2grpimjyh2d5rv5&aps=pingle_web'}
+2015-05-15 11:37:52,999 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:37:52,999 - Spider.py[line:118] - INFO - {'price': '$265', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M18724832_big.jpg?pimg=static&P=1415259794', 'shopid': 999, 'good_name': u'\u4e09\u661fNote 10.1 P600/P601\u5e73\u677f\u7535\u8111\u76ae\u5957GT-N8000\u4fdd\u62a4\u5957 N8010\u76ae\u5957', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fphonex2%2fM18724832.htm&pi=11106037&e=2&m=0&si=340k32whp2grpimjyh2d5rv5&aps=pingle_web'}
+2015-05-15 11:37:53,000 - baidurun.py[line:40] - DEBUG - There 5 items will be return
+
+
+2015-05-15 11:38:42,509 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-15 11:38:42,510 - baidurun.py[line:30] - INFO - Keywords is : [ 电脑 ]
+2015-05-15 11:38:49,009 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200
+2015-05-15 11:38:49,009 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-15 11:38:49,035 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:38:49,035 - Spider.py[line:118] - INFO - {'price': '$389', 'image_url': 'https://s.yimg.com/hg/pimg1/e7/61/p006124059792-item-0680xf1x0500x0500-m.jpg', 'shopid': 999, 'good_name': u'\u9ad8\u8cea\u611f\u83f1\u683c\u7d0b\u76ae\u5957\u652f\u67b6 iPad mini\u5c08\u7528 \u5e73\u677f\u7535\u8111\u4fdd\u8b77\u5957 \u85cd\u8272 4228-6\u2605\u8fea\u98db\u4e9e\u2605\u6b3e\u5f0f\u6700\u9f4a\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006124059792&pi=4075576&e=3&m=0&si=ruyn4opmrxmx41ufnzpq5dgu&aps=pingle_web'}
+2015-05-15 11:38:49,036 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:38:49,036 - Spider.py[line:118] - INFO - {'price': '$1,390', 'image_url': 'https://s.yimg.com/hg/pimg2/f7/2f/p018765826098-item-8834xf2x0600x0600-m.jpg', 'shopid': 999, 'good_name': u'\u3010MIX \u578b\u7537\u6703\u793e\u3011WLP210  03/12\u65f6\u5c1a\u6b63\u54c1\u7537\u58eb\u5355\u80a9\u5305\u4f11\u95f2\u7ffb\u76d6\u7537\u5305\u659c\u630e\u5305\u5305\u53ef\u653e\u7535\u8111\u55ae\u80a9\u5305', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp018765826098&pi=10082849&e=3&m=0&si=ruyn4opmrxmx41ufnzpq5dgu&aps=pingle_web'}
+2015-05-15 11:38:49,036 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:38:49,036 - Spider.py[line:118] - INFO - {'price': '$539', 'image_url': 'https://s.yimg.com/hg/pimg1/83/2f/p095421205199-item-8873xf1x0468x0470-m.jpg', 'shopid': 999, 'good_name': u'\u4f73\u7de3\u7cbe\u54c1 Hello Kitty/KT\u732b/\u51ef\u8482\u732b\u624b\u63d0\u5185\u80c6\u5305/\u5185\u80c6\u5957/\u7535\u8111\u5305/\u786c\u58f3\u96fb\u8166\u530510\u5bf8', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp095421205199&pi=3300459&e=3&m=0&si=ruyn4opmrxmx41ufnzpq5dgu&aps=pingle_web'}
+2015-05-15 11:38:49,036 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:38:49,036 - Spider.py[line:118] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 999, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=ruyn4opmrxmx41ufnzpq5dgu&aps=pingle_web'}
+2015-05-15 11:38:49,036 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:38:49,036 - Spider.py[line:118] - INFO - {'price': '$265', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M18724832_big.jpg?pimg=static&P=1415259794', 'shopid': 999, 'good_name': u'\u4e09\u661fNote 10.1 P600/P601\u5e73\u677f\u7535\u8111\u76ae\u5957GT-N8000\u4fdd\u62a4\u5957 N8010\u76ae\u5957', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fphonex2%2fM18724832.htm&pi=11106037&e=2&m=0&si=ruyn4opmrxmx41ufnzpq5dgu&aps=pingle_web'}
+2015-05-15 11:38:49,038 - baidurun.py[line:40] - DEBUG - There 5 items will be return
+
+
+2015-05-15 11:45:36,203 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-15 11:45:36,206 - baidurun.py[line:30] - INFO - Keywords is : [ 电脑 ]
+2015-05-15 11:45:43,069 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200
+2015-05-15 11:45:43,069 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-15 11:45:43,078 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:45:43,078 - Spider.py[line:118] - INFO - {'price': '$389', 'image_url': 'https://s.yimg.com/hg/pimg1/e7/61/p006124059792-item-0680xf1x0500x0500-m.jpg', 'shopid': 999, 'good_name': u'\u9ad8\u8cea\u611f\u83f1\u683c\u7d0b\u76ae\u5957\u652f\u67b6 iPad mini\u5c08\u7528 \u5e73\u677f\u7535\u8111\u4fdd\u8b77\u5957 \u85cd\u8272 4228-6\u2605\u8fea\u98db\u4e9e\u2605\u6b3e\u5f0f\u6700\u9f4a\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006124059792&pi=4075576&e=3&m=0&si=ypovjtg2zjwkocoxa5nyqr23&aps=pingle_web'}
+2015-05-15 11:45:43,078 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:45:43,078 - Spider.py[line:118] - INFO - {'price': '$1,390', 'image_url': 'https://s.yimg.com/hg/pimg2/f7/2f/p018765826098-item-8834xf2x0600x0600-m.jpg', 'shopid': 999, 'good_name': u'\u3010MIX \u578b\u7537\u6703\u793e\u3011WLP210  03/12\u65f6\u5c1a\u6b63\u54c1\u7537\u58eb\u5355\u80a9\u5305\u4f11\u95f2\u7ffb\u76d6\u7537\u5305\u659c\u630e\u5305\u5305\u53ef\u653e\u7535\u8111\u55ae\u80a9\u5305', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp018765826098&pi=10082849&e=3&m=0&si=ypovjtg2zjwkocoxa5nyqr23&aps=pingle_web'}
+2015-05-15 11:45:43,078 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:45:43,078 - Spider.py[line:118] - INFO - {'price': '$539', 'image_url': 'https://s.yimg.com/hg/pimg1/83/2f/p095421205199-item-8873xf1x0468x0470-m.jpg', 'shopid': 999, 'good_name': u'\u4f73\u7de3\u7cbe\u54c1 Hello Kitty/KT\u732b/\u51ef\u8482\u732b\u624b\u63d0\u5185\u80c6\u5305/\u5185\u80c6\u5957/\u7535\u8111\u5305/\u786c\u58f3\u96fb\u8166\u530510\u5bf8', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp095421205199&pi=3300459&e=3&m=0&si=ypovjtg2zjwkocoxa5nyqr23&aps=pingle_web'}
+2015-05-15 11:45:43,078 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:45:43,078 - Spider.py[line:118] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 999, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=ypovjtg2zjwkocoxa5nyqr23&aps=pingle_web'}
+2015-05-15 11:45:43,078 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-15 11:45:43,078 - Spider.py[line:118] - INFO - {'price': '$265', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M18724832_big.jpg?pimg=static&P=1415259794', 'shopid': 999, 'good_name': u'\u4e09\u661fNote 10.1 P600/P601\u5e73\u677f\u7535\u8111\u76ae\u5957GT-N8000\u4fdd\u62a4\u5957 N8010\u76ae\u5957', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fphonex2%2fM18724832.htm&pi=11106037&e=2&m=0&si=ypovjtg2zjwkocoxa5nyqr23&aps=pingle_web'}
+2015-05-15 11:45:43,079 - baidurun.py[line:40] - DEBUG - There 5 items will be return
+
+
+2015-05-18 14:27:18,426 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-18 14:27:18,670 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-18 14:27:19,635 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-18 14:27:19,637 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-18 14:27:19,647 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:27:19,648 - Spider.py[line:118] - INFO - {'price': '$150', 'image_url': 'https://s.yimg.com/hg/pimg1/60/c0/p046472170897-item-1228xf1x0600x0450-m.jpg', 'shopid': 999, 'good_name': u'\u3010\u4e16\u660e\u570b\u969b\u3011\u5c0f\u7c73\u624b\u74b0\u539f\u88c5\u5f69\u8272\u8155\u5e26 \u70ab\u5f69\u8155\u5e26 \u5c0f\u7c73\u624b\u73af\u5f69\u8272\u66ff\u6362\u8155\u5e26', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp046472170897&pi=10058307&e=3&m=0&si=uisxngwy1ziuauquzga24ae3&aps=pingle_web'}
+2015-05-18 14:27:19,648 - baidurun.py[line:40] - DEBUG - There 1 items will be return
+
+
+2015-05-18 14:28:04,885 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-18 14:28:04,885 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-18 14:28:08,453 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-18 14:28:08,453 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-18 14:28:08,457 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:28:08,457 - Spider.py[line:118] - INFO - {'price': '$150', 'image_url': 'https://s.yimg.com/hg/pimg1/60/c0/p046472170897-item-1228xf1x0600x0450-m.jpg', 'shopid': 999, 'good_name': u'\u3010\u4e16\u660e\u570b\u969b\u3011\u5c0f\u7c73\u624b\u74b0\u539f\u88c5\u5f69\u8272\u8155\u5e26 \u70ab\u5f69\u8155\u5e26 \u5c0f\u7c73\u624b\u73af\u5f69\u8272\u66ff\u6362\u8155\u5e26', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp046472170897&pi=10058307&e=3&m=0&si=xyekatpp0vsa3mrmbtjfsxps&aps=pingle_web'}
+2015-05-18 14:28:08,459 - baidurun.py[line:40] - DEBUG - There 1 items will be return
+
+
+2015-05-18 14:28:31,398 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-18 14:28:31,398 - baidurun.py[line:30] - INFO - Keywords is : [ 电脑 ]
+2015-05-18 14:28:32,627 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200
+2015-05-18 14:28:32,627 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-18 14:28:32,637 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:28:32,637 - Spider.py[line:118] - INFO - {'price': '$539', 'image_url': 'https://s.yimg.com/hg/pimg1/83/2f/p095421205199-item-8873xf1x0468x0470-m.jpg', 'shopid': 999, 'good_name': u'\u4f73\u7de3\u7cbe\u54c1 Hello Kitty/KT\u732b/\u51ef\u8482\u732b\u624b\u63d0\u5185\u80c6\u5305/\u5185\u80c6\u5957/\u7535\u8111\u5305/\u786c\u58f3\u96fb\u8166\u530510\u5bf8', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp095421205199&pi=3300459&e=3&m=0&si=pwwysajhalebbkq4xbcomlul&aps=pingle_web'}
+2015-05-18 14:28:32,637 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:28:32,637 - Spider.py[line:118] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 999, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=pwwysajhalebbkq4xbcomlul&aps=pingle_web'}
+2015-05-18 14:28:32,637 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:28:32,637 - Spider.py[line:118] - INFO - {'price': '$265', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M18724832_big.jpg?pimg=static&P=1415259794', 'shopid': 999, 'good_name': u'\u4e09\u661fNote 10.1 P600/P601\u5e73\u677f\u7535\u8111\u76ae\u5957GT-N8000\u4fdd\u62a4\u5957 N8010\u76ae\u5957', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fphonex2%2fM18724832.htm&pi=11106037&e=2&m=0&si=pwwysajhalebbkq4xbcomlul&aps=pingle_web'}
+2015-05-18 14:28:32,637 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:28:32,637 - Spider.py[line:118] - INFO - {'price': '$250', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M18724592_big.jpg?pimg=static&P=1415258746', 'shopid': 999, 'good_name': u'\u4e09\u661fT231\u4fdd\u62a4\u5957galaxy Tab4 7.0\u5bf8\u5e73\u677f\u7535\u8111\u5916\u58f3 SM-T230\u624b\u673a\u76ae\u5957', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fphonex2%2fM18724592.htm&pi=10916017&e=2&m=0&si=pwwysajhalebbkq4xbcomlul&aps=pingle_web'}
+2015-05-18 14:28:32,637 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:28:32,637 - Spider.py[line:118] - INFO - {'price': '$1,550', 'image_url': 'https://s.yimg.com/hg/pimg2/dd/54/p018765831694-item-7166xf2x0600x0600-m.jpg', 'shopid': 999, 'good_name': u'\u3010MIX \u578b\u7537\u6703\u793e\u3011WLP218  03/12\u6b63\u54c1\u7537\u5973\u80cc\u5305\u65f6\u5c1a\u4f11\u95f2\u8fd0\u52a8\u53cc\u80a9\u5305\u6709\u7535\u8111\u9694\u5c42\u5927\u5bb9\u91cf\u80cc\u5305', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp018765831694&pi=9265847&e=3&m=0&si=pwwysajhalebbkq4xbcomlul&aps=pingle_web'}
+2015-05-18 14:28:32,638 - baidurun.py[line:40] - DEBUG - There 5 items will be return
+
+
+2015-05-18 14:30:17,058 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-18 14:30:17,058 - baidurun.py[line:30] - INFO - Keywords is : [ 西瓜 ]
+2015-05-18 14:30:59,904 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-18 14:30:59,904 - baidurun.py[line:30] - INFO - Keywords is : [ 西瓜 ]
+2015-05-18 14:31:16,575 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-18 14:31:16,576 - baidurun.py[line:30] - INFO - Keywords is : [ 小米手环 ]
+2015-05-18 14:31:37,362 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-18 14:31:37,362 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-18 14:31:37,365 - Spider.py[line:117] - INFO - pingle crawler item
+2015-05-18 14:31:37,367 - Spider.py[line:118] - INFO - {'price': '$150', 'image_url': 'https://s.yimg.com/hg/pimg1/60/c0/p046472170897-item-1228xf1x0600x0450-m.jpg', 'shopid': 999, 'good_name': u'\u3010\u4e16\u660e\u570b\u969b\u3011\u5c0f\u7c73\u624b\u74b0\u539f\u88c5\u5f69\u8272\u8155\u5e26 \u70ab\u5f69\u8155\u5e26 \u5c0f\u7c73\u624b\u73af\u5f69\u8272\u66ff\u6362\u8155\u5e26', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp046472170897&pi=10058307&e=3&m=0&si=aj5asdzq0amodivhns5fi5be&aps=pingle_web'}
+2015-05-18 14:31:37,367 - baidurun.py[line:40] - DEBUG - There 1 items will be return
+
+

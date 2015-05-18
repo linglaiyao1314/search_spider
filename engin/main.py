@@ -11,8 +11,6 @@ from logs import search_logger
 import urllib2
 import random
 import urllib
-import urlparse
-# gevent.monkey.patch_all()
 
 
 def init_start_urls(url, rule, **kwargs):
@@ -135,6 +133,6 @@ def pinglecrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     keywords = urllib.quote(search.encode("utf8"))
     pgurl = "http://www.pingle.com.tw/q/%s" % keywords
-    pinglespider = PingleSpider("pingle", pgurl, SEARCH_RULE, shopid=999, headers=headers, timeout=5, limit=5)
+    pinglespider = PingleSpider("pingle", pgurl, SEARCH_RULE, shopid=33, headers=headers, timeout=5, limit=5)
     pinglespider.parse_item()
     return pinglespider.format_item()

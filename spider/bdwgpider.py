@@ -47,7 +47,7 @@ class BdSpider(CommandSearchSpider):
     def format_item(self):
         itemlist = []
         for items in self.get_itemlist():
-            str_items = {key: value.strip() for key, value in items.items() if hasattr(value, "strip")}
+            str_items = dict((key, value.strip()) for key, value in items.items() if hasattr(value, "strip"))
             str_items[PRICE] = handler_price(str_items[PRICE])
             items["shopid"] = self.parse_shopid(str_items[GOOD_URL])
             str_items[GOOD_URL] = self.converse_url(items['shopid'], str_items[GOOD_URL])
