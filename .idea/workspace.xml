@@ -60,7 +60,28 @@
     <favorites_list name="SeachSpider" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="baidurun.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baidurun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9001664" vertical-offset="689" max-vertical-offset="1470">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gevent_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gevent_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../comments" />
@@ -110,7 +131,6 @@
         <option value="$PROJECT_DIR$/engin/filter_help.py" />
         <option value="$PROJECT_DIR$/spider/pcomespider.py" />
         <option value="$PROJECT_DIR$/spider/tmspider.py" />
-        <option value="$PROJECT_DIR$/gevent_server.py" />
         <option value="$PROJECT_DIR$/spider/pinglespider.py" />
         <option value="$PROJECT_DIR$/spider/jdspider.py" />
         <option value="$PROJECT_DIR$/run.py" />
@@ -119,6 +139,7 @@
         <option value="$PROJECT_DIR$/engin/main.py" />
         <option value="$PROJECT_DIR$/spider/bdwgpider.py" />
         <option value="$PROJECT_DIR$/baidurun.py" />
+        <option value="$PROJECT_DIR$/gevent_server.py" />
       </list>
     </option>
   </component>
@@ -605,7 +626,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1021,22 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gevent_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44925123" vertical-offset="0" max-vertical-offset="601">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidurun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1470">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/amaspider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -1049,6 +1054,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.6455908" vertical-offset="1649" max-vertical-offset="4140">
           <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gevent_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidurun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9001664" vertical-offset="689" max-vertical-offset="1470">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding />
         </state>
       </provider>
