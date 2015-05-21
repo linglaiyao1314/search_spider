@@ -6063,3 +6063,17 @@ fucn
 2015-05-21 14:12:52,874 - baidurun.py[line:43] - DEBUG - There 5 items will be return
 
 
+2015-05-21 15:09:59,094 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-21 15:09:59,109 - baidurun.py[line:33] - INFO - Keywords is : [ 健康的撒谎几率较大思考 ]
+2015-05-21 15:10:00,181 - Spider.py[line:74] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%81%A5%E5%BA%B7%E7%9A%84%E6%92%92%E8%B0%8E%E5%87%A0%E7%8E%87%E8%BE%83%E5%A4%A7%E6%80%9D%E8%80%83' , resp code is 200
+2015-05-21 15:10:00,207 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-05-21 15:10:00,207 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-21 15:10:00,211 - main.py[line:113] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-05-21 15:10:01,030 - Spider.py[line:74] - INFO - [spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%81%A5%E5%BA%B7%E7%9A%84%E6%92%92%E8%B0%8E%E5%87%A0%E7%8E%87%E8%BE%83%E5%A4%A7%E6%80%9D%E8%80%83' , resp code is 200
+2015-05-21 15:10:01,032 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x313fe68>
+2015-05-21 15:10:01,033 - jdspider.py[line:73] - INFO - request for cate....and cate is [ None ]
+2015-05-21 15:10:01,033 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-05-21 15:10:01,039 - baidurun.py[line:43] - DEBUG - There 0 items will be return
+
+

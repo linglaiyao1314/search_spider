@@ -6,7 +6,7 @@ from engin.logs import search_logger
 
 
 app = Flask(__name__)
-app.debug = True
+app.debug = False
 
 HEADERS = {"User-Agent":
                "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"}
@@ -45,5 +45,5 @@ def json_result():
 
 
 if __name__ == '__main__':
-    app.run("0.0.0.0", 8888)
-    # app.run()
+    # app.run("0.0.0.0", 8888)
+    app.run()
