@@ -7,5 +7,9 @@ class PingleSpider(CommandSearchSpider):
         self.kwargs["timeout"] = 10
 
     def format_item(self):
-        return super(PingleSpider, self).format_item()
+        itemlist = super(PingleSpider, self).format_item()
+        if itemlist:
+            for item in itemlist:
+                item.append("")
+            return itemlist
 

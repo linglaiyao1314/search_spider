@@ -7,4 +7,7 @@ class MomoSpider(CommandSearchSpider):
         self.kwargs["timeout"] = 5
 
     def format_item(self):
-        return super(MomoSpider, self).format_item()
+        itemlist = super(MomoSpider, self).format_item()
+        if itemlist:
+            for item in itemlist:
+                item.append("")
