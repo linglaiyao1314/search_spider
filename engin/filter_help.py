@@ -2,7 +2,7 @@
 import re
 import time
 from contextlib import contextmanager
-from w3lib.html import remove_tags
+# from w3lib.html import remove_tags
 from logs import search_logger
 
 
