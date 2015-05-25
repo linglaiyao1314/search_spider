@@ -105,7 +105,7 @@ class JdSpiderPc(CommandSearchSpider):
         return itemlist
 
     def parse_phone_url(self, url):
-        baseurl = r"http://m.jd.com/ware/comments.json?wareId=%s"
+        baseurl = r"http://item.m.jd.com/ware/view.action?wareId=%s"
         parse_str = urlparse.urlparse(url)
         try:
             query = parse_str.query

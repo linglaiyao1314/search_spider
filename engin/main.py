@@ -107,6 +107,7 @@ def bdcrawl(search="Kindle", **kwargs):
                         headers=headers, domain="http://weigou.baidu.com/", timeout=10)
     bdspider.parse_item()
     result = bdspider.format_item()
+    # result = []
     if result:
         return result
     else:
