@@ -11,3 +11,4 @@ class MomoSpider(CommandSearchSpider):
         if itemlist:
             for item in itemlist:
                 item.append("")
+        return itemlist

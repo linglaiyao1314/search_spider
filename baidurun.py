@@ -6,7 +6,7 @@ from engin.logs import search_logger
 
 
 app = Flask(__name__)
-app.debug = False
+app.debug = True
 
 HEADERS = {"User-Agent":
                "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"}
