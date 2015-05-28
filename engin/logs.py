@@ -1,5 +1,23 @@
+# coding=utf-8
 __author__ = 'user'
 import logging
+
+INFO = logging.INFO
+DEBUG = logging.DEBUG
+ERROR = logging.ERROR
+
+COLOR = {
+    INFO: '\033[92m',  # 绿
+    ERROR: '\033[91m',  # 红
+    DEBUG: '\033[94m',  # 蓝
+    "end": "\33[0m"
+}
+
+
+# 打印上色
+def wrapstring(string, level=INFO):
+    return COLOR[level] + string + COLOR["end"]
+
 formatter = logging.Formatter('%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s - %(message)s')
 search_logger = logging.getLogger("search_loger")
 search_logger.setLevel(logging.DEBUG)

@@ -2,7 +2,7 @@
 from engin.main import bdcrawl, momocrawl, pinglecrawl
 import json
 from flask import Flask, request
-from engin.logs import search_logger
+from engin.logs import search_logger, INFO, DEBUG, ERROR, wrapstring
 
 
 app = Flask(__name__)
@@ -30,18 +30,18 @@ def json_result():
     elif request.method == 'GET':
         keywords = request.args.get("keywords", None)
         country_id = int(request.args.get("country_id", 1))
-    search_logger.info("Keywords is : [ %s ]" % keywords)
+    search_logger.info(wrapstring("Keywords is : [ %s ]" % keywords))
     if country_id == 1:
         result = bdcrawl(keywords, headers=HEADERS)
     elif country_id == 2:
         result = pinglecrawl(keywords, headers=HEADERS)
         if not result:
-            search_logger.info("Pingle have no result, so go to momo and pchome....")
+            search_logger.info(wrapstring("Pingle have no result, so go to momo and pchome...."))
             result = momocrawl(keywords, headers=HEADERS)
         # result = momo_pc_event(keywords, headers=HEADERS, shop=shop)
     else:
         result = []
-    search_logger.debug("There %d items will be return\n\n" % len(result))
+    search_logger.debug(wrapstring("There %d items will be return\n\n" % len(result), DEBUG))
     return json.dumps(activity_api(result))
 
 

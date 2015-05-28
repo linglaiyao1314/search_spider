@@ -7133,3 +7133,14 @@ fucn
 2015-05-28 11:31:04,434 - baidurun.py[line:44] - DEBUG - There 0 items will be return
 
 
+2015-05-28 11:44:47,598 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:44:47,598 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 小米手环 ][0m
+2015-05-28 11:44:57,640 - main.py[line:150] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)[0m
+2015-05-28 11:44:57,640 - baidurun.py[line:39] - INFO - [92mPingle have no result, so go to momo and pchome....[0m
+2015-05-28 11:44:59,188 - main.py[line:41] - ERROR - [91m[pcome] error-('Connection aborted.', BadStatusLine("''",))[0m
+2015-05-28 11:45:02,548 - Spider.py[line:74] - INFO - [92m[spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200[0m
+2015-05-28 11:45:02,548 - Spider.py[line:103] - INFO - [92mSpider is [ momo ][0m
+2015-05-28 11:45:02,578 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m

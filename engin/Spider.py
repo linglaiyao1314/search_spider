@@ -5,7 +5,7 @@ from lxml import etree
 from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
 from filter_help import *
 import urlparse
-from logs import search_logger
+from logs import search_logger, ERROR, INFO, DEBUG, wrapstring
 from gevent import monkey
 
 monkey.patch_all()
@@ -70,8 +70,8 @@ class Spider(object):
                                                                                 "allow_redirects", "stream", "verify",
                                                                                 "cert"])
             resp = getattr(requests, method)(url, **kwargs)
-            search_logger.info("[spider: %s] Request for  '%s' , resp code is %d" %
-                               (self._name, resp.url, resp.status_code))
+            search_logger.info(wrapstring("[spider: %s] Request for  '%s' , resp code is %d" %
+                               (self._name, resp.url, resp.status_code)))
             yield resp
 
     def get_html_body_by_lxml(self, response):
@@ -100,7 +100,7 @@ class SearchSpider(Spider):
     def parse_item(self):
         rule = self._rule["RuleOfItem"]
         for resp in self.make_request():
-            search_logger.info("Spider is [ %s ]" % self._name)
+            search_logger.info(wrapstring("Spider is [ %s ]" % self._name))
             xbody = self.get_html_body_by_lxml(resp)
             for good_name, price, image_url, good_url in zip(
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
@@ -117,7 +117,7 @@ class SearchSpider(Spider):
                     search_logger.info("%s crawler item" % self._name)
                     search_logger.info(items)
                 except:
-                    search_logger.error("items crawl wrong....from %s" % self._name, exc_info=True)
+                    search_logger.error(wrapstring("items crawl wrong....from %s" % self._name, True), exc_info=True)
                 else:
                     self._itemlist.append(items)
                     self._extract_count += 1

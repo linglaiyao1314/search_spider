@@ -7,7 +7,7 @@ from spider.pinglespider import PingleSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
 from spider.bdwgpider import BdSpider
-from logs import search_logger
+from logs import search_logger, INFO, ERROR, DEBUG, wrapstring
 import urllib2
 import random
 import urllib
@@ -38,7 +38,7 @@ class RunSpiderThread(threading.Thread):
         try:
             self.spider.parse_item()
         except Exception, e:
-            search_logger.error("[%s] error-%s" % (self.spider._name, e))
+            search_logger.error(wrapstring("[%s] error-%s" % (self.spider._name, e), ERROR))
             self.res = []
         else:
             self.res = self.spider.format_item()
@@ -113,7 +113,7 @@ def bdcrawl(search="Kindle", **kwargs):
     try:
         bdspider.parse_item()
     except Exception, e:
-        search_logger.error("[pingle] error->%s" % e)
+        search_logger.error(wrapstring("[pingle] error->%s" % e, ERROR))
         result = []
     else:
         result = bdspider.format_item()
@@ -147,7 +147,7 @@ def pinglecrawl(search="Kindle", **kwargs):
         pinglespider = PingleSpider("pingle", pgurl, SEARCH_RULE, shopid=33, headers=headers, timeout=5, limit=5)
         pinglespider.parse_item()
     except Exception, e:
-        search_logger.error("[pingle] error->%s" % e)
+        search_logger.error(wrapstring("[pingle] error->%s" % e, ERROR))
         return []
     else:
         return pinglespider.format_item()
