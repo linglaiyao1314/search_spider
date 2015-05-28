@@ -35,8 +35,13 @@ class RunSpiderThread(threading.Thread):
         self.res = []
 
     def run(self):
-        self.spider.parse_item()
-        self.res = self.spider.format_item()
+        try:
+            self.spider.parse_item()
+        except Exception, e:
+            search_logger.error("[%s] error-%s" % (self.spider._name, e))
+            self.res = []
+        else:
+            self.res = self.spider.format_item()
 
     def getresult(self):
         return self.res
@@ -105,9 +110,13 @@ def bdcrawl(search="Kindle", **kwargs):
     bdurl = init_start_urls("http://weigou.baidu.com/", URL_RULE)
     bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search},
                         headers=headers, domain="http://weigou.baidu.com/", timeout=10)
-    bdspider.parse_item()
-    result = bdspider.format_item()
-    # result = []
+    try:
+        bdspider.parse_item()
+    except Exception, e:
+        search_logger.error("[pingle] error->%s" % e)
+        result = []
+    else:
+        result = bdspider.format_item()
     if result:
         return result
     else:
@@ -134,6 +143,11 @@ def pinglecrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     keywords = urllib.quote(search.encode("utf8"))
     pgurl = "http://www.pingle.com.tw/q/%s" % keywords
-    pinglespider = PingleSpider("pingle", pgurl, SEARCH_RULE, shopid=33, headers=headers, timeout=5, limit=5)
-    pinglespider.parse_item()
-    return pinglespider.format_item()
+    try:
+        pinglespider = PingleSpider("pingle", pgurl, SEARCH_RULE, shopid=33, headers=headers, timeout=5, limit=5)
+        pinglespider.parse_item()
+    except Exception, e:
+        search_logger.error("[pingle] error->%s" % e)
+        return []
+    else:
+        return pinglespider.format_item()

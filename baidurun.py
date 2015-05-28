@@ -6,7 +6,7 @@ from engin.logs import search_logger
 
 
 app = Flask(__name__)
-app.debug = True
+app.debug = False
 
 HEADERS = {"User-Agent":
                "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"}
@@ -36,6 +36,7 @@ def json_result():
     elif country_id == 2:
         result = pinglecrawl(keywords, headers=HEADERS)
         if not result:
+            search_logger.info("Pingle have no result, so go to momo and pchome....")
             result = momocrawl(keywords, headers=HEADERS)
         # result = momo_pc_event(keywords, headers=HEADERS, shop=shop)
     else:

@@ -6975,3 +6975,161 @@ fucn
 2015-05-27 11:40:36,434 - baidurun.py[line:43] - DEBUG - There 5 items will be return
 
 
+2015-05-28 11:09:53,063 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:09:53,069 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:11:18,411 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:11:18,413 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:12:14,769 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:12:14,769 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:12:43,188 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:12:43,190 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:14:11,332 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:14:11,334 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:14:23,352 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:14:23,352 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:14:23,374 - baidurun.py[line:44] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:15:12,490 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:15:12,492 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:15:25,236 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:15:25,237 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:15:25,240 - baidurun.py[line:43] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:16:21,362 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:16:21,364 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:16:29,674 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:16:29,674 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:16:39,862 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:16:39,864 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:16:39,868 - baidurun.py[line:43] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:21:30,315 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:21:30,315 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:21:41,628 - main.py[line:147] - ERROR - error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)
+2015-05-28 11:21:42,845 - main.py[line:42] - ERROR - error-('Connection aborted.', BadStatusLine("''",))
+2015-05-28 11:21:42,997 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:21:42,999 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:21:43,000 - baidurun.py[line:43] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:23:13,882 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:23:13,882 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:23:23,920 - main.py[line:146] - ERROR - [pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)
+2015-05-28 11:23:24,114 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:23:24,114 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:23:24,141 - baidurun.py[line:43] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:24:17,286 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:24:17,286 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:24:27,322 - main.py[line:146] - ERROR - [pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)
+2015-05-28 11:24:27,365 - main.py[line:41] - ERROR - [pcome] error-('Connection aborted.', BadStatusLine("''",))
+2015-05-28 11:24:27,516 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:24:27,516 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:24:27,551 - baidurun.py[line:43] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:25:21,795 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:25:21,795 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:25:31,825 - main.py[line:146] - ERROR - [pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)
+2015-05-28 11:25:32,141 - main.py[line:41] - ERROR - [pcome] error-('Connection aborted.', BadStatusLine("''",))
+2015-05-28 11:25:35,630 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:25:35,630 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:25:35,634 - baidurun.py[line:44] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:26:38,595 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:26:38,595 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:26:48,628 - main.py[line:146] - ERROR - [pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)
+2015-05-28 11:26:48,630 - baidurun.py[line:39] - INFO - Pingle is no result, so go to momo and pchome....
+2015-05-28 11:26:49,273 - main.py[line:41] - ERROR - [pcome] error-('Connection aborted.', BadStatusLine("''",))
+2015-05-28 11:26:49,427 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:26:49,427 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:26:49,456 - baidurun.py[line:44] - DEBUG - There 0 items will be return
+
+
+2015-05-28 11:27:55,444 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:27:55,444 - baidurun.py[line:33] - INFO - Keywords is : [ 电脑包 ]
+2015-05-28 11:28:05,471 - main.py[line:146] - ERROR - [pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)
+2015-05-28 11:28:05,471 - baidurun.py[line:39] - INFO - Pingle have no result, so go to momo and pchome....
+2015-05-28 11:28:06,194 - main.py[line:41] - ERROR - [pcome] error-('Connection aborted.', BadStatusLine("''",))
+2015-05-28 11:28:08,767 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E7%94%B5%E8%84%91%E5%8C%85.html?keyword=%E7%94%B5%E8%84%91%E5%8C%85' , resp code is 200
+2015-05-28 11:28:08,769 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:28:08,851 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:08,851 - Spider.py[line:118] - INFO - {'price': '1699', 'image_url': '/goodsimg/0001/961/033/1961033_Z.jpg?t=1361986108', 'shopid': 27, 'good_name': u'\u3010Longer \u3011\u4eba\u9ad4\u5de5\u5b78\u96fb\u8166\u5305(M-602)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1961033&Area=search&mdiv=403'}
+2015-05-28 11:28:08,858 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:08,858 - Spider.py[line:118] - INFO - {'price': '399', 'image_url': '/goodsimg/0002/490/672/2490672_Z.jpg?t=1390994349', 'shopid': 27, 'good_name': u'\u3010A.NITA\u3011\u97d3\u570b\u6642\u5c1a\u5fa9\u53e4\u7687\u51a0\u90f5\u6233\u5df4\u9ece\u9435\u5854\u96d9\u62c9\u934a\u9632\u9707\u96fb\u8166\u5305', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2490672&Area=search&mdiv=403'}
+2015-05-28 11:28:08,858 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:08,858 - Spider.py[line:118] - INFO - {'price': '3680', 'image_url': '/goodsimg/0002/788/681/2788681_Z.jpg?t=1406053112', 'shopid': 27, 'good_name': u'\u3010VoyLux \u4f2f\u52d2\u4ed5\u3011\u9802\u7d1a\u6975\u7dfb\u7cfb\u5217 12\u540b\u5074\u80cc\u5305 \u96fb\u8166\u5305(\u9ed1\u8272VY16803BK)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2788681&Area=search&mdiv=403'}
+2015-05-28 11:28:08,858 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:08,858 - Spider.py[line:118] - INFO - {'price': '1090', 'image_url': '/goodsimg/0001/491/181/1491181_Z.jpg?t=1329763500', 'shopid': 27, 'good_name': u'\u3010Moshi\u3011Muse 13 \u96c5\u7dfb\u8f15\u8584\u9632\u50be\u5012\u5167\u888b-\u84bc\u9df9\u7070(99mo034011)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1491181&Area=search&mdiv=403'}
+2015-05-28 11:28:08,858 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:08,858 - Spider.py[line:118] - INFO - {'price': '199', 'image_url': '/goodsimg/0002/291/983/2291983_Z.jpg?t=1380635878', 'shopid': 27, 'good_name': u'\u3010iSPurple\u3011\u65c5\u884c\u5c08\u7528\uff0a\u900f\u6c23\u7db2\u72c0\u5c0f\u8170\u5305/\u4e8c\u8272', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2291983&Area=search&mdiv=403'}
+2015-05-28 11:28:08,862 - baidurun.py[line:44] - DEBUG - There 5 items will be return
+
+
+2015-05-28 11:28:42,063 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:28:42,063 - baidurun.py[line:33] - INFO - Keywords is : [ 小米 ]
+2015-05-28 11:28:44,180 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E5%B0%8F%E7%B1%B3' , resp code is 200
+2015-05-28 11:28:44,180 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-28 11:28:44,184 - baidurun.py[line:39] - INFO - Pingle have no result, so go to momo and pchome....
+2015-05-28 11:28:44,818 - main.py[line:41] - ERROR - [pcome] error-('Connection aborted.', error(10054, ''))
+2015-05-28 11:28:46,273 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3.html?keyword=%E5%B0%8F%E7%B1%B3' , resp code is 200
+2015-05-28 11:28:46,273 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:28:46,329 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:46,329 - Spider.py[line:118] - INFO - {'price': '199', 'image_url': '/goodsimg/0002/732/409/2732409_Z.jpg?t=1403286143', 'shopid': 27, 'good_name': u'\u3010\u91d1\u92fc\u72fc\u9632\u7206\u819c\u2161\u3011\u92fc\u5316\u73bb\u7483\u819c \u4fdd\u8b77\u8cbc(S3/4/5/Note2/3 \u5c0f\u7c732/\u7d05\u7c73/\u5c0f\u7c733 G7106)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2732409&Area=search&mdiv=403'}
+2015-05-28 11:28:46,329 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:46,329 - Spider.py[line:118] - INFO - {'price': '199', 'image_url': '/goodsimg/0002/049/302/2049302_Z.jpg?t=1367342913', 'shopid': 27, 'good_name': u'\u5c0f\u7c73\u6a5f 2S \u9802\u7d1a\u6297\u522e\u4fdd\u8b77\u8cbc(\u65e5\u672c\u7d20\u6750/\u53f0\u7063\u88c1\u5207)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2049302&Area=search&mdiv=403'}
+2015-05-28 11:28:46,329 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:46,329 - Spider.py[line:118] - INFO - {'price': '350', 'image_url': '/goodsimg/0002/077/124/2077124_Z.jpg?t=1368725742', 'shopid': 27, 'good_name': u'\u3010\u96fb\u6c60\u738b\u3011For MIUI \u5c0f\u7c73\u6a5f2 S / BM20 \u9ad8\u5bb9\u91cf\u92f0\u96fb\u6c60', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2077124&Area=search&mdiv=403'}
+2015-05-28 11:28:46,331 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:46,331 - Spider.py[line:118] - INFO - {'price': '279', 'image_url': '/goodsimg/0002/896/335/2896335_Z.jpg?t=1412001867', 'shopid': 27, 'good_name': u'\u3010VXTRA\u3011\u8d85\u5b8c\u7f8e MIUI \u5c0f\u7c73\u6a5f2S / \u5c0f\u7c732  \u6e05\u900f 0.5mm\u96b1\u5f62\u4fdd\u8b77\u5957', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2896335&Area=search&mdiv=403'}
+2015-05-28 11:28:46,331 - Spider.py[line:117] - INFO - momo crawler item
+2015-05-28 11:28:46,331 - Spider.py[line:118] - INFO - {'price': '129', 'image_url': '/goodsimg/0002/983/809/2983809_Z.jpg?t=1415707014', 'shopid': 27, 'good_name': u'\u3010MERCURY\u3011Xiaomi \u5c0f\u7c732S \u4eae\u9762\u73e0\u5149\u77fd\u81a0\u5957(10\u8272)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2983809&Area=search&mdiv=403'}
+2015-05-28 11:28:46,334 - baidurun.py[line:44] - DEBUG - There 5 items will be return
+
+
+2015-05-28 11:30:47,721 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:30:47,721 - baidurun.py[line:33] - INFO - Keywords is : [ 小米 ]
+2015-05-28 11:30:48,634 - Spider.py[line:74] - INFO - [spider: bd] Request for  'http://weigou.baidu.com/search?q=%E5%B0%8F%E7%B1%B3' , resp code is 200
+2015-05-28 11:30:48,671 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-05-28 11:30:48,673 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-05-28 11:30:48,809 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,499.00', 'image_url': 'http://t11.baidu.com/it/u=2548566037,1732069266&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=218374622&merchant_name=%E5%B0%8F%E7%B1%B3%E5%AE%98%E7%BD%91&product_url=http%3A%2F%2Fa.union.mi.com%2Fmua%3Fc%3D10692.00015011-32e717dc67e50f%26miurl%3Dhttp%3A%2F%2Fitem.mi.com%2F1135200027.html%26weigou_transition_key%3D15e392b67d336228786006c0014a3e7a', 'good_name': u'\u5c0f\u7c73\u624b\u673a3 \u8054\u901a\u7248 16GB \u661f\u7a7a\u7070', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-28 11:30:48,970 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,499.00', 'image_url': 'http://t11.baidu.com/it/u=2548566037,1732069266&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=218374841&merchant_name=%E5%B0%8F%E7%B1%B3%E5%AE%98%E7%BD%91&product_url=http%3A%2F%2Fa.union.mi.com%2Fmua%3Fc%3D10692.00015608-32e717dc67e50f%26miurl%3Dhttp%3A%2F%2Fitem.mi.com%2F1135200027.html%26weigou_transition_key%3D03658547a84af6cd51b327b0e86c4ad7', 'good_name': u'\u5c0f\u7c73\u624b\u673a3 \u8054\u901a\u7248 16GB \u7eaf\u767d\u8272', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-28 11:30:49,141 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,299.00', 'image_url': 'http://t12.baidu.com/it/u=4177251053,3623490927&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=224674522&merchant_name=%E5%B0%8F%E7%B1%B3%E5%AE%98%E7%BD%91&product_url=http%3A%2F%2Fa.union.mi.com%2Fmua%3Fc%3D10692.00011586-32e717dc67e50f%26miurl%3Dhttp%3A%2F%2Fitem.mi.com%2F1135000383.html%26weigou_transition_key%3D219ed7af4f70a91d15621a59d4c557f7', 'good_name': u'\u5c0f\u7c73\u624b\u673a2S \u7535\u4fe1\u7248 16GB \u767d\u8272', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-28 11:30:49,311 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,499.00', 'image_url': 'http://t12.baidu.com/it/u=982100678,4262577124&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=218375030&merchant_name=%E5%B0%8F%E7%B1%B3%E5%AE%98%E7%BD%91&product_url=http%3A%2F%2Fa.union.mi.com%2Fmua%3Fc%3D10692.00016023-32e717dc67e50f%26miurl%3Dhttp%3A%2F%2Fitem.mi.com%2F1140800028.html%26weigou_transition_key%3De8077978d01a470e3b6f87b068976777', 'good_name': u'\u5c0f\u7c73\u624b\u673a3 \u7535\u4fe1\u7248 16GB \u7eaf\u767d\u8272', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-28 11:30:49,490 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,299.00', 'image_url': 'http://t11.baidu.com/it/u=3420227848,2404433929&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=242640736&merchant_name=%E5%B0%8F%E7%B1%B3%E5%AE%98%E7%BD%91&product_url=http%3A%2F%2Fa.union.mi.com%2Fmua%3Fc%3D10692.00017420-32e717dc67e50f%26miurl%3Dhttp%3A%2F%2Fitem.mi.com%2F1142700023.html%26weigou_transition_key%3D8e0c9ec283a5c034160cb72b63243e0d', 'good_name': u'\u5c0f\u7c73\u624b\u673a2S\u7535\u4fe1\u7279\u522b\u7248 32GB \u767d\u8272', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-05-28 11:30:49,493 - baidurun.py[line:44] - DEBUG - There 5 items will be return
+
+
+2015-05-28 11:31:03,197 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-05-28 11:31:03,197 - baidurun.py[line:33] - INFO - Keywords is : [ 小米手环 ]
+2015-05-28 11:31:03,743 - Spider.py[line:74] - INFO - [spider: pingle] Request for  'http://www.pingle.com.tw/q/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:31:03,744 - Spider.py[line:103] - INFO - Spider is [ pingle ]
+2015-05-28 11:31:03,763 - baidurun.py[line:39] - INFO - Pingle have no result, so go to momo and pchome....
+2015-05-28 11:31:04,417 - Spider.py[line:74] - INFO - [spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF.html?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200
+2015-05-28 11:31:04,417 - Spider.py[line:103] - INFO - Spider is [ momo ]
+2015-05-28 11:31:04,421 - main.py[line:41] - ERROR - [pcome] error-('Connection aborted.', BadStatusLine("''",))
+2015-05-28 11:31:04,434 - baidurun.py[line:44] - DEBUG - There 0 items will be return
+
+
