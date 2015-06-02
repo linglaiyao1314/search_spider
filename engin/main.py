@@ -108,7 +108,8 @@ def crawl(search="Kindle", **kwargs):
 def bdcrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     bdurl = init_start_urls("http://weigou.baidu.com/", URL_RULE)
-    bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search},
+    # 按人气排序
+    bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search, "sort_type": "comment_num_desc"},
                         headers=headers, domain="http://weigou.baidu.com/", timeout=10)
     try:
         bdspider.parse_item()
