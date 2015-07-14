@@ -6,7 +6,7 @@ import json
 import requests
 from lxml import etree
 import urlparse
-
+from bs4 import BeautifulSoup
 
 # 手机端京东爬虫
 class JdSpider(CommandSearchSpider):
@@ -61,8 +61,10 @@ class JdSpiderPc(CommandSearchSpider):
         super(JdSpiderPc, self).__init__(name, start_urls, rule, **kwargs)
 
     def get_html_body_by_lxml(self, response):
-        xpath_content = etree.HTML(response.content)
-        search_logger.info("Xpath parse is---> %s" % xpath_content)
+        try:
+            xpath_content = etree.HTML(response.text.encode("utf8"))
+        except:
+            xpath_content = etree.HTML(response.content)
         return xpath_content
 
     def parse_item(self):
@@ -76,6 +78,7 @@ class JdSpiderPc(CommandSearchSpider):
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
             ):
+                print good_name, price, image_url, good_url
                 if self._extract_count >= int(self.limit):
                     break
                 try:

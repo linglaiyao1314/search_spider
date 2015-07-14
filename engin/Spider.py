@@ -8,6 +8,7 @@ import urlparse
 from logs import search_logger, ERROR, INFO, DEBUG, wrapstring
 from gevent import monkey
 
+monkey.patch_socket()
 monkey.patch_all()
 
 

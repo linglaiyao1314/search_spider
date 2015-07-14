@@ -6,6 +6,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Weekly" />
     <orderEntry type="module" module-name="tenancy" />
-    <orderEntry type="module" module-name="CrawlScript" />
+    <orderEntry type="module" module-name="my-elasticsearch" />
+    <orderEntry type="module" module-name="es-python" />
+    <orderEntry type="module" module-name="StandradLib" />
   </component>
 </module>

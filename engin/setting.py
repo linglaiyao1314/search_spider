@@ -25,10 +25,10 @@ SEARCH_RULE = {
         "domain": "http://www.jd.com/",
         "kwargs": {},
         "RuleOfItem": {
-            GOOD_NAME: "//ul[@class='list-h clearfix']//div[@class='p-name']/a",
-            PRICE: "//ul[@class='list-h clearfix']//strong//@data-price",
-            IMAGE_URL: "//ul[@class='list-h clearfix']//img//@data-lazyload",
-            GOOD_URL: "//ul[@class='list-h clearfix']//div[@class='p-name']//a//@href",
+            GOOD_NAME: "//div[@class='p-name']//a",
+            PRICE: "//div[@class='p-price']/strong/@data-price",
+            IMAGE_URL: "//div[@class='p-img']//a//img/@data-lazyload",
+            GOOD_URL: "//div[@class='p-name']//a/@href",
         }
     },
 
@@ -130,6 +130,18 @@ SEARCH_RULE = {
             PRICE: "//div[@class='PPrice']//text()",
             IMAGE_URL: "//div[@class='PImg']//img//@src",
             GOOD_URL: "//div[@class='PWord']//a//@href",
+        }
+    },
+
+
+    "yitao": {
+        "domain": "http://s.etao.com/",
+        "kwargs": {},
+        "RuleOfItem": {
+            GOOD_NAME: "//a[@class='title']//@title",
+            PRICE: "//span[@class='price']/text()",
+            IMAGE_URL: "//div[@class='pic-panel']//a/img//@src",
+            GOOD_URL: "//div[@class='info-panel']//a[@class='title']/@href",
         }
     },
 

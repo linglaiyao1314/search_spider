@@ -7205,3 +7205,511 @@ fucn
 2015-06-02 15:40:10,997 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
 
 [0m
+2015-06-17 15:42:29,565 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-06-17 15:42:29,612 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-06-17 15:42:33,233 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-06-17 15:42:33,453 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-06-17 15:42:33,453 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-06-17 15:42:33,604 - main.py[line:124] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-06-17 15:42:34,296 - Spider.py[line:74] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8' , resp code is 200[0m
+2015-06-17 15:42:34,312 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x31dffd0>
+2015-06-17 15:42:34,313 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 健身玩具 ]
+2015-06-17 15:42:34,313 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-06-17 15:42:34,316 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '18.00', 'shopid': 1, 'image_url': 'http://img13.360buyimg.com/n7/jfs/t664/194/501996837/302393/f78bfa49/546ee553N22d2b2af.jpg', 'good_name': u'\u5496\u5e1d\u4e50\u601d \u624b\u6293\u7403\u5e03\u7403 \u94c3\u94db\u5973\u5b69 \u5a74\u513f\u65e9\u6559\u73a9\u5177\u5b9d\u5b9d\u73a9\u5177\u89c6\u89c90-1\u5c81\u7537 \u513f\u7ae5\u76ca\u667a\u73a9\u5177 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1393490688.html'},)
+2015-06-17 15:42:34,316 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.88', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t223/321/652704933/215137/1155c3d0/53ee1bfcN9f9b3ade.jpg', 'good_name': u'\u4f0a\u8bfa\u7279\u6309\u6469\u513f\u7ae5\u76ae\u7403\u73a9\u5177\u523a\u7403\u624b\u6293\u7403\u5145\u6c14\u5b9d\u5b9d\u89e6\u89c9\u7403\u611f\u7edf\u8bad\u7ec3\u5f39\u529b\u5a74\u513f\u5e7c\u513f\u56ed\u73a9\u5177\u5ba4\u5185\u6237\u5916 10\u5bf8\u6309\u6469\u7ea2\u8272', 'good_url': 'http://item.jd.com/1258026285.html'},)
+2015-06-17 15:42:34,316 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t211/62/124684798/69301/2f4f9839/53e5955eN535b5f79.jpg', 'good_name': u'\u6fb3\u4e50\u6b63\u54c1\u6d77\u6d0b\u7403\u7403\u738b12.7cm\u513f\u7ae5\u5a74\u513f\u6ce2\u6ce2\u7403\u5b9d\u5b9d\u7403\u7c7b\u73a9\u5177 AL-H212701 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1222022160.html'},)
+2015-06-17 15:42:34,316 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '6.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t1144/198/294824556/371120/33d2c56b/5514b5c5Nfc4212eb.jpg', 'good_name': u'\u4f0a\u8bfa\u7279 \u5b9d\u5b9d\u611f\u7edf\u8bad\u7ec3\u5fc5\u5907\u6309\u6469\u6d17\u6fa1\u89e6\u70b9\u591a\u6b3e\u53ef\u9009 5\u5bf8\u7ea2\u8272', 'good_url': 'http://item.jd.com/1014939786.html'},)
+2015-06-17 15:42:34,316 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '38.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/g9/M03/08/0C/rBEHaVBzgKsIAAAAAAFr9dnfN_AAABozAGqch8AAWwN786.jpg', 'good_name': u'\u8fea\u58eb\u5c3c\uff08Disney \uff09\u5145\u6c14\u73a9\u5177 \u8df3\u8df3\u7403/\u7f8a\u89d218\u5bf8PVC 5692\uff08\u7ea2\u8272\uff09', 'good_url': 'http://item.jd.com/236164.html'},)
+2015-06-17 15:42:34,319 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-06-17 15:42:45,285 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-06-17 15:42:45,286 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-06-17 15:42:45,588 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-06-17 15:42:45,611 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-06-17 15:42:45,611 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-06-17 15:42:45,615 - main.py[line:124] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-06-17 15:42:45,776 - Spider.py[line:74] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8' , resp code is 200[0m
+2015-06-17 15:42:45,792 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x3122cd8>
+2015-06-17 15:42:45,793 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 健身玩具 ]
+2015-06-17 15:42:45,793 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-06-17 15:42:45,796 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '18.00', 'shopid': 1, 'image_url': 'http://img13.360buyimg.com/n7/jfs/t664/194/501996837/302393/f78bfa49/546ee553N22d2b2af.jpg', 'good_name': u'\u5496\u5e1d\u4e50\u601d \u624b\u6293\u7403\u5e03\u7403 \u94c3\u94db\u5973\u5b69 \u5a74\u513f\u65e9\u6559\u73a9\u5177\u5b9d\u5b9d\u73a9\u5177\u89c6\u89c90-1\u5c81\u7537 \u513f\u7ae5\u76ca\u667a\u73a9\u5177 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1393490688.html'},)
+2015-06-17 15:42:45,796 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.88', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t223/321/652704933/215137/1155c3d0/53ee1bfcN9f9b3ade.jpg', 'good_name': u'\u4f0a\u8bfa\u7279\u6309\u6469\u513f\u7ae5\u76ae\u7403\u73a9\u5177\u523a\u7403\u624b\u6293\u7403\u5145\u6c14\u5b9d\u5b9d\u89e6\u89c9\u7403\u611f\u7edf\u8bad\u7ec3\u5f39\u529b\u5a74\u513f\u5e7c\u513f\u56ed\u73a9\u5177\u5ba4\u5185\u6237\u5916 10\u5bf8\u6309\u6469\u7ea2\u8272', 'good_url': 'http://item.jd.com/1258026285.html'},)
+2015-06-17 15:42:45,796 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t211/62/124684798/69301/2f4f9839/53e5955eN535b5f79.jpg', 'good_name': u'\u6fb3\u4e50\u6b63\u54c1\u6d77\u6d0b\u7403\u7403\u738b12.7cm\u513f\u7ae5\u5a74\u513f\u6ce2\u6ce2\u7403\u5b9d\u5b9d\u7403\u7c7b\u73a9\u5177 AL-H212701 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1222022160.html'},)
+2015-06-17 15:42:45,796 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '6.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t1144/198/294824556/371120/33d2c56b/5514b5c5Nfc4212eb.jpg', 'good_name': u'\u4f0a\u8bfa\u7279 \u5b9d\u5b9d\u611f\u7edf\u8bad\u7ec3\u5fc5\u5907\u6309\u6469\u6d17\u6fa1\u89e6\u70b9\u591a\u6b3e\u53ef\u9009 5\u5bf8\u7ea2\u8272', 'good_url': 'http://item.jd.com/1014939786.html'},)
+2015-06-17 15:42:45,796 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '38.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/g9/M03/08/0C/rBEHaVBzgKsIAAAAAAFr9dnfN_AAABozAGqch8AAWwN786.jpg', 'good_name': u'\u8fea\u58eb\u5c3c\uff08Disney \uff09\u5145\u6c14\u73a9\u5177 \u8df3\u8df3\u7403/\u7f8a\u89d218\u5bf8PVC 5692\uff08\u7ea2\u8272\uff09', 'good_url': 'http://item.jd.com/236164.html'},)
+2015-06-17 15:42:45,799 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-06-17 15:43:28,854 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-06-17 15:43:28,854 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 星巴克咖啡 ][0m
+2015-06-17 15:43:29,471 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?q=%E6%98%9F%E5%B7%B4%E5%85%8B%E5%92%96%E5%95%A1&sort_type=comment_num_desc' , resp code is 200[0m
+2015-06-17 15:43:29,528 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 茶/酒/冲饮 ]
+2015-06-17 15:43:29,528 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-06-17 15:43:30,359 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa559.40', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=485846033&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F48036178%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3Ddd7cc677da9fc0794058e94f8f928e6e', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3 X 3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:30,502 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa519.90', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=449072829&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F8989679%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D7982a7005269a527e075fd5b0acea3ba', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:30,634 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa519.90', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=452956111&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F9114989%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D8e06827be1a1f57c9278c213c3a8c972', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:30,790 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa599.00', 'image_url': 'http://t11.baidu.com/it/u=1054656163,2895184810&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=366992981&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F20025984%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D4237fb85e70b23f3a7f8d8bbf2a7c8a7', 'good_name': u'Starbucks\u661f\u5df4\u514b \u661f\u51b0\u4e50\u6469\u5361\u5473\u5496\u5561\u996e\u6599 281ML*6 \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:30,918 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa599.00', 'image_url': 'http://t11.baidu.com/it/u=1054656163,2895184810&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=422360597&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19854502%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D5854f27cbc36a46e8ff75b53c2c9bd4c', 'good_name': u'Starbucks\u661f\u5df4\u514b \u661f\u51b0\u4e50\u6469\u5361\u5473\u5496\u5561\u996e\u6599 281ML*6 \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:30,970 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-06-17 15:43:34,121 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-06-17 15:43:34,122 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 星巴克咖啡 ][0m
+2015-06-17 15:43:34,637 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?q=%E6%98%9F%E5%B7%B4%E5%85%8B%E5%92%96%E5%95%A1&sort_type=comment_num_desc' , resp code is 200[0m
+2015-06-17 15:43:34,668 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 茶/酒/冲饮 ]
+2015-06-17 15:43:34,668 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-06-17 15:43:34,834 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa559.40', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=485846033&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F48036178%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3Ddd7cc677da9fc0794058e94f8f928e6e', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3 X 3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:35,154 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa519.90', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=449072829&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F8989679%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D7982a7005269a527e075fd5b0acea3ba', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:35,305 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa519.90', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=452956111&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F9114989%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D8e06827be1a1f57c9278c213c3a8c972', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:35,438 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa599.00', 'image_url': 'http://t11.baidu.com/it/u=1054656163,2895184810&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=366992981&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F20025984%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D4237fb85e70b23f3a7f8d8bbf2a7c8a7', 'good_name': u'Starbucks\u661f\u5df4\u514b \u661f\u51b0\u4e50\u6469\u5361\u5473\u5496\u5561\u996e\u6599 281ML*6 \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:35,562 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa599.00', 'image_url': 'http://t11.baidu.com/it/u=1054656163,2895184810&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=422360597&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19854502%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D5854f27cbc36a46e8ff75b53c2c9bd4c', 'good_name': u'Starbucks\u661f\u5df4\u514b \u661f\u51b0\u4e50\u6469\u5361\u5473\u5496\u5561\u996e\u6599 281ML*6 \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:43:35,566 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-06-17 15:44:01,203 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-06-17 15:44:01,263 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 星巴克咖啡 ][0m
+2015-06-17 15:44:11,927 - Spider.py[line:74] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E6%98%9F%E5%B7%B4%E5%85%8B%E5%92%96%E5%95%A1' , resp code is 200[0m
+2015-06-17 15:44:11,928 - Spider.py[line:103] - INFO - [92mSpider is [ pingle ][0m
+2015-06-17 15:44:12,092 - Spider.py[line:117] - INFO - pingle crawler item
+2015-06-17 15:44:12,092 - Spider.py[line:118] - INFO - {'price': '$1,080', 'image_url': 'http://www.momoshop.com.tw/goodsimg/0002/881/480/2881480_L.jpg', 'shopid': 33, 'good_name': u'\u3010Starbucks\u3011\u661f\u5df4\u514b\u5496\u5561\u661f\u51b0\u6a02 12\u74f6(281ml/\u74f6)', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.momoshop.com.tw%2fgoods%2fGoodsDetail.jsp%3fi_code%3d2881480&pi=2140838&e=8&m=0&si=m4msimsmsdq0t2kivbat3asd&aps=pingle_web'}
+2015-06-17 15:44:12,108 - Spider.py[line:117] - INFO - pingle crawler item
+2015-06-17 15:44:12,108 - Spider.py[line:118] - INFO - {'price': '$2,253', 'image_url': 'http://www.momoshop.com.tw/goodsimg/0002/881/487/2881487_L.jpg', 'shopid': 33, 'good_name': u'\u3010Starbucks\u3011\u661f\u5df4\u514b\u5496\u5561\u661f\u51b0\u6a02 24\u74f6(281ml/\u74f6)', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.momoshop.com.tw%2fgoods%2fGoodsDetail.jsp%3fi_code%3d2881487&pi=2140843&e=8&m=0&si=m4msimsmsdq0t2kivbat3asd&aps=pingle_web'}
+2015-06-17 15:44:12,118 - Spider.py[line:117] - INFO - pingle crawler item
+2015-06-17 15:44:12,118 - Spider.py[line:118] - INFO - {'price': '$360', 'image_url': 'http://www.7net.com.tw/mdz_file/item/29/06/01/1309/13090006897G_intr_l_1_141202185356.jpg', 'shopid': 33, 'good_name': u'[\u661f\u5df4\u514b] \u661f\u5df4\u514b\u5496\u5561\u6372\u5fc3\u9165(390g)', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.7net.com.tw%2f7net%2frui005.faces%3fID%3d130900068970%26ladosidg%3d42776_5_5_130900068970%26catid%3d42776&pi=1507370&e=5&m=0&si=m4msimsmsdq0t2kivbat3asd&aps=pingle_web'}
+2015-06-17 15:44:12,118 - Spider.py[line:117] - INFO - pingle crawler item
+2015-06-17 15:44:12,118 - Spider.py[line:118] - INFO - {'price': '$2,280', 'image_url': 'http://www.7net.com.tw/mdz_file/item/29/04/03/1402/14020016092G_intr_l_1_140630185010.jpg', 'shopid': 33, 'good_name': u'[\u661f\u5df4\u514b]\u5496\u5561\u6c96\u6ce1\u58fc\u7d44', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.7net.com.tw%2f7net%2frui005.faces%3fID%3d140200160922&pi=1694461&e=5&m=0&si=m4msimsmsdq0t2kivbat3asd&aps=pingle_web'}
+2015-06-17 15:44:12,118 - Spider.py[line:117] - INFO - pingle crawler item
+2015-06-17 15:44:12,118 - Spider.py[line:118] - INFO - {'price': '$350', 'image_url': 'http://www.7net.com.tw/mdz_file/item/29/06/04/1403/14030024289G_intr_l_1_150506173457.jpg', 'shopid': 33, 'good_name': u'[\u661f\u5df4\u514b]\u5496\u5561\u96a8\u884c\u888b-\u7c89', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.7net.com.tw%2f7net%2frui005.faces%3fID%3d140300242895%26ladosidg%3d42776_5_4_140300242895%26catid%3d42776&pi=2466185&e=5&m=0&si=m4msimsmsdq0t2kivbat3asd&aps=pingle_web'}
+2015-06-17 15:44:12,233 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-06-17 15:45:04,844 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-06-17 15:45:04,844 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 星巴克咖啡 ][0m
+2015-06-17 15:45:05,413 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?q=%E6%98%9F%E5%B7%B4%E5%85%8B%E5%92%96%E5%95%A1&sort_type=comment_num_desc' , resp code is 200[0m
+2015-06-17 15:45:05,444 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 茶/酒/冲饮 ]
+2015-06-17 15:45:05,444 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-06-17 15:45:05,585 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa559.40', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=485846033&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F48036178%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3Ddd7cc677da9fc0794058e94f8f928e6e', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3 X 3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:45:05,721 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa519.90', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=449072829&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F8989679%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D7982a7005269a527e075fd5b0acea3ba', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:45:05,849 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa519.90', 'image_url': 'http://t10.baidu.com/it/u=3460519389,4091535568&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=452956111&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F9114989%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D8e06827be1a1f57c9278c213c3a8c972', 'good_name': u'Starbucks\u661f\u5df4\u514b \u6469\u5361\u661f\u51b0\u4e50\u5496\u5561\u996e\u6599 281ml \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:45:05,987 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa599.00', 'image_url': 'http://t11.baidu.com/it/u=1054656163,2895184810&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=366992981&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F20025984%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D4237fb85e70b23f3a7f8d8bbf2a7c8a7', 'good_name': u'Starbucks\u661f\u5df4\u514b \u661f\u51b0\u4e50\u6469\u5361\u5473\u5496\u5561\u996e\u6599 281ML*6 \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:45:06,112 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa599.00', 'image_url': 'http://t11.baidu.com/it/u=1054656163,2895184810&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=422360597&merchant_name=1%E5%8F%B7%E5%BA%97&product_url=http%3A%2F%2Fitem.yhd.com%2Fitem%2F19854502%3Ftracker_u%3D10778743%26union_ref%3D5%26weigou_transition_key%3D5854f27cbc36a46e8ff75b53c2c9bd4c', 'good_name': u'Starbucks\u661f\u5df4\u514b \u661f\u51b0\u4e50\u6469\u5361\u5473\u5496\u5561\u996e\u6599 281ML*6 \u7f8e\u56fd\u8fdb\u53e3', 'cate': u'\u8336/\u9152/\u51b2\u996e'}
+2015-06-17 15:45:06,114 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-07 13:43:53,240 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-07 13:43:53,250 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-07-07 13:43:53,789 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-07-07 13:43:53,822 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-07-07 13:43:53,822 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-07 13:43:53,826 - main.py[line:124] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-07 13:43:54,345 - Spider.py[line:74] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8' , resp code is 200[0m
+2015-07-07 13:43:54,378 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x31fa148>
+2015-07-07 13:43:54,378 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 健身玩具 ]
+2015-07-07 13:43:54,378 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-07-07 13:43:54,381 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t211/62/124684798/69301/2f4f9839/53e5955eN535b5f79.jpg', 'good_name': u'\u6fb3\u4e50\u6b63\u54c1\u6d77\u6d0b\u7403\u7403\u738b12.7cm\u513f\u7ae5\u5a74\u513f\u6ce2\u6ce2\u7403\u5b9d\u5b9d\u7403\u7c7b\u73a9\u5177 AL-H212701 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1222022160.html'},)
+2015-07-07 13:43:54,381 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '18.00', 'shopid': 1, 'image_url': 'http://img13.360buyimg.com/n7/jfs/t664/194/501996837/302393/f78bfa49/546ee553N22d2b2af.jpg', 'good_name': u'\u5496\u5e1d\u4e50\u601d \u624b\u6293\u7403\u5e03\u7403 \u94c3\u94db\u5973\u5b69 \u5a74\u513f\u65e9\u6559\u73a9\u5177\u5b9d\u5b9d\u73a9\u5177\u89c6\u89c90-1\u5c81\u7537 \u513f\u7ae5\u76ca\u667a\u73a9\u5177 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1393490688.html'},)
+2015-07-07 13:43:54,381 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t1225/55/1154014969/366210/93a6904b/55837b80N58e72cec.jpg', 'good_name': u'\u8d39\u96ea\u6b63\u54c19\u5bf8\u513f\u7ae5\u5145\u6c14\u76ae\u7403 \u5e7c\u513f\u56ed\u5b9d\u5b9d\u62cd\u62cd\u5a74\u513f\u5361\u901a\u7bee\u7403\u73a9\u5177 \u6237\u5916\u73a9\u5177 \u4eb2\u5b50\u4e92\u52a8 \u6d77\u6d0b\u7403 \u7ea2\u8272\u53ef\u7231\u718a\u732b', 'good_url': 'http://item.jd.com/1574219870.html'},)
+2015-07-07 13:43:54,381 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.88', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t223/321/652704933/215137/1155c3d0/53ee1bfcN9f9b3ade.jpg', 'good_name': u'\u4f0a\u8bfa\u7279\u6309\u6469\u513f\u7ae5\u76ae\u7403\u73a9\u5177\u523a\u7403\u624b\u6293\u7403\u5145\u6c14\u5b9d\u5b9d\u89e6\u89c9\u7403\u611f\u7edf\u8bad\u7ec3\u5f39\u529b\u5a74\u513f\u5e7c\u513f\u56ed\u73a9\u5177\u5ba4\u5185\u6237\u5916 10\u5bf8\u6309\u6469\u7ea2\u8272', 'good_url': 'http://item.jd.com/1258026285.html'},)
+2015-07-07 13:43:54,381 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '38.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/g9/M03/08/0C/rBEHaVBzgKsIAAAAAAFr9dnfN_AAABozAGqch8AAWwN786.jpg', 'good_name': u'\u8fea\u58eb\u5c3c\uff08Disney \uff09\u5145\u6c14\u73a9\u5177 \u8df3\u8df3\u7403/\u7f8a\u89d218\u5bf8PVC 5692\uff08\u7ea2\u8272\uff09', 'good_url': 'http://item.jd.com/236164.html'},)
+2015-07-07 13:43:54,392 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-07 13:44:04,477 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-07 13:44:04,477 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-07-07 13:44:04,851 - Spider.py[line:74] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-07-07 13:44:04,874 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-07-07 13:44:04,874 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-07 13:44:04,878 - main.py[line:124] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-07 13:44:05,381 - Spider.py[line:74] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8' , resp code is 200[0m
+2015-07-07 13:44:05,394 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x327cb48>
+2015-07-07 13:44:05,395 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 健身玩具 ]
+2015-07-07 13:44:05,395 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-07-07 13:44:05,397 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t211/62/124684798/69301/2f4f9839/53e5955eN535b5f79.jpg', 'good_name': u'\u6fb3\u4e50\u6b63\u54c1\u6d77\u6d0b\u7403\u7403\u738b12.7cm\u513f\u7ae5\u5a74\u513f\u6ce2\u6ce2\u7403\u5b9d\u5b9d\u7403\u7c7b\u73a9\u5177 AL-H212701 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1222022160.html'},)
+2015-07-07 13:44:05,397 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '18.00', 'shopid': 1, 'image_url': 'http://img13.360buyimg.com/n7/jfs/t664/194/501996837/302393/f78bfa49/546ee553N22d2b2af.jpg', 'good_name': u'\u5496\u5e1d\u4e50\u601d \u624b\u6293\u7403\u5e03\u7403 \u94c3\u94db\u5973\u5b69 \u5a74\u513f\u65e9\u6559\u73a9\u5177\u5b9d\u5b9d\u73a9\u5177\u89c6\u89c90-1\u5c81\u7537 \u513f\u7ae5\u76ca\u667a\u73a9\u5177 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1393490688.html'},)
+2015-07-07 13:44:05,398 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t1225/55/1154014969/366210/93a6904b/55837b80N58e72cec.jpg', 'good_name': u'\u8d39\u96ea\u6b63\u54c19\u5bf8\u513f\u7ae5\u5145\u6c14\u76ae\u7403 \u5e7c\u513f\u56ed\u5b9d\u5b9d\u62cd\u62cd\u5a74\u513f\u5361\u901a\u7bee\u7403\u73a9\u5177 \u6237\u5916\u73a9\u5177 \u4eb2\u5b50\u4e92\u52a8 \u6d77\u6d0b\u7403 \u7ea2\u8272\u53ef\u7231\u718a\u732b', 'good_url': 'http://item.jd.com/1574219870.html'},)
+2015-07-07 13:44:05,398 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.88', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t223/321/652704933/215137/1155c3d0/53ee1bfcN9f9b3ade.jpg', 'good_name': u'\u4f0a\u8bfa\u7279\u6309\u6469\u513f\u7ae5\u76ae\u7403\u73a9\u5177\u523a\u7403\u624b\u6293\u7403\u5145\u6c14\u5b9d\u5b9d\u89e6\u89c9\u7403\u611f\u7edf\u8bad\u7ec3\u5f39\u529b\u5a74\u513f\u5e7c\u513f\u56ed\u73a9\u5177\u5ba4\u5185\u6237\u5916 10\u5bf8\u6309\u6469\u7ea2\u8272', 'good_url': 'http://item.jd.com/1258026285.html'},)
+2015-07-07 13:44:05,398 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '38.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/g9/M03/08/0C/rBEHaVBzgKsIAAAAAAFr9dnfN_AAABozAGqch8AAWwN786.jpg', 'good_name': u'\u8fea\u58eb\u5c3c\uff08Disney \uff09\u5145\u6c14\u73a9\u5177 \u8df3\u8df3\u7403/\u7f8a\u89d218\u5bf8PVC 5692\uff08\u7ea2\u8272\uff09', 'good_url': 'http://item.jd.com/236164.html'},)
+2015-07-07 13:44:05,398 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-13 17:05:17,428 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:05:17,440 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 小米手环 ][0m
+2015-07-13 17:05:19,003 - main.py[line:166] - ERROR - [91m[yitao] error->__init__() got an unexpected keyword argument 'server_hostname'[0m
+2015-07-13 17:05:19,003 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:05:56,441 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:05:56,441 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 小米手环 ][0m
+2015-07-13 17:06:06,500 - main.py[line:118] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='weigou.baidu.com', port=80): Read timed out. (read timeout=10)[0m
+2015-07-13 17:06:06,500 - main.py[line:125] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-13 17:06:06,647 - Spider.py[line:74] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E7%8E%AF' , resp code is 200[0m
+2015-07-13 17:06:06,654 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x3244f30>
+2015-07-13 17:06:06,654 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 智能设备 ]
+2015-07-13 17:06:06,654 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-07-13 17:06:06,657 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '99.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t580/67/493022257/56071/c6721088/546d968aN87849b99.jpg', 'good_name': u'\uff08MI\uff09\u9632\u6c34\u667a\u80fd\u8155\u5e26\u8fd0\u52a8\u7761\u7720\u8ba1\u6b65\u5668', 'good_url': 'http://item.jd.com/1279196.html'},)
+2015-07-13 17:06:06,657 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '98.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t481/189/840892334/115730/d6e4aa34/5490006aN11f146d1.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1424211542.html'},)
+2015-07-13 17:06:06,658 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '98.00', 'shopid': 1, 'image_url': 'http://img13.360buyimg.com/n7/jfs/t1147/62/314163513/115730/d6e4aa34/55152736N53aff539.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1499337373.html'},)
+2015-07-13 17:06:06,658 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '98.00', 'shopid': 1, 'image_url': 'http://img12.360buyimg.com/n7/jfs/t931/150/1148470191/149661/b857646a/557a91a4Ne680c05d.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u7761\u7720\u8fd0\u52a8\u7537\u5973\u8155\u5e26 \u9ed1\u8272\u8868 \u9ed1\u8272\u539f\u5c01', 'good_url': 'http://item.jd.com/1578681742.html'},)
+2015-07-13 17:06:06,660 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u667a\u80fd\u8bbe\u5907', 'price': '105.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t502/180/850944128/126322/cba920c9/54900251Nd7d67527.jpg', 'good_name': u'\uff08MI\uff09\u667a\u80fd\u9632\u6c34\u8fd0\u52a8\u8ba1\u6b65\u5668 \u53ef\u76d1\u6d4b\u5065\u5eb7\u7761\u7720 \u9ed1\u8272\u539f\u5c01+\u7c89\u8272\u975e\u8155\u5e26', 'good_url': 'http://item.jd.com/1424211544.html'},)
+2015-07-13 17:06:06,665 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-13 17:06:30,312 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:06:30,312 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:06:30,865 - main.py[line:166] - ERROR - [91m[yitao] error->__init__() got an unexpected keyword argument 'server_hostname'[0m
+2015-07-13 17:06:30,868 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:08:14,335 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:08:14,335 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:08:14,953 - main.py[line:167] - ERROR - [91m[yitao] error->__init__() got an unexpected keyword argument 'server_hostname'[0m
+2015-07-13 17:08:14,954 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:09:10,255 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:09:10,255 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:09:10,848 - main.py[line:167] - ERROR - [91m[yitao] error->__init__() got an unexpected keyword argument 'server_hostname'[0m
+2015-07-13 17:09:10,848 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:09:30,770 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:09:30,770 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:09:31,285 - main.py[line:168] - ERROR - [91m[yitao] error->__init__() got an unexpected keyword argument 'server_hostname'[0m
+2015-07-13 17:09:31,286 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:10:21,707 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:10:21,707 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:10:45,769 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:10:45,769 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:11:40,572 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:11:40,572 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:14:54,095 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:14:54,095 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:15:28,443 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:15:28,443 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:15:35,819 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:15:35,819 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:15:45,869 - main.py[line:119] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='weigou.baidu.com', port=80): Read timed out. (read timeout=10)[0m
+2015-07-13 17:15:45,869 - main.py[line:126] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-13 17:15:46,099 - Spider.py[line:74] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=iphone' , resp code is 200[0m
+2015-07-13 17:15:46,109 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x3212e18>
+2015-07-13 17:15:46,111 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-07-13 17:15:46,111 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-07-13 17:15:46,112 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u624b\u673a\u901a\u8baf', 'price': '4888.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n7/jfs/t277/193/1005339798/768456/29136988/542d0798N19d42ce3.jpg', 'good_name': u'\u82f9\u679c\uff08Apple\uff096 (A1586) 16GB \u91d1\u8272 \u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'good_url': 'http://item.jd.com/1217499.html'},)
+2015-07-13 17:15:46,112 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u624b\u673a\u901a\u8baf', 'price': '3488.00', 'shopid': 1, 'image_url': 'http://img14.360buyimg.com/n9/jfs/t277/193/1005339798/768456/29136988/542d0798N19d42ce3.jpg', 'good_name': u'\u82f9\u679c(Apple)5s (A1530) 16GB \u91d1\u8272 \u79fb\u52a8\u8054\u901a4G\u624b\u673a', 'good_url': 'http://item.jd.com/1057746.html'},)
+2015-07-13 17:15:46,114 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u624b\u673a\u901a\u8baf', 'price': '5688.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n9/jfs/t358/299/708998958/218689/e78082ad/542d0c34Ne78bf170.jpg', 'good_name': u'\u82f9\u679c\uff08Apple\uff096 Plus (A1524) 16GB \u91d1\u8272 \u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'good_url': 'http://item.jd.com/1217524.html'},)
+2015-07-13 17:15:46,114 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u624b\u673a\u901a\u8baf', 'price': '1498.00', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n9/jfs/t349/287/1043056071/218894/71d9660f/542d0a16N96ed82b6.jpg', 'good_name': u'\u82f9\u679c(Apple)4s 8GB \u767d\u8272 3G\u624b\u673a', 'good_url': 'http://item.jd.com/981821.html'},)
+2015-07-13 17:15:46,114 - jdspider.py[line:102] - DEBUG - item is ({'cate': u'\u624b\u673a\u901a\u8baf', 'price': '4783.00', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/g13/M09/0B/05/rBEhVFIxaGkIAAAAAAGEV0SZGCMAADEsQOGrOkAAYRv640.jpg', 'good_name': u'\u3010\u7535\u4fe1\u6821\u56ed\u4e13\u4eab\u3011\u82f9\u679c\uff08Apple\uff096 (A1586) 16GB \u91d1\u8272 \u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'good_url': 'http://item.jd.com/1636239.html'},)
+2015-07-13 17:15:46,137 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-13 17:15:50,851 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:15:50,851 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:17:44,668 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:17:44,668 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:18:05,785 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:18:05,786 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:18:08,184 - Spider.py[line:74] - INFO - [92m[spider: yitao] Request for  'http://s.etao.com/search?q=iphone&tbpm=20150713' , resp code is 200[0m
+2015-07-13 17:18:08,184 - Spider.py[line:103] - INFO - [92mSpider is [ yitao ][0m
+2015-07-13 17:18:08,207 - Spider.py[line:117] - INFO - yitao crawler item
+2015-07-13 17:18:08,207 - Spider.py[line:118] - INFO - {'price': '4488.45', 'image_url': 'http://img2.tbcdn.cn/tfscom/TB12NNVGFXXXXXdXVXXXXXXXXXX.jpg_200x200.jpg', 'shopid': 999, 'good_name': u'APPLE/\u82f9\u679c iPhone 6(16GB) \u5168\u7f51\u901a iOS 8.0 \u624b\u673a', 'good_url': '/detail/42163624778.html?rebatepartner=4812'}
+2015-07-13 17:18:08,207 - Spider.py[line:117] - INFO - yitao crawler item
+2015-07-13 17:18:08,207 - Spider.py[line:118] - INFO - {'price': '3280', 'image_url': 'http://img01.taobaocdn.com/bao/uploaded/i1/T1rvKVFj8eXXb1upjX_200x200.jpg', 'shopid': 999, 'good_name': u'APPLE/\u82f9\u679c IPHONE 5S (16G) \u79fb\u52a8\u7248 IOS 7 \u667a\u80fd\u624b\u673a', 'good_url': '/detail/7629816670888992371.html?rebatepartner=4812'}
+2015-07-13 17:18:08,207 - Spider.py[line:117] - INFO - yitao crawler item
+2015-07-13 17:18:08,207 - Spider.py[line:118] - INFO - {'price': '4736', 'image_url': 'http://img1.tbcdn.cn/tfscom/TB1qzycGFXXXXXDXFXXXXXXXXXX.jpg_200x200.jpg', 'shopid': 999, 'good_name': u'APPLE/\u82f9\u679c iPhone 6 Plus(16GB) \u5168\u7f51\u901a iOS 8.0 \u624b\u673a', 'good_url': '/detail/3081289323853573849.html?rebatepartner=4812'}
+2015-07-13 17:18:08,207 - Spider.py[line:117] - INFO - yitao crawler item
+2015-07-13 17:18:08,207 - Spider.py[line:118] - INFO - {'price': '4500', 'image_url': 'http://img3.tbcdn.cn/tfscom/TB1eyuhGFXXXXaSXpXXXXXXXXXX.jpg_200x200.jpg', 'shopid': 999, 'good_name': u'APPLE/\u82f9\u679c iPhone 6(64GB) \u5168\u7f51\u901a iOS 8.0 \u624b\u673a', 'good_url': '/detail/42896871667.html?rebatepartner=4812'}
+2015-07-13 17:18:08,207 - Spider.py[line:117] - INFO - yitao crawler item
+2015-07-13 17:18:08,209 - Spider.py[line:118] - INFO - {'price': '5199.19', 'image_url': 'http://img1.tbcdn.cn/tfscom/TB1r.lUGFXXXXbjXVXXXXXXXXXX.jpg_200x200.jpg', 'shopid': 999, 'good_name': u'APPLE/\u82f9\u679c iPhone 6 Plus(64GB) \u5168\u7f51\u901a iOS 8.0 \u624b\u673a', 'good_url': '/detail/42912637167.html?rebatepartner=4812'}
+2015-07-13 17:18:08,210 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-13 17:19:19,704 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:19:19,704 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:19:19,973 - Spider.py[line:75] - INFO - [92m[spider: yitao] Request for  'http://login.etao.com/?from=smtmd-etao_srp&redirect_url=http%3a%2f%2fs.etao.com%2fsearch%3fq%3diphone%26smtmd%3d0.81407556036978?' , resp code is 200[0m
+2015-07-13 17:19:19,973 - Spider.py[line:104] - INFO - [92mSpider is [ yitao ][0m
+2015-07-13 17:19:19,973 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:19:36,753 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:19:36,755 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:19:36,865 - Spider.py[line:75] - INFO - [92m[spider: yitao] Request for  'http://login.etao.com/?from=smtmd-etao_srp&redirect_url=http%3a%2f%2fs.etao.com%2fsearch%3fq%3diphone%26smtmd%3d0.018228534619866?' , resp code is 200[0m
+2015-07-13 17:19:36,865 - Spider.py[line:104] - INFO - [92mSpider is [ yitao ][0m
+2015-07-13 17:19:36,865 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:20:17,341 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:20:17,342 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:20:17,737 - Spider.py[line:75] - INFO - [92m[spider: yitao] Request for  'http://login.etao.com/?from=smtmd-etao_srp&redirect_url=http%3a%2f%2fs.etao.com%2fsearch%3fq%3diphone%26smtmd%3d0.52404956237102?' , resp code is 200[0m
+2015-07-13 17:20:17,737 - Spider.py[line:104] - INFO - [92mSpider is [ yitao ][0m
+2015-07-13 17:20:17,737 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-13 17:21:05,642 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-13 17:21:05,642 - baidurun.py[line:33] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-13 17:21:05,744 - Spider.py[line:75] - INFO - [92m[spider: yitao] Request for  'http://login.etao.com/?from=smtmd-etao_srp&redirect_url=http%3a%2f%2fs.etao.com%2fsearch%3fq%3diphone%26smtmd%3d0.6113384576327?' , resp code is 200[0m
+2015-07-13 17:21:05,744 - Spider.py[line:104] - INFO - [92mSpider is [ yitao ][0m
+2015-07-13 17:21:05,746 - baidurun.py[line:46] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-14 11:40:28,430 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 11:40:28,459 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 11:40:29,891 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 11:40:29,891 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 11:40:29,940 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:29,940 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=hu413hfzsygv3zbppmjmbhyr&aps=pingle_web'}
+2015-07-14 11:40:29,940 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:29,940 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=hu413hfzsygv3zbppmjmbhyr&aps=pingle_web'}
+2015-07-14 11:40:29,940 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:29,940 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=hu413hfzsygv3zbppmjmbhyr&aps=pingle_web'}
+2015-07-14 11:40:29,940 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:29,940 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=hu413hfzsygv3zbppmjmbhyr&aps=pingle_web'}
+2015-07-14 11:40:29,940 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:29,940 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=hu413hfzsygv3zbppmjmbhyr&aps=pingle_web'}
+2015-07-14 11:40:29,941 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 11:40:52,114 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 11:40:52,115 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 11:40:52,661 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 11:40:52,661 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 11:40:52,671 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:52,671 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=hxnjlqhnn4bhuhighobdi3nx&aps=pingle_web'}
+2015-07-14 11:40:52,671 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:52,671 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=hxnjlqhnn4bhuhighobdi3nx&aps=pingle_web'}
+2015-07-14 11:40:52,671 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:52,671 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=hxnjlqhnn4bhuhighobdi3nx&aps=pingle_web'}
+2015-07-14 11:40:52,671 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:52,671 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=hxnjlqhnn4bhuhighobdi3nx&aps=pingle_web'}
+2015-07-14 11:40:52,671 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:40:52,671 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=hxnjlqhnn4bhuhighobdi3nx&aps=pingle_web'}
+2015-07-14 11:40:52,673 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 11:50:45,374 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 11:50:45,387 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 11:50:47,730 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 11:50:47,730 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 11:50:47,838 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:50:47,838 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=of1d5mocisqods4kmbelfwnm&aps=pingle_web'}
+2015-07-14 11:50:47,838 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:50:47,839 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=of1d5mocisqods4kmbelfwnm&aps=pingle_web'}
+2015-07-14 11:50:47,839 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:50:47,841 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=of1d5mocisqods4kmbelfwnm&aps=pingle_web'}
+2015-07-14 11:50:47,841 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:50:47,841 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=of1d5mocisqods4kmbelfwnm&aps=pingle_web'}
+2015-07-14 11:50:47,842 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:50:47,842 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=of1d5mocisqods4kmbelfwnm&aps=pingle_web'}
+2015-07-14 11:50:47,852 - baidurun.py[line:45] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 11:52:06,358 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 11:52:06,375 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 11:52:07,191 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 11:52:07,191 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 11:52:07,267 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:52:07,269 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=vdp0rppu0qrrfnvi2ztx1hhb&aps=pingle_web'}
+2015-07-14 11:52:07,269 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:52:07,269 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=vdp0rppu0qrrfnvi2ztx1hhb&aps=pingle_web'}
+2015-07-14 11:52:07,269 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:52:07,269 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=vdp0rppu0qrrfnvi2ztx1hhb&aps=pingle_web'}
+2015-07-14 11:52:07,269 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:52:07,269 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=vdp0rppu0qrrfnvi2ztx1hhb&aps=pingle_web'}
+2015-07-14 11:52:07,269 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:52:07,269 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=vdp0rppu0qrrfnvi2ztx1hhb&aps=pingle_web'}
+2015-07-14 11:52:07,275 - baidurun.py[line:45] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 11:58:31,924 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 11:58:31,924 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 11:58:35,269 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 11:58:35,269 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 11:58:35,289 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:58:35,289 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=1ppiym2lxosr4zubwlkh2zzd&aps=pingle_web'}
+2015-07-14 11:58:35,289 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:58:35,289 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=1ppiym2lxosr4zubwlkh2zzd&aps=pingle_web'}
+2015-07-14 11:58:35,289 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:58:35,289 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=1ppiym2lxosr4zubwlkh2zzd&aps=pingle_web'}
+2015-07-14 11:58:35,289 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:58:35,289 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=1ppiym2lxosr4zubwlkh2zzd&aps=pingle_web'}
+2015-07-14 11:58:35,289 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 11:58:35,289 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=1ppiym2lxosr4zubwlkh2zzd&aps=pingle_web'}
+2015-07-14 11:58:35,290 - baidurun.py[line:45] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 12:00:25,243 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 12:00:25,243 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 12:00:35,522 - main.py[line:153] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='www.pingle.com.tw', port=80): Read timed out. (read timeout=10)[0m
+2015-07-14 12:00:35,522 - baidurun.py[line:39] - INFO - [92mPingle have no result, so go to momo and pchome....[0m
+2015-07-14 12:00:38,437 - main.py[line:43] - ERROR - [91m[pcome] error-('Connection aborted.', error(10054, ''))[0m
+2015-07-14 12:00:39,009 - Spider.py[line:75] - INFO - [92m[spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/%E7%94%B5%E8%84%91.html?keyword=%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 12:00:39,009 - Spider.py[line:104] - INFO - [92mSpider is [ momo ][0m
+2015-07-14 12:00:39,062 - Spider.py[line:118] - INFO - momo crawler item
+2015-07-14 12:00:39,062 - Spider.py[line:119] - INFO - {'price': '3960', 'image_url': '/goodsimg/0002/101/923/2101923_Z.jpg?t=1433331442', 'shopid': 27, 'good_name': u'\u3010MATURE\u7f8e\u8403\u3011\u5fae\u96fb\u8166\u8ca0\u96e2\u5b50\u9727\u5316\u6c34\u51b7\u6247(CY-1910)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=2101923&Area=search&mdiv=403'}
+2015-07-14 12:00:39,062 - Spider.py[line:118] - INFO - momo crawler item
+2015-07-14 12:00:39,062 - Spider.py[line:119] - INFO - {'price': '1988', 'image_url': '/goodsimg/0003/312/327/3312327_Z.jpg?t=1435932832', 'shopid': 27, 'good_name': u'\u3010CHIMEI\u5947\u7f8e\u301114\u540b\u5fae\u96fb\u8166\u9650\u91cf\u6b3e\u9059\u63a7\u64fa\u982dDC\u7bc0\u80fd\u98a8\u6247\u96fb\u6247\u7acb\u6247(DF-14B0SR)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3312327&Area=search&mdiv=403'}
+2015-07-14 12:00:39,062 - Spider.py[line:118] - INFO - momo crawler item
+2015-07-14 12:00:39,062 - Spider.py[line:119] - INFO - {'price': '8990', 'image_url': '/goodsimg/0003/351/319/3351319_Z.jpg?t=1436806956', 'shopid': 27, 'good_name': u'\u3010Acer\u3011Iconia Tab 10 A3-A30FHD 10.1\u540b \u56db\u6838\u5fc3 32G WIFI \u5e73\u677f\u96fb\u8166(NT.LA0TA.001)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3351319&Area=search&mdiv=403'}
+2015-07-14 12:00:39,062 - Spider.py[line:118] - INFO - momo crawler item
+2015-07-14 12:00:39,062 - Spider.py[line:119] - INFO - {'price': '2870', 'image_url': '/goodsimg/0003/403/153/3403153_Z.jpg?t=1434649211', 'shopid': 27, 'good_name': u'\u3010\u6c34\u9748\u3011\u5fae\u96fb\u8166\u6416\u63a7\u51b0\u51b7\u6247(ZS-998)', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3403153&Area=search&mdiv=403'}
+2015-07-14 12:00:39,062 - Spider.py[line:118] - INFO - momo crawler item
+2015-07-14 12:00:39,062 - Spider.py[line:119] - INFO - {'price': '2980', 'image_url': '/goodsimg/0003/236/897/3236897_Z.jpg?t=1431704280', 'shopid': 27, 'good_name': u'\u3010THOMSON\u6e6f\u59c6\u76db\u3011\u5fae\u96fb\u8166\u6c34\u51b7\u7bb1\u6247 SA-F03', 'good_url': 'http://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=3236897&Area=search&mdiv=403'}
+2015-07-14 12:00:39,065 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 12:00:45,780 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 12:00:45,782 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 12:00:47,407 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 12:00:47,407 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 12:00:47,418 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:00:47,420 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=fjsrtiozf4nyaeuzvanol2v4&aps=pingle_web'}
+2015-07-14 12:00:47,420 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:00:47,420 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=fjsrtiozf4nyaeuzvanol2v4&aps=pingle_web'}
+2015-07-14 12:00:47,420 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:00:47,420 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=fjsrtiozf4nyaeuzvanol2v4&aps=pingle_web'}
+2015-07-14 12:00:47,420 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:00:47,420 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=fjsrtiozf4nyaeuzvanol2v4&aps=pingle_web'}
+2015-07-14 12:00:47,420 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:00:47,420 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=fjsrtiozf4nyaeuzvanol2v4&aps=pingle_web'}
+2015-07-14 12:00:47,421 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 12:02:31,631 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 12:02:31,631 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 12:02:32,453 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 12:02:32,453 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 12:02:32,471 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:02:32,473 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=zxfn2eamuhkf3bd3i34q4p5i&aps=pingle_web'}
+2015-07-14 12:02:32,473 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:02:32,473 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=zxfn2eamuhkf3bd3i34q4p5i&aps=pingle_web'}
+2015-07-14 12:02:32,473 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:02:32,473 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=zxfn2eamuhkf3bd3i34q4p5i&aps=pingle_web'}
+2015-07-14 12:02:32,473 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:02:32,473 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=zxfn2eamuhkf3bd3i34q4p5i&aps=pingle_web'}
+2015-07-14 12:02:32,473 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:02:32,473 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=zxfn2eamuhkf3bd3i34q4p5i&aps=pingle_web'}
+2015-07-14 12:02:32,476 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 12:05:54,273 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 12:05:54,273 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 12:05:55,750 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 12:05:55,750 - Spider.py[line:104] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 12:05:55,760 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:05:55,760 - Spider.py[line:119] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=1af4hlyhyjsvprfpuvuuuya4&aps=pingle_web'}
+2015-07-14 12:05:55,762 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:05:55,762 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=1af4hlyhyjsvprfpuvuuuya4&aps=pingle_web'}
+2015-07-14 12:05:55,762 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:05:55,762 - Spider.py[line:119] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=1af4hlyhyjsvprfpuvuuuya4&aps=pingle_web'}
+2015-07-14 12:05:55,762 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:05:55,762 - Spider.py[line:119] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=1af4hlyhyjsvprfpuvuuuya4&aps=pingle_web'}
+2015-07-14 12:05:55,762 - Spider.py[line:118] - INFO - pingle crawler item
+2015-07-14 12:05:55,762 - Spider.py[line:119] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=1af4hlyhyjsvprfpuvuuuya4&aps=pingle_web'}
+2015-07-14 12:05:55,763 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 12:58:04,888 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 12:58:04,890 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 电脑 ][0m
+2015-07-14 12:58:05,654 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/%E7%94%B5%E8%84%91' , resp code is 200[0m
+2015-07-14 12:58:05,654 - pinglespider.py[line:14] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 12:58:05,674 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-14 12:58:05,674 - pinglespider.py[line:32] - INFO - {'price': '$319', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14928494_big.jpg?pimg=static&P=1384758620', 'shopid': 33, 'good_name': u'\u6d77\u96c5 A-300 \u7b14\u8bb0\u672c\u7535\u8111\u8ff7\u4f60\u5c0f\u97f3\u7bb1 \u591a\u5a92\u4f53\u97f3\u54cd \u4fbf\u643a usb2.0', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fmorgan-sonix%2fM14928494.htm&pi=8153021&e=2&m=0&si=gdsndkpfuud0k4wfr3h5ajau&aps=pingle_web'}
+2015-07-14 12:58:05,674 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-14 12:58:05,674 - pinglespider.py[line:32] - INFO - {'price': '$99', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M14498425_big.jpg?pimg=static&P=1377418155', 'shopid': 33, 'good_name': u'\u6728\u7d0b\u7d0b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d347080-3 \u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2femmagarden%2fM14498425.htm&pi=7553281&e=2&m=0&si=gdsndkpfuud0k4wfr3h5ajau&aps=pingle_web'}
+2015-07-14 12:58:05,674 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-14 12:58:05,674 - pinglespider.py[line:32] - INFO - {'price': '$1,050', 'image_url': 'https://s.yimg.com/hg/pimg2/b4/78/p067679127973-item-1365xf2x0600x0600-m.jpg', 'shopid': 33, 'good_name': u'\u97e9\u7248\u5546\u52a1\u7537\u58eb\u5305\u539f\u521b\u8bbe\u8ba1\u5355\u80a9\u5305\u6f6e\u7537\u5305\u624b\u63d0\u5305\u7535\u8111\u5305\u4f11\u95f2\u5305\u516c\u6587\u5305pb1097', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp067679127973&pi=11571798&e=3&m=0&si=gdsndkpfuud0k4wfr3h5ajau&aps=pingle_web'}
+2015-07-14 12:58:05,674 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-14 12:58:05,676 - pinglespider.py[line:32] - INFO - {'price': '$420', 'image_url': 'http://de03kqe7f3hqx.cloudfront.net/~prod/M17172048_big.jpg?pimg=static&P=1427078409', 'shopid': 33, 'good_name': u'XM-M398\u66fc\u5df4\u86c7\u6709\u7dda\u6ed1\u9f20 \u6e38\u620f\u6ed1\u9f20 USB\u7b14\u8bb0\u672c\u7535\u8111\u6ed1\u9f20 6\u952e\u84dd\u5149\u30103C\u535a\u58eb\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.pcstore.com.tw%2fj5201314%2fM17172048.htm&pi=9886561&e=2&m=0&si=gdsndkpfuud0k4wfr3h5ajau&aps=pingle_web'}
+2015-07-14 12:58:05,676 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-14 12:58:05,676 - pinglespider.py[line:32] - INFO - {'price': '$99', 'image_url': 'https://s.yimg.com/hg/pimg2/d9/4e/p006131132019-item-9866xf2x0500x0500-m.jpg', 'shopid': 33, 'good_name': u'\u5976\u725b\u5716\u6848 \u6bdb\u7ed2\u624b\u673a\u8d34\u7eb8/DIY\u6bdb\u7ed2\u88c5\u9970\u8d34\u7eb8/\u5e73\u677f\u7535\u8111\u8d34/\u5e26\u80cc\u80f6\u8d34 7081-2  \u2605\u8fea\u98db\u4e9e\u2605\u50f9\u683c\u6700\u4f4e\u2605', 'good_url': 'http://redir.pingle.com.tw/PR?pu=https%3a%2f%2ftw.mall.yahoo.com%2fitem%2fp006131132019&pi=5986066&e=3&m=0&si=gdsndkpfuud0k4wfr3h5ajau&aps=pingle_web'}
+2015-07-14 12:58:05,677 - baidurun.py[line:44] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-14 12:58:17,907 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 12:58:17,907 - baidurun.py[line:33] - INFO - [92mKeywords is : [ cdasjklavjkldas ][0m
+2015-07-14 12:58:18,691 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/cdasjklavjkldas' , resp code is 200[0m
+2015-07-14 12:58:18,691 - pinglespider.py[line:14] - INFO - [92mSpider is [ pingle ][0m
+2015-07-14 12:58:18,700 - pinglespider.py[line:17] - ERROR - [94mcan't find these goods[0m
+2015-07-14 12:58:18,700 - baidurun.py[line:39] - INFO - [92mPingle have no result, so go to momo and pchome....[0m
+2015-07-14 12:58:19,890 - main.py[line:43] - ERROR - [91m[pcome] error-('Connection aborted.', error(10054, ''))[0m
+2015-07-14 12:58:20,927 - Spider.py[line:75] - INFO - [92m[spider: momo] Request for  'http://www.momoshop.com.tw/mosearch/cdasjklavjkldas.html?keyword=cdasjklavjkldas' , resp code is 200[0m
+2015-07-14 12:58:20,927 - Spider.py[line:104] - INFO - [92mSpider is [ momo ][0m
+2015-07-14 12:58:20,971 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-14 13:13:44,954 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 13:13:44,956 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 奇正 消痛贴膏 ][0m
+2015-07-14 13:13:55,111 - main.py[line:119] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='weigou.baidu.com', port=80): Read timed out. (read timeout=10)[0m
+2015-07-14 13:13:55,111 - main.py[line:126] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-14 13:13:55,240 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%A5%87%E6%AD%A3+%E6%B6%88%E7%97%9B%E8%B4%B4%E8%86%8F' , resp code is 200[0m
+2015-07-14 13:13:55,243 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x31a9d28>
+2015-07-14 13:13:55,244 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 产地直供 ]
+2015-07-14 13:13:55,244 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-07-14 13:13:55,276 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-14 13:20:05,773 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 13:20:05,773 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 奇正 消痛贴膏 ][0m
+2015-07-14 13:20:15,858 - main.py[line:119] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='weigou.baidu.com', port=80): Read timed out. (read timeout=10)[0m
+2015-07-14 13:20:15,858 - main.py[line:126] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-14 13:20:15,999 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%A5%87%E6%AD%A3+%E6%B6%88%E7%97%9B%E8%B4%B4%E8%86%8F' , resp code is 200[0m
+2015-07-14 13:20:16,000 - jdspider.py[line:65] - INFO - Xpath parse is---> <Element html at 0x32cad50>
+2015-07-14 13:20:16,000 - jdspider.py[line:73] - INFO - request for cate....and cate is [ 产地直供 ]
+2015-07-14 13:20:16,000 - jdspider.py[line:74] - INFO - request for items in [ 京东 ]
+2015-07-14 13:20:16,023 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-14 13:48:52,357 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-14 13:48:52,357 - baidurun.py[line:33] - INFO - [92mKeywords is : [ 奇正 消痛贴膏 ][0m
+2015-07-14 13:49:02,497 - main.py[line:119] - ERROR - [91m[pingle] error->HTTPConnectionPool(host='weigou.baidu.com', port=80): Read timed out. (read timeout=10)[0m
+2015-07-14 13:49:02,497 - main.py[line:126] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-14 13:49:02,650 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8&keyword=%E5%A5%87%E6%AD%A3+%E6%B6%88%E7%97%9B%E8%B4%B4%E8%86%8F' , resp code is 200[0m
+2015-07-14 13:49:02,651 - jdspider.py[line:75] - INFO - request for cate....and cate is [ 产地直供 ]
+2015-07-14 13:49:02,651 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-07-14 13:49:02,653 - jdspider.py[line:105] - DEBUG - item is ({'cate': u'\u4ea7\u5730\u76f4\u4f9b', 'price': '158.00', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t583/76/473555001/148838/27afc625/546d557eNdab3f596.jpg', 'good_name': u'\u3010\u897f\u85cf\u9986\u30115\u8d34\u88c5 \u897f\u85cf\u7279\u4ea7 \u4ee3\u8d2d', 'good_url': 'http://item.jd.com/1145941070.html'},)
+2015-07-14 13:49:02,664 - baidurun.py[line:44] - DEBUG - [94mThere 1 items will be return
+
+[0m

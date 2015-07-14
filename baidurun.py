@@ -1,5 +1,5 @@
 # coding=utf-8
-from engin.main import bdcrawl, momocrawl, pinglecrawl
+from engin.main import bdcrawl, momocrawl, pinglecrawl, yitaocrawl
 import json
 from flask import Flask, request
 from engin.logs import search_logger, INFO, DEBUG, ERROR, wrapstring

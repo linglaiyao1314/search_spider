@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SeachSpider.iml" filepath="$PROJECT_DIR$/.idea/SeachSpider.iml" />
+      <module fileurl="file://C:/gitGitgit/Note/StandradLib/.idea/StandradLib.iml" filepath="C:/gitGitgit/Note/StandradLib/.idea/StandradLib.iml" />
+      <module fileurl="file://C:/es-program/es-python/.idea/es-python.iml" filepath="C:/es-program/es-python/.idea/es-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my-elasticsearch/.idea/my-elasticsearch.iml" filepath="$PROJECT_DIR$/../my-elasticsearch/.idea/my-elasticsearch.iml" />
     </modules>
   </component>
 </project>

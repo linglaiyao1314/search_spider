@@ -4,6 +4,7 @@ from spider.jdspider import JdSpider, JdSpiderPc
 from spider.momospider import MomoSpider
 from spider.pcomespider import PcomeSpider
 from spider.pinglespider import PingleSpider
+from spider.yitaospider import YiTaoSpider
 from Spider import Url
 from setting import URL_RULE, SEARCH_RULE
 from spider.bdwgpider import BdSpider
@@ -11,6 +12,7 @@ from logs import search_logger, INFO, ERROR, DEBUG, wrapstring
 import urllib2
 import random
 import urllib
+from traceback import print_exc
 
 
 def init_start_urls(url, rule, **kwargs):
@@ -152,3 +154,18 @@ def pinglecrawl(search="Kindle", **kwargs):
         return []
     else:
         return pinglespider.format_item()
+
+
+def yitaocrawl(search="Kindle", **kwargs):
+    headers = kwargs.get("headers")
+    keywords = search
+    pgurl = "http://s.etao.com/search?q=%s" % keywords
+    try:
+        yitaospider = YiTaoSpider("yitao", pgurl, SEARCH_RULE, shopid=999, headers=headers, timeout=5, limit=5)
+        yitaospider.parse_item()
+    except Exception, e:
+        print print_exc()
+        search_logger.error(wrapstring("[yitao] error->%s" % e, ERROR))
+        return []
+    else:
+        return yitaospider.format_item()
