@@ -4,12 +4,11 @@ import json
 from flask import Flask, request
 from engin.logs import search_logger, INFO, DEBUG, ERROR, wrapstring
 
-
 app = Flask(__name__)
 app.debug = False
 
 HEADERS = {"User-Agent":
-               "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"}
+               "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/38.0.2125.122 Safari/537.36"}
 
 
 def activity_api(itemlist):
@@ -38,7 +37,7 @@ def json_result():
         if not result:
             search_logger.info(wrapstring("Pingle have no result, so go to momo and pchome...."))
             result = momocrawl(keywords, headers=HEADERS)
-        # result = momo_pc_event(keywords, headers=HEADERS, shop=shop)
+            # result = momo_pc_event(keywords, headers=HEADERS, shop=shop)
     else:
         result = []
     search_logger.debug(wrapstring("There %d items will be return\n\n" % len(result), DEBUG))

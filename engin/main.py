@@ -66,57 +66,17 @@ def main(spiders):
     return random.sample(itemlist, samples)
 
 
-def crawl(search="Kindle", **kwargs):
-    headers = kwargs.get("headers")
-    testurl = init_start_urls("http://m.jd.com/", URL_RULE)
-    shspider = JdSpider("jd", testurl, SEARCH_RULE, params={"keyword": search}, shopid=1, headers=headers)
-
-    # testdd = init_start_urls("http://m.dangdang.com/", URL_RULE)
-    # ddspider = DangDangSpider("dangdang", testdd, SEARCH_RULE, params={"key": search}, shopid=5, headers=headers)
-    #
-    # testyhd = init_start_urls("http://search.m.yhd.com/", URL_RULE, addpath="k"+search)
-    # yhdspider = YhdSpider("yhd", testyhd, SEARCH_RULE, shopid=3, headers=headers)
-    #
-    # testama = init_start_urls("http://www.amazon.cn/", URL_RULE)
-    # amaspider = AmaSpider("ama", testama, SEARCH_RULE, shopid=7, params={"ref": "is_box_", "k": search}, headers=headers)
-    #
-    # # http://search.suning.com/emall/mobile/mobileSearch.jsonp?cityId=9173&keyword=%E6%89%8B%E6%9C%BA&set=5
-    # testsun = init_start_urls("http://search.suning.com/emall/mobile/mobileSearch.jsonp", URL_RULE)
-    # sunspider = SunSpider("sun", testsun, SEARCH_RULE, shopid=8,
-    #                       params={"cityId": "9173", "keyword": search, "set": 5}, headers=headers)
-    #
-    # # http://s.m.tmall.com/m/search_data.htm?p=1&q=%CA%D6%BB%FA
-    # testtm = init_start_urls("http://s.m.tmall.com/m/search_data.htm?p=1&q=" + urllib.quote(search.encode('gbk')),
-    #                          URL_RULE)
-    # tmspider = TmSpider("tm", testtm, SEARCH_RULE, shopid=4, header=headers)
-    #
-    # count = kwargs.get("count", 1)
-    # shop = kwargs.get("shop", "all")
-    #
-    # spiders_dict = {
-    #     u"1": shspider, u"5": ddspider, u"3": yhdspider, u"7": amaspider, u"8": sunspider, u"4": tmspider
-    # }
-    # if shop == "all":
-    #     return main([shspider, ddspider, amaspider, yhdspider, sunspider, tmspider], count)
-    # else:
-    #     spiders = []
-    #     for i in shop.split(","):
-    #         spiders.append(spiders_dict.get(i, None))
-    #     spiders = [s for s in spiders if s is not None]
-    #     assert len(spiders) != 0, "Can't find these shopid"
-    #     return main(spiders, count)
-
-
+# 先搜百度微购，没结果则再搜京东
 def bdcrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     bdurl = init_start_urls("http://weigou.baidu.com/", URL_RULE)
     # 按人气排序
     bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search, "sort_type": "comment_num_desc"},
-                        headers=headers, domain="http://weigou.baidu.com/", timeout=10)
+                        headers=headers, domain="http://weigou.baidu.com/", timeout=5)
     try:
         bdspider.parse_item()
     except Exception, e:
-        search_logger.error(wrapstring("[pingle] error->%s" % e, ERROR))
+        search_logger.error(wrapstring("[baiduweigou] error->%s" % e, ERROR))
         result = []
     else:
         result = bdspider.format_item()
@@ -127,10 +87,11 @@ def bdcrawl(search="Kindle", **kwargs):
         # testurl = init_start_urls("http://m.jd.com/", URL_RULE)
         testurl = "http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8"
         shspider = JdSpiderPc("jdpc", testurl, SEARCH_RULE, params={"keyword": search},
-                              shopid=1, headers=headers, timeout=10)
+                              shopid=1, headers=headers, timeout=5)
         return main([shspider])
 
 
+# momo爬虫
 def momocrawl(search='Kindle', **kwargs):
     headers = kwargs.get("headers")
     url = "http://www.momoshop.com.tw/mosearch/%s.html" % urllib2.quote(search.encode('utf-8'))
@@ -142,6 +103,7 @@ def momocrawl(search='Kindle', **kwargs):
     return main([momospider, pcomespider])
 
 
+# 品购
 def pinglecrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     keywords = urllib.quote(search.encode("utf8"))
@@ -156,6 +118,7 @@ def pinglecrawl(search="Kindle", **kwargs):
         return pinglespider.format_item()
 
 
+# 一淘网
 def yitaocrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     keywords = search

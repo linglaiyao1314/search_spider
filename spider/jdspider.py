@@ -78,7 +78,6 @@ class JdSpiderPc(CommandSearchSpider):
                     xbody.xpath(rule[GOOD_NAME]), xbody.xpath(rule[PRICE]),
                     xbody.xpath(rule[IMAGE_URL]), xbody.xpath(rule[GOOD_URL])
             ):
-                print good_name, price, image_url, good_url
                 if self._extract_count >= int(self.limit):
                     break
                 try:
