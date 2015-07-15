@@ -7713,3 +7713,117 @@ fucn
 2015-07-14 13:49:02,664 - baidurun.py[line:44] - DEBUG - [94mThere 1 items will be return
 
 [0m
+2015-07-15 17:00:21,489 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:00:21,506 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-07-15 17:00:22,453 - Spider.py[line:75] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-07-15 17:00:22,476 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:22,476 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-15 17:00:22,480 - main.py[line:86] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-15 17:00:22,621 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://www.jd.com/?l=1&err=3' , resp code is 502[0m
+2015-07-15 17:00:22,622 - jdspider.py[line:75] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:22,622 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-07-15 17:00:22,654 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-15 17:00:35,305 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:00:35,305 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-07-15 17:00:37,134 - Spider.py[line:75] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-07-15 17:00:37,180 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:37,180 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-15 17:00:37,183 - main.py[line:86] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-15 17:00:37,313 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://www.jd.com/?l=1&err=3' , resp code is 502[0m
+2015-07-15 17:00:37,315 - jdspider.py[line:75] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:37,315 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-07-15 17:00:37,349 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-15 17:00:38,349 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:00:38,349 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-07-15 17:00:38,946 - Spider.py[line:75] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-07-15 17:00:38,980 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:38,980 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-15 17:00:38,983 - main.py[line:86] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-15 17:00:39,114 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://www.jd.com/?l=1&err=3' , resp code is 502[0m
+2015-07-15 17:00:39,114 - jdspider.py[line:75] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:39,114 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-07-15 17:00:39,151 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-15 17:00:40,700 - baidurun.py[line:25] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:00:40,700 - baidurun.py[line:33] - INFO - [92mKeywords is : [ None ][0m
+2015-07-15 17:00:41,296 - Spider.py[line:75] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?sort_type=comment_num_desc' , resp code is 500[0m
+2015-07-15 17:00:41,322 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:41,322 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-15 17:00:41,328 - main.py[line:86] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-15 17:00:41,450 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://www.jd.com/?l=1&err=3' , resp code is 502[0m
+2015-07-15 17:00:41,450 - jdspider.py[line:75] - INFO - request for cate....and cate is [ None ]
+2015-07-15 17:00:41,450 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-07-15 17:00:41,494 - baidurun.py[line:44] - DEBUG - [94mThere 0 items will be return
+
+[0m
+2015-07-15 17:03:45,433 - baidurun.py[line:27] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:03:45,434 - baidurun.py[line:35] - INFO - [92mKeywords is : [ None ][0m
+2015-07-15 17:03:55,507 - main.py[line:79] - ERROR - [91m[baiduweigou] error->HTTPConnectionPool(host='weigou.baidu.com', port=80): Read timed out. (read timeout=10)[0m
+2015-07-15 17:03:55,509 - main.py[line:86] - INFO - baidu weigou is empty, so go to JingDong shop......
+2015-07-15 17:03:55,842 - Spider.py[line:75] - INFO - [92m[spider: jdpc] Request for  'http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8' , resp code is 200[0m
+2015-07-15 17:03:55,864 - jdspider.py[line:75] - INFO - request for cate....and cate is [ 健身玩具 ]
+2015-07-15 17:03:55,864 - jdspider.py[line:76] - INFO - request for items in [ 京东 ]
+2015-07-15 17:03:55,867 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t211/62/124684798/69301/2f4f9839/53e5955eN535b5f79.jpg', 'good_name': u'\u6fb3\u4e50\u6b63\u54c1\u6d77\u6d0b\u7403\u7403\u738b12.7cm\u513f\u7ae5\u5a74\u513f\u6ce2\u6ce2\u7403\u5b9d\u5b9d\u7403\u7c7b\u73a9\u5177 AL-H212701 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1222022160.html'},)
+2015-07-15 17:03:55,867 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '18.00', 'shopid': 1, 'image_url': 'http://img13.360buyimg.com/n7/jfs/t664/194/501996837/302393/f78bfa49/546ee553N22d2b2af.jpg', 'good_name': u'\u5496\u5e1d\u4e50\u601d \u624b\u6293\u7403\u5e03\u7403 \u94c3\u94db\u5973\u5b69 \u5a74\u513f\u65e9\u6559\u73a9\u5177\u5b9d\u5b9d\u73a9\u5177\u89c6\u89c90-1\u5c81\u7537 \u513f\u7ae5\u76ca\u667a\u73a9\u5177 \u7ea2\u8272', 'good_url': 'http://item.jd.com/1393490688.html'},)
+2015-07-15 17:03:55,867 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.90', 'shopid': 1, 'image_url': 'http://img11.360buyimg.com/n7/jfs/t1153/24/307040752/392081/bdc8bc9b/5514b640Ne605800d.jpg', 'good_name': u'\u4f0a\u8bfa\u7279 \u5b9d\u5b9d\u611f\u7edf\u8bad\u7ec3\u5fc5\u5907\u6309\u6469\u6d17\u6fa1\u89e6\u70b9\u591a\u6b3e\u53ef\u9009 10\u5bf8\u7ea2\u8272', 'good_url': 'http://item.jd.com/1062830816.html'},)
+2015-07-15 17:03:55,868 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '19.90', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t1225/55/1154014969/366210/93a6904b/55837b80N58e72cec.jpg', 'good_name': u'\u8d39\u96ea\u6b63\u54c19\u5bf8\u513f\u7ae5\u5145\u6c14\u76ae\u7403 \u5e7c\u513f\u56ed\u5b9d\u5b9d\u62cd\u62cd\u5a74\u513f\u5361\u901a\u7bee\u7403\u73a9\u5177 \u6237\u5916\u73a9\u5177 \u4eb2\u5b50\u4e92\u52a8 \u6d77\u6d0b\u7403 \u7ea2\u8272\u53ef\u7231\u718a\u732b', 'good_url': 'http://item.jd.com/1574219870.html'},)
+2015-07-15 17:03:55,868 - jdspider.py[line:104] - DEBUG - item is ({'cate': u'\u5065\u8eab\u73a9\u5177', 'price': '9.88', 'shopid': 1, 'image_url': 'http://img10.360buyimg.com/n7/jfs/t223/321/652704933/215137/1155c3d0/53ee1bfcN9f9b3ade.jpg', 'good_name': u'\u4f0a\u8bfa\u7279\u6309\u6469\u513f\u7ae5\u76ae\u7403\u73a9\u5177\u523a\u7403\u624b\u6293\u7403\u5145\u6c14\u5b9d\u5b9d\u89e6\u89c9\u7403\u611f\u7edf\u8bad\u7ec3\u5f39\u529b\u5a74\u513f\u5e7c\u513f\u56ed\u73a9\u5177\u5ba4\u5185\u6237\u5916 10\u5bf8\u6309\u6469\u7ea2\u8272', 'good_url': 'http://item.jd.com/1258026285.html'},)
+2015-07-15 17:03:55,880 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-15 17:04:00,434 - baidurun.py[line:27] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:04:00,434 - baidurun.py[line:35] - INFO - [92mKeywords is : [ 机器人 ][0m
+2015-07-15 17:04:10,230 - Spider.py[line:75] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?q=%E6%9C%BA%E5%99%A8%E4%BA%BA&sort_type=comment_num_desc' , resp code is 200[0m
+2015-07-15 17:04:10,285 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 遥控电子玩具 ]
+2015-07-15 17:04:10,285 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-15 17:04:10,414 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5105.00', 'image_url': 'http://t12.baidu.com/it/u=3208108520,1362157842&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=378227263&merchant_name=%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E&product_url=http%3A%2F%2Fitem.jd.com%2F1015710001.html%3Fweigou_transition_key%3D911e76f8d708421b290d5a3c2cab250b', 'good_name': u'\u950b\u6e90 \u9065\u63a7\u8f66\u64ce\u5929\u67f1 \u53ef\u5145\u7535\u9065\u63a7\u6c7d\u8f66 \u667a\u80fd\u53ef\u53d8\u5f62\u673a\u5668\u4eba \u53d8\u5f62\u91d1\u521a\u673a\u5668\u4eba\u6c7d\u8f66\u4eba \u7537\u5b69\u751f\u65e5 10980\u9065\u63a7\u64ce\u5929\u67f128128', 'cate': u'\u9065\u63a7\u7535\u5b50\u73a9\u5177'}
+2015-07-15 17:04:10,559 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5298.00', 'image_url': 'http://t10.baidu.com/it/u=4138137858,160989871&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=379909777&merchant_name=%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E&product_url=http%3A%2F%2Fitem.jd.com%2F1138665089.html%3Fweigou_transition_key%3Dcb8c44a555d4f8edffd79ee3428d6106', 'good_name': u'\u4f73\u5947TT323\u667a\u80fd\u7535\u52a8\u9065\u63a7\u673a\u5668\u4eba\u73a9\u5177 \u7f57\u672c\u827e\u72793\u4ee3 \u513f\u7ae5 \u7537\u5b69', 'cate': u'\u9065\u63a7\u7535\u5b50\u73a9\u5177'}
+2015-07-15 17:04:10,703 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa536.00', 'image_url': 'http://t11.baidu.com/it/u=156612772,4049395029&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=214473752&merchant_name=%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E&product_url=http%3A%2F%2Fitem.jd.com%2F1067173083.html%3Fweigou_transition_key%3D361c589453d6641194605bc10884d126', 'good_name': u'DIY\u62fc\u88c5\u592a\u9633\u80fd\u73a9\u517714\u54081\u673a\u5668\u4eba\u52a8\u624b\u7ec4\u88c5\u592a\u9633\u80fd\u8f66\u8239\u79d1\u5b66\u63a2\u7d22\u7c7b\u76ca\u667a\u953b\u70bc\u513f\u7ae5\u73a9\u5177', 'cate': u'\u9065\u63a7\u7535\u5b50\u73a9\u5177'}
+2015-07-15 17:04:10,838 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa5168.00', 'image_url': 'http://t12.baidu.com/it/u=238891022,4123541951&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=378422514&merchant_name=%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E&product_url=http%3A%2F%2Fitem.jd.com%2F1004982347.html%3Fweigou_transition_key%3D98d9d6caa2ce4a081c4f7d0bb6fd2899', 'good_name': u'\u94f6\u8f89\u513f\u7ae5 \u7535\u52a8\u667a\u80fd\u673a\u5668\u4eba\u73a9\u5177 \u5c0a\u5c3c\u673a\u68b0\u4eba\u7c73\u8fea\u7c73\u5c3c \u7537\u5b69\u68a6\u60f3 \u513f\u7ae5\u751f\u65e5\u793c\u7269 \u7c73\u8fea\u673a\u68b0\u4eba88308', 'cate': u'\u9065\u63a7\u7535\u5b50\u73a9\u5177'}
+2015-07-15 17:04:10,973 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa529.90', 'image_url': 'http://t10.baidu.com/it/u=2530221447,1963855362&fm=58', 'good_url': u'http://weigou.baidu.com/site/transition?pid=350044880&merchant_name=%E5%BD%93%E5%BD%93%E7%BD%91&product_url=http%3A%2F%2Funion.dangdang.com%2Ftransfer.php%3Fsys_id%3D1%26ad_type%3D10%26from%3DP-323425-1114779125-330cfe5b8f00ff%26backurl%3Dhttp%253A%252F%252Fproduct.dangdang.com%252F1114779125.html%26weigou_transition_key%3D91221c37ce34693a783b3870c2ece401', 'good_name': u'7\u54081\u592a\u9633\u80fd\u592a\u7a7a\u8230\u961f \u4e03\u5408\u4e00DIY\u62fc\u88c5\u673a\u5668\u4eba\u513f\u7ae5\u76ca\u667a\u73a9\u5177\u8f66\uff08\u6ee179\u5305\u90ae\uff0c\u652f\u6301\u8d27\u5230\u4ed8\u6b3e\uff09', 'cate': u'\u9065\u63a7\u7535\u5b50\u73a9\u5177'}
+2015-07-15 17:04:10,973 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-15 17:04:21,471 - baidurun.py[line:27] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:04:21,473 - baidurun.py[line:35] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-15 17:04:24,101 - Spider.py[line:75] - INFO - [92m[spider: pingle] Request for  'http://www.pingle.com.tw/q/iphone' , resp code is 200[0m
+2015-07-15 17:04:24,101 - pinglespider.py[line:14] - INFO - [92mSpider is [ pingle ][0m
+2015-07-15 17:04:24,121 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-15 17:04:24,121 - pinglespider.py[line:32] - INFO - {'price': '$833', 'image_url': 'http://img.udn.com/image/product/S0003344/APPROVED/U006967134/20150512153633139_300.jpg?t=20150630184319', 'shopid': 33, 'good_name': u'\u77f3\u4e09\u6728\u5ee0\uff5c\u6728\u88fd\u591a\u529f\u80fd\u96fb\u8166\u67b6 for iPad iPhone macbook', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fshopping.udn.com%2fmall%2fcus%2fcat%2fCc1c02.do%3fdc_cargxuid_0%3dU006967134%26dc_cateid_0%3d0_059_042_007%26kdid%3dER404%26eturec%3dudn_Discount&pi=1631201&e=14&m=0&si=ik05gbdgzaiz0ur254ldqhuf&aps=pingle_web'}
+2015-07-15 17:04:24,121 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-15 17:04:24,121 - pinglespider.py[line:32] - INFO - {'price': '$7,490', 'image_url': 'http://d19qrzmjof92jl.cloudfront.net/website_twmf/uploads_product/website_5/ECP0000501187685_1_5075056.jpg', 'shopid': 33, 'good_name': u'iPhone 5C 16GB \u5c55\u793a\u6a5f(\u85cd)\u3010\u62c6\u5c01\u798f\u5229A\u54c1\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.myfone.com.tw%2fbuy%2findex.php%3faction%3dproduct_detail%26prod_no%3dP0000201193662%26prod_sort_uid%3d13805&pi=1303818&e=30&m=0&si=ik05gbdgzaiz0ur254ldqhuf&aps=pingle_web'}
+2015-07-15 17:04:24,121 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-15 17:04:24,121 - pinglespider.py[line:32] - INFO - {'price': '$2,882', 'image_url': 'http://img1.momoshop.com.tw/goodsimg/0003/381/000/3381000_L.jpg?t=1434040384', 'shopid': 33, 'good_name': u'\u3010Mophie\u3011Juice Pack Air\u884c\u52d5\u96fb\u6e90 for iPhone 6(\u51713\u8272)', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.momoshop.com.tw%2fgoods%2fGoodsDetail.jsp%3fi_code%3d3381000&pi=2624596&e=8&m=0&si=ik05gbdgzaiz0ur254ldqhuf&aps=pingle_web'}
+2015-07-15 17:04:24,121 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-15 17:04:24,121 - pinglespider.py[line:32] - INFO - {'price': '$299', 'image_url': 'http://www.momoshop.com.tw/goodsimg/0002/905/860/2905860_L.jpg', 'shopid': 33, 'good_name': u'\u3010Macally\u3011iPhone 4/4S / iPad \u860b\u679c\u8a8d\u8b49 30Pin\u5145\u96fb\u50b3\u8f38\u7dda(\u767d)', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.momoshop.com.tw%2fgoods%2fGoodsDetail.jsp%3fi_code%3d2905860&pi=2165518&e=8&m=0&si=ik05gbdgzaiz0ur254ldqhuf&aps=pingle_web'}
+2015-07-15 17:04:24,121 - pinglespider.py[line:31] - INFO - pingle crawler item
+2015-07-15 17:04:24,121 - pinglespider.py[line:32] - INFO - {'price': '$9,290', 'image_url': 'http://d19qrzmjof92jl.cloudfront.net/website_twmf/uploads_product/website_5/ECP0000500942748_1_1196824C.jpg', 'shopid': 33, 'good_name': u'iPhone 5C 16GB \u5c55\u793a\u6a5f(\u85cd)\u3010\u5168\u65b0\u51fa\u6e05\u54c1\u3011', 'good_url': 'http://redir.pingle.com.tw/PR?pu=http%3a%2f%2fwww.myfone.com.tw%2fbuy%2findex.php%3faction%3dproduct_detail%26prod_no%3dP0000200957090&pi=983116&e=30&m=0&si=ik05gbdgzaiz0ur254ldqhuf&aps=pingle_web'}
+2015-07-15 17:04:24,125 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m
+2015-07-15 17:04:24,252 - baidurun.py[line:27] - INFO - .........START to ..........Search...................
+
+2015-07-15 17:04:24,252 - baidurun.py[line:35] - INFO - [92mKeywords is : [ iphone ][0m
+2015-07-15 17:04:25,282 - Spider.py[line:75] - INFO - [92m[spider: bd] Request for  'http://weigou.baidu.com/search?q=iphone&sort_type=comment_num_desc' , resp code is 200[0m
+2015-07-15 17:04:25,335 - bdwgpider.py[line:22] - INFO - request for cate....and cate is [ 手机通讯 ]
+2015-07-15 17:04:25,335 - bdwgpider.py[line:23] - INFO - request for items in [ 百度微购 ]
+2015-07-15 17:04:25,505 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa54,798.00', 'image_url': 'http://t12.baidu.com/it/u=1284133310,1862031460&fm=58', 'good_url': u'http://product.suning.com/123129015.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E5%85%A8%E5%93%81%E7%B1%BB&utm_term=u3764966.c0.g0.k.a.pb', 'good_name': u'AppleiPhone6\uff0816GB\uff09\uff08\u91d1\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-07-15 17:04:25,690 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa51,498.00', 'image_url': 'http://t11.baidu.com/it/u=3846685018,161096631&fm=58', 'good_url': u'http://product.suning.com/104436065.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E5%85%A8%E5%93%81%E7%B1%BB&utm_term=u3764966.c0.g0.k.a.pb', 'good_name': u'AppleiPhone4S(8GB)(\u767d)', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-07-15 17:04:25,808 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa54,988.00', 'image_url': 'http://t10.baidu.com/it/u=3104631429,1681136463&fm=58', 'good_url': u'http://union.click.jd.com/sem.php?source=baidu-weigou&unionId=262767352&siteId=baiduweigou_390695982ebc463883f6b1be1adc0fe2&to=http://item.jd.com/1217499.html', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone6(A1586)16GB\u91d1\u8272\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a\u5c82\u6b62\u4e8e\u5927\uff01\u9009\u62e9\u201c\u79fb\u52a8\u8001\u7528\u62374G\u98de\u4eab\u5408\u7ea6\u201d\uff0c\u65e0\u9700\u6362\u53f7\uff0c\u6700\u9ad8\u5171\u53ef\u8fd4\u8fd83528\u5143\u8bdd\u8d39', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-07-15 17:04:25,936 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa55,788.00', 'image_url': 'http://t11.baidu.com/it/u=65777218,3245759096&fm=58', 'good_url': u'http://union.click.jd.com/sem.php?source=baidu-weigou&unionId=262767352&siteId=baiduweigou_390695982ebc463883f6b1be1adc0fe2&to=http://item.jd.com/1217524.html', 'good_name': u'\u82f9\u679c\uff08Apple\uff09iPhone6Plus(A1524)16GB\u91d1\u8272\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a\u5c82\u6b62\u4e8e\u5927\uff01\u9009\u62e9\u201c\u79fb\u52a8\u8001\u7528\u62374G\u98de\u4eab\u5408\u7ea6\u201d\uff0c\u65e0\u9700\u6362\u53f7\uff0c\u6700\u9ad8\u5171\u53ef\u8fd4\u8fd83528\u5143\u8bdd\u8d39', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-07-15 17:04:26,085 - bdwgpider.py[line:40] - DEBUG - item is {'price': u'\xa55,688.00', 'image_url': 'http://t12.baidu.com/it/u=1284133310,1862031460&fm=58', 'good_url': u'http://product.suning.com/123129054.html?utm_source=baidu&utm_medium=weigou&utm_campaign=%E5%85%A8%E5%93%81%E7%B1%BB&utm_term=u3764966.c0.g0.k.a.pb', 'good_name': u'AppleiPhone6\uff0864G\uff09\uff08\u91d1\uff09\uff08\u5168\u7f51\u901a\uff09\u79fb\u52a8\u8054\u901a\u7535\u4fe14G\u624b\u673a', 'cate': u'\u624b\u673a\u901a\u8baf'}
+2015-07-15 17:04:26,088 - baidurun.py[line:46] - DEBUG - [94mThere 5 items will be return
+
+[0m

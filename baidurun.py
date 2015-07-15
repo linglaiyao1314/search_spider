@@ -7,8 +7,11 @@ from engin.logs import search_logger, INFO, DEBUG, ERROR, wrapstring
 app = Flask(__name__)
 app.debug = False
 
+
+# HEADERS = {"User-Agent":
+#                "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/38.0.2125.122 Safari/537.36"}
 HEADERS = {"User-Agent":
-               "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/38.0.2125.122 Safari/537.36"}
+               "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0"}
 
 
 def activity_api(itemlist):
