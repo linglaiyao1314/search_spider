@@ -5,7 +5,7 @@ from lxml import etree
 from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
 from filter_help import *
 import urlparse
-from logs import search_logger, ERROR, INFO, DEBUG, wrapstring
+from logs import search_logger, wrapstring
 from gevent import monkey
 
 monkey.patch_socket()

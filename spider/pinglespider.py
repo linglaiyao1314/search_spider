@@ -44,7 +44,7 @@ class PingleSpider(CommandSearchSpider):
             str_items[IMAGE_URL] = urlparse.urljoin(self._rule['domain'], str_items[IMAGE_URL])
             newshopid = self.parse_shopid(self.parse_url_with_shopid(str_items[GOOD_URL])) or items["shopid"]
             itemlist.append([newshopid, str_items[GOOD_NAME], str_items[PRICE],
-                             str_items[IMAGE_URL], str_items[GOOD_URL]])
+                             str_items[IMAGE_URL], str_items[GOOD_URL], ""])
         return itemlist
 
     def parse_url_with_shopid(self, url):

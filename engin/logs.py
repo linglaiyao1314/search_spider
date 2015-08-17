@@ -1,5 +1,4 @@
 # coding=utf-8
-__author__ = 'user'
 import logging
 
 INFO = logging.INFO

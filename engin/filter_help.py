@@ -23,7 +23,6 @@ def get_number(s):
     pattern = re.compile(u"[\d]")
     return filter(lambda x: re.match(pattern, x), s)
 
-
 def get_dot_number(s):
     pattern = re.compile(u"[\d\.]")
     return filter(lambda x: re.match(pattern, x), s)
@@ -85,5 +84,4 @@ def exception(func):
         else:
             return result
     return _wrap
-
 

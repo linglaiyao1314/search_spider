@@ -1,5 +1,4 @@
 from engin.setting import GOOD_NAME, PRICE, IMAGE_URL, GOOD_URL
-from engin.filter_help import *
 from engin.Spider import SearchSpider, Item
 import json
 

@@ -9,7 +9,7 @@ app.debug = False
 
 
 # HEADERS = {"User-Agent":
-#                "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/38.0.2125.122 Safari/537.36"}
+# "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/38.0.2125.122 Safari/537.36"}
 HEADERS = {"User-Agent":
                "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0"}
 
@@ -19,6 +19,15 @@ def activity_api(itemlist):
         if u"图书" in item[-1]:
             item[-1] = u"图书"
     return itemlist
+
+
+def convert_resut(results):
+    return [{'sid': i[0],
+             'product_name': i[1],
+             'price': i[2],
+             'img': i[3],
+             'url': i[4],
+             'cate': i[5], } for i in results]
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -44,9 +53,10 @@ def json_result():
     else:
         result = []
     search_logger.debug(wrapstring("There %d items will be return\n\n" % len(result), DEBUG))
-    return json.dumps(activity_api(result))
+    result = activity_api(result)
+    return json.dumps(convert_resut(result))
 
 
 if __name__ == '__main__':
-    app.run("0.0.0.0", 8888)
-    # app.run()
+    # app.run("0.0.0.0", 8888)
+    app.run()

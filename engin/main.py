@@ -70,9 +70,10 @@ def main(spiders):
 def bdcrawl(search="Kindle", **kwargs):
     headers = kwargs.get("headers")
     bdurl = init_start_urls("http://weigou.baidu.com/", URL_RULE)
+    limit = kwargs.get("limit", 5)
     # 按人气排序
     bdspider = BdSpider("bd", bdurl, SEARCH_RULE, params={"q": search, "sort_type": "comment_num_desc"},
-                        headers=headers, domain="http://weigou.baidu.com/", timeout=5)
+                        headers=headers, domain="http://weigou.baidu.com/", timeout=5, limit=limit)
     try:
         bdspider.parse_item()
     except Exception, e:
@@ -87,7 +88,7 @@ def bdcrawl(search="Kindle", **kwargs):
         # testurl = init_start_urls("http://m.jd.com/", URL_RULE)
         testurl = "http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8"
         shspider = JdSpiderPc("jdpc", testurl, SEARCH_RULE, params={"keyword": search},
-                              shopid=1, headers=headers, timeout=5)
+                              shopid=1, headers=headers, timeout=5, limit=limit)
         return main([shspider])
 
 

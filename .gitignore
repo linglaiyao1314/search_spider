@@ -2,3 +2,4 @@
 .idea
 *.xml
 *.log
+ft*.py
