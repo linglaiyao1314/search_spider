@@ -85,3 +85,9 @@ def exception(func):
             return result
     return _wrap
 
+
+if __name__ == '__main__':
+    import requests
+    r = requests.get("https://www.baidu.com")
+    # print r.content
+    print r.text

@@ -1,6 +1,7 @@
 from engin.Spider import CommandSearchSpider
 import urllib
 from engin.Spider import *
+from engin.logs import search_logger, DEBUG
 
 
 class PingleSpider(CommandSearchSpider):

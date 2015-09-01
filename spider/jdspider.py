@@ -6,7 +6,8 @@ import json
 import requests
 from lxml import etree
 import urlparse
-from bs4 import BeautifulSoup
+import chardet
+
 
 # 手机端京东爬虫
 class JdSpider(CommandSearchSpider):
@@ -62,7 +63,9 @@ class JdSpiderPc(CommandSearchSpider):
 
     def get_html_body_by_lxml(self, response):
         try:
-            xpath_content = etree.HTML(response.text.encode("utf8"))
+            # xpath_content = etree.HTML(unicode(response.content, response.encoding))
+            # xpath_content = etree.HTML(response.content)
+            xpath_content = etree.HTML(unicode(response.content, chardet.detect(response.content).get("encoding", "utf8")))
         except:
             xpath_content = etree.HTML(response.content)
         return xpath_content
@@ -120,3 +123,6 @@ class JdSpiderPc(CommandSearchSpider):
         name = xbody.xpath("//div[@class='item fore hover']/h3//a//text()")
         if name:
             return name[0]
+        else:
+            return ""
+

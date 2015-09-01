@@ -22,6 +22,11 @@ def activity_api(itemlist):
 
 
 def convert_resut(results):
+    """
+    对返回结果的格式进行修正
+    """
+    if not results:
+        return []
     return [{'sid': i[0],
              'product_name': i[1],
              'price': i[2],

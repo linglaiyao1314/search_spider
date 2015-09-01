@@ -134,6 +134,7 @@ class SearchSpider(Spider):
 
 
 class CommandSearchSpider(SearchSpider):
+    """针对需要进行格式化处理的爬虫"""
     def __init__(self, name, start_urls, rule, **kwargs):
         super(CommandSearchSpider, self).__init__(name, start_urls, rule, **kwargs)
 

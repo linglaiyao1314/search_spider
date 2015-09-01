@@ -86,7 +86,7 @@ def bdcrawl(search="Kindle", **kwargs):
     else:
         search_logger.info("baidu weigou is empty, so go to JingDong shop......")
         # testurl = init_start_urls("http://m.jd.com/", URL_RULE)
-        testurl = "http://search.jd.com/Search?keyword=%E7%BA%A2%E7%90%83&enc=utf-8"
+        testurl = "http://search.jd.com/Search?enc=utf-8"
         shspider = JdSpiderPc("jdpc", testurl, SEARCH_RULE, params={"keyword": search},
                               shopid=1, headers=headers, timeout=5, limit=limit)
         return main([shspider])
